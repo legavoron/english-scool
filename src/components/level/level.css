@@ -1,0 +1,48 @@
+.level {
+    margin-top: 10vw;
+    width: 100%;
+    height: 14vw;
+}
+.level:last-child {
+    margin-bottom: 10vw;
+}
+
+.levelBtn {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: #ACD4F7;
+    border-radius: 8px;
+    font-size: 5vw;
+}
+
+.levelBtn:active {
+    background-color: #D4D3F4;
+}
+
+@media (orientation:landscape) {
+    .level {
+        margin-top: 10vh;
+        height: 14vh;
+
+    }
+    .level:last-child {
+        margin-bottom: 10vh;
+    }
+    .levelBtn {
+        margin: 0 auto;
+        width: 80%;
+        height: 100%;
+        padding: 0;
+        border: none;
+        font: inherit;
+        color: inherit;
+        background-color: #ACD4F7;
+        border-radius: 8px;
+        font-size: 6vh;
+    }
+}

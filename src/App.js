@@ -1,10 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Screensaver from './components/screensaver/screensaver';
+import StartPage from './components/startPage/startPage';
+import LevelsList from './components/levelsList/levelsList';
+import Task from './components/task/task';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      {/* <Screensaver/> */}
+      
+      {/* <StartPage/> */}
+
+      {/* <LevelsList/> */}
+
+      <Task/>
     </div>
   );
 }
