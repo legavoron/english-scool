@@ -1,4 +1,7 @@
 import './startPage.css';
+import * as React from "react";
+import { NavLink } from "react-router-dom";
+
 import book from './img/book.png';
 import startBtnImage from './img/start.png';
 import levelsBtnImage from './img/levels.png';
@@ -29,17 +32,17 @@ const StartPage = () => {
                 </div>
                 <div className="startBtnContainer">
                     <div className="startButtonCircle">
-                        <a href="#" className="startPageLink">
+                        <NavLink to="task" className="startPageLink">
                             <img src={startBtnImage} alt="start" className="startBtnImage"/>
-                        </a>
+                        </NavLink>
                     </div>
                     <h3 className="startBtnValue btnValue">Старт</h3>
                 </div>
                 <div className="levelsBtnContainer">
                     <div className="levelsButtonCircle">
-                        <a href="#" className='startPageLink'>
+                        <NavLink to="levels" className='startPageLink'>
                             <img src={levelsBtnImage} alt="levels" className="levelsBtnImage"/>
-                        </a>
+                        </NavLink>
                     </div>
                     <h3 className="levelsBtnValue btnValue">Уровни</h3>
                 </div>

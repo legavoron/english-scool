@@ -70,7 +70,6 @@
     justify-content: center;
     top: 85vw;
     right: -16vw;
-    cursor: pointer;
 }
 
 .startButtonCircle {
@@ -81,6 +80,9 @@
     height: 17vw;
     border-radius: 50%;
     background-color: #F9E3DE;
+}
+.startButtonCircle:active {
+    background-color: #ACD4F7;
 }
 
 .startPageLink {
@@ -100,6 +102,9 @@
     height: 17vw;
     border-radius: 50%;
     background-color: #F9E3DE;
+}
+.levelsButtonCircle:active {
+    background-color: #ACD4F7;
 }
 
 .levelsBtnImage {

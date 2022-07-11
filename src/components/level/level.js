@@ -1,9 +1,12 @@
 import './level.css';
 
-const Level = ({value, num}) => {
+const Level = ({value, id, chooseLevels, btnColor}) => {
+
+    const btnClasses = ['levelBtn', {btnColor}, 'btnColorBlue']
+
     return (
-        <li className="level" key={num}>
-            <button className='levelBtn'>{value}</button>
+        <li className="level">
+            <button className={btnClasses.join(' ')} onClick={chooseLevels} id={id}>{value}</button>
         </li>
     )
 }

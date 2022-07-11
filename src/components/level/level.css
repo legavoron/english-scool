@@ -15,14 +15,19 @@
     border: none;
     font: inherit;
     color: inherit;
-    background-color: #ACD4F7;
     border-radius: 8px;
     font-size: 5vw;
 }
-
-.levelBtn:active {
+.btnColorBlue {
+    background-color: #ACD4F7;
+}
+.btnColorPurple {
     background-color: #D4D3F4;
 }
+
+/* .levelBtn:active {
+    background-color: #D4D3F4;
+} */
 
 @media (orientation:landscape) {
     .level {

@@ -1,17 +1,23 @@
 import './levelsList.css';
+import {NavLink} from 'react-router-dom';
 
 import Level from '../level/level';
 
-const LevelsList = () => {
+const LevelsList = ({chooseLevels}) => {
 
-    const levelsValue = ["Level 1: Arrivals", "Level 2: Getting together", "Level 3: A dream job", "Level 4: We're all different", "Level 5: Time of your life", "Level 6: You are here", "Level 7: Buying and selling", "Level 8: A question of survival", "Level 9: Favorite places", "Level 10: Finding solutions", "Level 11: Turning points", "Level 12: Getting away", "Level 13: Money matters", "Level 14: Teamwork", "Level 15: What an experiance!", "Level 16: Take a break"]
+    const levelsValue = ["Все", "Unit 1: Arrivals", "Unit 2: Getting together", "Unit 3: A dream job", "Unit 4: We're all different", "Unit 5: Time of your life", "Unit 6: You are here", "Unit 7: Buying and selling", "Unit 8: A question of survival", "Unit 9: Favorite places", "Unit 10: Finding solutions", "Unit 11: Turning points", "Unit 12: Getting away", "Unit 13: Money matters", "Unit 14: Teamwork", "Unit 15: What an experiance!", "Unit 16: Take a break", "Дополнительно"]
 
     const levels = levelsValue.map ((item, count) => {
-        return <Level key={count} value={item}/>
+        return <Level key={count} value={item} id={`unit${count}`}chooseLevels={chooseLevels}/>
     })
 
     return (
         <div className="levelsListContainer">
+            <NavLink to="/main">
+                <div className="close">
+                
+                </div>
+            </NavLink>
             <h1 className="levelsListHeading">
                 Выберите уровни
             </h1>
