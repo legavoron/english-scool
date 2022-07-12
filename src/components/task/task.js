@@ -1,5 +1,5 @@
 import './task.css';
-import question from './img/question.png';
+import question from './img/question.svg';
 import surgeon from './img/surgeon.jpg';
 import {NavLink} from 'react-router-dom';
 
@@ -16,7 +16,7 @@ const Task = () => {
                 </div>
             </NavLink>
             <div className={classesImageContainer.join(' ')}>
-                <img src={surgeon} alt="question image" className='taskImage'/>
+                <img src={question} alt="question image" className='taskImage'/>
             </div>
             <div className="valueBlock">
                 <h2 className="taskHeading">
