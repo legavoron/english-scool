@@ -1,6 +1,8 @@
 import './task.css';
 import question from './img/question.png';
 import surgeon from './img/surgeon.jpg';
+import {NavLink} from 'react-router-dom';
+
 
 const Task = () => {
 
@@ -8,6 +10,11 @@ const Task = () => {
 
     return (
         <div className="task">
+            <NavLink to="/main">
+                <div className="close">
+                
+                </div>
+            </NavLink>
             <div className={classesImageContainer.join(' ')}>
                 <img src={surgeon} alt="question image" className='taskImage'/>
             </div>

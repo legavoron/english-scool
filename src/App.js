@@ -12,7 +12,7 @@ import {Routes, Route} from 'react-router-dom'
 class App extends Component {
   state = {
     levels: {
-      unit0: false,
+      unit0: true,
       unit1: false,
       unit2: false,
       unit3: false,

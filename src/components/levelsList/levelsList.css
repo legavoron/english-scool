@@ -42,7 +42,7 @@
   }
   .close:after {
     transform: rotate(-45deg);
-  }
+}
 
 @media (orientation:landscape) {
     .levelsListContainer {
@@ -71,5 +71,5 @@
         height: 12vh;
         width: 2vh;
         background-color: #E93B69;
-      }
+    }
 }

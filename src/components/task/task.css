@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
     width: 100%;
     height: 100%;
     position: relative;
@@ -11,7 +10,7 @@
 .taskImageContainer {
     width: 80vw;
     height: 64vw;
-    margin-top: 10vw;
+    margin-top: 20vw;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -63,6 +62,33 @@
     background-color: #D4D3F4;
 }
 
+.close {
+    position: absolute;
+    right: 10vw;
+    top: 10vw;
+    width: 10vw;
+    height: 10vw;
+    opacity: 0.3;
+    cursor: pointer;
+  }
+  .close:active {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 5vw;
+    content: ' ';
+    height: 8vw;
+    width: 1vw;
+    background-color: #E93B69;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+}
+
 @media (orientation:landscape) {
     
     .task {
@@ -99,5 +125,25 @@
         font-size: 10vh;
         position: absolute;
         bottom: 10vh;
+    }
+    .close {
+        position: absolute;
+        right: 10vh;
+        top: 10vh;
+        width: 10vw;
+        height: 10vh;
+        opacity: 0.3;
+        cursor: pointer;
+      }
+      .close:active {
+        opacity: 1;
+      }
+      .close:before, .close:after {
+        position: absolute;
+        left: 5vw;
+        content: ' ';
+        height: 12vh;
+        width: 2vh;
+        background-color: #E93B69;
     }
 }
