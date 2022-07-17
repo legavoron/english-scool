@@ -6,7 +6,7 @@ import book from './img/book.svg';
 import startBtnImage from './img/start.svg';
 import levelsBtnImage from './img/levels.svg';
 
-const StartPage = () => {
+const StartPage = ({chooseTask}) => {
     const date = new Date();
 
     const nowDate = date.getDate(); //Date
@@ -32,11 +32,12 @@ const StartPage = () => {
                 </div>
                 <div className="startBtnContainer">
                     <div className="startButtonCircle">
-                        <NavLink to="task" className="startPageLink">
+                        <NavLink to="task" className="startPageLink" onClick={chooseTask}>
                             <img src={startBtnImage} alt="start" className="startBtnImage"/>
                         </NavLink>
                     </div>
-                    <NavLink to="task" className="linkValue">
+                    <NavLink to="task" 
+                        className="linkValue" onClick={chooseTask}>
                         <h3 className="startBtnValue btnValue">Старт</h3>
                     </NavLink>
                 </div>

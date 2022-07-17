@@ -1,8 +1,10 @@
 import './level.css';
 
-const Level = ({value, id, chooseLevels, btnColor}) => {
+const Level = ({value, id, chooseLevels, colors}) => {
 
-    const btnClasses = ['levelBtn', {btnColor}, 'btnColorBlue']
+    const color = colors[id] ? 'btnColorPurple': 'btnColorBlue';
+
+    const btnClasses = ['levelBtn', color]
 
     return (
         <li className="level">

@@ -24,7 +24,7 @@
 
 .screensaver_heading {
     color: #E93B69;
-    margin-bottom: 10vw;
+    /* margin-bottom: 5vw; */
 }
 
 @media (orientation:landscape) {
