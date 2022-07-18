@@ -1,21 +1,21 @@
-import flame from '../img/flame.jpg';
-import scool from '../img/scool.jpg';
 
-
+import enjoyYourself from '../img/enjoy-yourself.jpeg';
+import fareignLanguages from '../img/fareignLanguages.jpg';
 
 
 
 const unit2 = [
     {
-    word: 'пламя',
-    translate: 'flame', 
-    url: flame
+    word: 'наслаждаться моментом',
+    translate: 'enjoy yourself', 
+    url: enjoyYourself
     },
     {
-      word: 'школа',
-      translate: 'scool', 
-      url: scool
-      },
+      word: 'иностранные языки',
+      translate: 'foreign languages', 
+      url: fareignLanguages
+    },
+    
   ]
 
 export default unit2;

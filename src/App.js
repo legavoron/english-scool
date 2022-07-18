@@ -14,37 +14,30 @@ import question from './img/question.svg';
 
 import unit1 from './units/unit1';
 import unit2 from './units/unit2';
+import unit3 from './units/unit3';
+import unit4 from './units/unit4';
+import unit5 from './units/unit5';
+import unit6 from './units/unit6';
+import unit7 from './units/unit7';
+import unit8 from './units/unit8';
+import unit9 from './units/unit9';
+import unit10 from './units/unit10';
+import unit11 from './units/unit11';
+import unit12 from './units/unit12';
+import unit13 from './units/unit13';
+import unit14 from './units/unit14';
+import unit15 from './units/unit15';
+import unit16 from './units/unit16';
+import unit17 from './units/unit17';
 
 class App extends Component {
   constructor(props) {
     super(props)
 
-    this.unitsList = {
-      unit1: unit1,
-      unit2: unit2
-    }
+    this.unitsList = {unit1: unit1, unit2: unit2, unit3: unit3, unit4: unit4, unit5: unit5, unit6: unit6, unit7: unit7, unit8: unit8, unit9: unit9, unit10: unit10, unit11: unit11, unit12: unit12, unit13: unit13, unit14: unit14, unit15: unit15, unit16: unit16, unit17: unit17}
 
 
-    this.units = {
-      unit0: false,
-      unit1: false,
-      unit2: false,
-      unit3: false,
-      unit4: false,
-      unit5: false,
-      unit6: false,
-      unit7: false,
-      unit8: false,
-      unit9: false,
-      unit10: false,
-      unit11: false,
-      unit12: false,
-      unit13: false,
-      unit14: false,
-      unit15: false,
-      unit16: false,
-      unit17: false,
-    }
+    this.units = {unit0: false, unit1: false, unit2: false, unit3: false, unit4: false, unit5: false, unit6: false, unit7: false, unit8: false, unit9: false, unit10: false, unit11: false, unit12: false, unit13: false, unit14: false, unit15: false, unit16: false, unit17: false, }
 
     this.state = {
       levels: this.units,

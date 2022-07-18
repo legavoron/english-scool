@@ -1,17 +1,18 @@
-import surgeon from '../img/surgeon.jpg';
-import way from '../img/way.jpg';
+import japan from '../img/japan.jpg';
+import brazil from '../img/brazil.jpg';
+
 
 
 const unit1 = [
     {
-    word: 'хирург',
-    translate: 'a surgeon', 
-    url: surgeon
+    word: 'япония',
+    translate: 'japan', 
+    url: japan
     },
     {
-      word: 'путь',
-      translate: 'way', 
-      url: way
+      word: 'бразилия',
+      translate: 'brazil', 
+      url: brazil
       },
   ]
 

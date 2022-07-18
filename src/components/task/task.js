@@ -2,10 +2,6 @@ import './task.css';
 import {NavLink} from 'react-router-dom';
 import { Component } from 'react';
 
-import question from './img/question.svg';
-import surgeon from './img/surgeon.jpg';
-
-
 class Task extends Component {
     constructor(props) {
         super(props)
