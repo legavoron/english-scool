@@ -17,17 +17,15 @@
     color: inherit;
     border-radius: 8px;
     font-size: 5vw;
+    cursor: pointer;
 }
 .btnColorBlue {
-    background-color: #ACD4F7;
+    background-color: #99B3D4;
 }
 .btnColorPurple {
-    background-color: #D4D3F4;
+    background-color: #B9E6EC;
 }
 
-/* .levelBtn:active {
-    background-color: #D4D3F4;
-} */
 
 @media (orientation:landscape) {
     .level {

@@ -4,7 +4,7 @@ import hurt from '../img/hurt.jpg';
 
 const unit15 = [
     {
-        word: 'встречать',
+        word: 'встретиться (с кем-либо)',
         translate: 'meet', 
         url: meet
     },

@@ -85,7 +85,7 @@ class App extends Component {
 }
 
   chooseTask = () => {
-        
+    
     const units = [];
     const unitsListOfState = this.state.levels;
     for (const unit in unitsListOfState) {
@@ -101,11 +101,12 @@ class App extends Component {
 
       maxNumUnits = units.length - 1;
       let unitName = '';
+
       if (maxNumUnits === 0) {
         unitName = units[maxNumUnits];
       } else {
         maxNumUnits = units.length - 1;
-        numUnit = this.getRandomNum(maxNumUnits);
+        numUnit = this.getRandomNum(maxNumUnits, 1);
         unitName = units[numUnit];
       }
       
@@ -138,6 +139,9 @@ class App extends Component {
     }
   }
   
+  exitFromTask = (event) => {
+    this.chooseTask(event)
+  }
 
   render() {
     return (
@@ -146,7 +150,7 @@ class App extends Component {
             <Route exact path='/' element={<Screensaver/>}/>
             <Route exact path='/main' element={<StartPage chooseTask={this.chooseTask}/>}/>
             <Route exact path='/main/levels' element={<LevelsList chooseLevels={this.chooseLevels} colors={this.state.levels} chooseTask={this.chooseTask}/>}/>
-            <Route exact path='/main/task' element={<Task units={this.state.levels} word={this.state.task.word}  url={this.state.task.url} btnValue={this.state.btnValue} chooseTask={this.chooseTask}/>} />
+            <Route exact path='/main/task' element={<Task units={this.state.levels} word={this.state.task.word}  url={this.state.task.url} btnValue={this.state.btnValue} chooseTask={this.chooseTask} exitFromTask={this.exitFromTask}/>} />
         </Routes>
       
     </div>

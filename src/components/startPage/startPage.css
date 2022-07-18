@@ -4,32 +4,43 @@
     display: flex;
     flex-direction: column;
 }
+.greeting_container {
+    width: 100%;
+    height: 29vw;
+    background-color: #F2F2F2;
+    padding-top: 10vw;
+}
+.greeting_container:after {
+    content: "";
+    display: block;
+    padding: 1px;
+    border-bottom: 3px solid #F2F2F2;
+}
 
 .startPageHeading {
     text-align: start;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 5vw;
+    padding-bottom: 5vw;
 }
 
 .nowDate {
-    color: #49BAF4;
-    font-size: 14px;
+    color: #99B3D4;
+    font-size: 4vw;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 4vw;
 }
 
 .greeting {
-    color: #13C1AB;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 14px;
+    font-size: 5vw;
+    font-weight: 600;
+    line-height: 5vw;
 }
 
 .outerCirkle {
     width: 100vw;
     height: 100vw;
     border-radius: 50%;
-    background-color: #ACD4F7;
+    background-color: #99B3D4;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +53,7 @@
     width: 80vw;
     height: 80vw;
     border-radius: 50%;
-    background-color: #D4D3F4;
+    background-color: #F2F2F2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,10 +89,10 @@
     width: 17vw;
     height: 17vw;
     border-radius: 50%;
-    background-color: #F9E3DE;
+    background-color: #B9E6EC;
 }
 .startButtonCircle:active {
-    background-color: #E93B69;
+    background-color: #EBD0DE;
 }
 
 .startPageLink {
@@ -105,10 +116,10 @@
     width: 17vw;
     height: 17vw;
     border-radius: 50%;
-    background-color: #F9E3DE;
+    background-color: #B9E6EC;
 }
 .levelsButtonCircle:active {
-    background-color: #E93B69;
+    background-color: #EBD0DE;
 }
 
 .levelsBtnImage {
@@ -136,15 +147,30 @@
 }
 
 
-
-
 @media (orientation: landscape) {
+    .greeting_container {
+        width: 100%;
+        height: 12vh;
+        padding-top: 1vh;
+    }
     
+    .startPageHeading {
+        padding-left: 5vh;
+        padding-bottom: 1vh;
+    }
+    .nowDate {
+        font-size: 4vh;
+        line-height: 4vh;
+    }
+    .greeting {
+        font-size: 5vh;
+        line-height: 5vh;
+    }
     .outerCirkle {
-        width: 64vh;
-        height: 64vh;
-        margin-top: 4vw;
-        margin-left: -10vw;
+        width: 54vh;
+        height: 54vh;
+        margin-top: vh;
+        margin-left: -18vh;
     }
     .innerCircle {
         width: 46vh;

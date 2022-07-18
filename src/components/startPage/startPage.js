@@ -19,12 +19,14 @@ const StartPage = ({chooseTask}) => {
 
     return (
         <div className="startPage">
-            <h2 className="startPageHeading nowDate">
-                {`${nowDay}, ${nowMonth} ${nowDate}-е`}
-            </h2>
-            <h3 className="startPageHeading greeting">
-                Мы рады видеть Вас сегодня!
-            </h3>
+            <div className="greeting_container">
+                <h2 className="startPageHeading nowDate">
+                    {`${nowDay}, ${nowMonth} ${nowDate}-е`}
+                </h2>
+                <h3 className="startPageHeading greeting">
+                    Мы рады видеть Вас сегодня!
+                </h3>
+            </div>
 
             <div className="outerCirkle">
                 <div className="innerCircle">

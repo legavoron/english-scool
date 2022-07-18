@@ -17,11 +17,10 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-
 }
 
 .taskImageContainerQuest {
-    border: 3px solid #ACD4F7;
+    border: 3px solid #99B3D4;
 
 }
 
@@ -29,6 +28,8 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
+    border-radius: 20px;
+
 }
 
 .valueBlock {
@@ -52,7 +53,7 @@
     border: none;
     font: inherit;
     color: inherit;
-    background-color: #ACD4F7;
+    background-color: #99B3D4;
     border-radius: 8px;
     font-size: 7vw;
     position: absolute;
@@ -61,7 +62,7 @@
 }
 
 .taskBtn:active {
-    background-color: #D4D3F4;
+    background-color: #B9E6EC;
 }
 
 .close {

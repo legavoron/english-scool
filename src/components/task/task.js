@@ -11,7 +11,7 @@ class Task extends Component {
         return (
             <div className="task">
                 <NavLink to="/main">
-                    <div className="close">
+                    <div className="close" onClick={this.props.exitFromTask}>
                     
                     </div>
                 </NavLink>
