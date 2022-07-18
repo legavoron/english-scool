@@ -15,7 +15,7 @@ class Task extends Component {
                     
                     </div>
                 </NavLink>
-                <div className='taskImageContainer taskImageContainerQuest'>
+                <div className='taskImageContainer'>
                     <img src={this.props.url} alt="question image" className='taskImage'/>
                 </div>
                 <div className="valueBlock">
