@@ -1,16 +1,17 @@
+import good from '../img/good.jpg';
 import earn from '../img/earn.jpg';
 import lend from '../img/lend.jpg';
 
 
 const unit13 = [
     {
-        word: 'зарабатывать',
-        translate: 'earn', 
+        word: 'Зарабатывать',
+        translate: 'Earn', 
         url: earn
     },
     {
-      word: 'одалживать (кому-то)',
-      translate: 'lend', 
+      word: 'Одалживать (кому-то)',
+      translate: 'Lend', 
       url: lend
     },
   ]

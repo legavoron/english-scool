@@ -1,16 +1,17 @@
+import good from '../img/good.jpg';
 import arrive from '../img/arrive.jpg';
 import complain from '../img/complain.jpg';
 
 
 const unit12 = [
     {
-        word: 'прибывать',
-        translate: 'arrive', 
+        word: 'Прибывать',
+        translate: 'Arrive', 
         url: arrive
     },
     {
-      word: 'жаловаться',
-      translate: 'complain', 
+      word: 'Жаловаться',
+      translate: 'Complain', 
       url: complain
     },
   ]

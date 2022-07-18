@@ -1,16 +1,17 @@
+import good from '../img/good.jpg';
 import feel from '../img/feel.jpg';
 import headache from '../img/headache.jpg';
 
 
 const unit8 = [
     {
-        word: 'чувствовать',
-        translate: 'feel', 
+        word: 'Чувствовать',
+        translate: 'Feel', 
         url: feel
     },
     {
-      word: 'головная боль',
-      translate: 'headache', 
+      word: 'Головная боль',
+      translate: 'Headache', 
       url: headache
     },
   ]

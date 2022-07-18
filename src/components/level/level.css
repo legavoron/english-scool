@@ -14,7 +14,6 @@
     padding: 0;
     border: none;
     font: inherit;
-    color: inherit;
     border-radius: 8px;
     font-size: 5vw;
     cursor: pointer;
@@ -30,7 +29,7 @@
 @media (orientation:landscape) {
     .level {
         margin-top: 10vh;
-        height: 14vh;
+        height: 12vh;
 
     }
     .level:last-child {
@@ -40,12 +39,6 @@
         margin: 0 auto;
         width: 80%;
         height: 100%;
-        padding: 0;
-        border: none;
-        font: inherit;
-        color: inherit;
-        background-color: #ACD4F7;
-        border-radius: 8px;
-        font-size: 4vh;
+        font-size: 3.5vh;
     }
 }

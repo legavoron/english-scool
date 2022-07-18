@@ -1,16 +1,17 @@
+import good from '../img/good.jpg';
 import goForAwolk from '../img/goForAwolk.jpg';
 import goDancing from '../img/goDancing.jpg';
 
 
 const unit4 = [
     {
-        word: 'выходить на прогулку',
-        translate: 'go for a walk', 
+        word: 'Выходить на прогулку',
+        translate: 'Go for a walk', 
         url: goForAwolk
     },
     {
-      word: 'идти танцевать',
-      translate: 'go dancing', 
+      word: 'Идти танцевать',
+      translate: 'Go dancing', 
       url: goDancing
     },
   ]

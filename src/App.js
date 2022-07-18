@@ -9,7 +9,7 @@ import Task from './components/task/task';
 
 import {Routes, Route} from 'react-router-dom';
 
-import error from './img/error.jpg';
+import error from './img/error.svg';
 import question from './img/question.svg';
 
 import unit1 from './units/unit1';
@@ -149,7 +149,7 @@ class App extends Component {
         <Routes>
             <Route exact path='/' element={<Screensaver/>}/>
             <Route exact path='/main' element={<StartPage chooseTask={this.chooseTask}/>}/>
-            <Route exact path='/main/levels' element={<LevelsList chooseLevels={this.chooseLevels} colors={this.state.levels} chooseTask={this.chooseTask}/>}/>
+            <Route exact path='/main/levels' element={<LevelsList chooseLevels={this.chooseLevels} colors={this.state.levels} chooseTask={this.chooseTask} />}/>
             <Route exact path='/main/task' element={<Task units={this.state.levels} word={this.state.task.word}  url={this.state.task.url} btnValue={this.state.btnValue} chooseTask={this.chooseTask} exitFromTask={this.exitFromTask}/>} />
         </Routes>
       

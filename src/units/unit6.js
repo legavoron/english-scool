@@ -1,16 +1,17 @@
+import good from '../img/good.jpg';
 import behind from '../img/behind.jpg';
 import inFrontOf from '../img/inFrontOf.jpg';
 
 
 const unit6 = [
     {
-        word: 'позади (чего-то)',
-        translate: 'behind', 
+        word: 'Позади (чего-то)',
+        translate: 'Behind', 
         url: behind
     },
     {
-      word: 'перед (чем-то)',
-      translate: 'in front of', 
+      word: 'Перед (чем-то)',
+      translate: 'In front of', 
       url: inFrontOf
     },
   ]

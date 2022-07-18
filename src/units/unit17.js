@@ -1,3 +1,4 @@
+import good from '../img/good.jpg';
 import advice from '../img/advice.jpg';
 import vacation from '../img/vacation.jpg';
 import surgeon from '../img/surgeon.jpg';
@@ -7,33 +8,33 @@ import scool from '../img/scool.jpg';
 
 const unit17 = [
     {
-        word: 'совет',
-        translate: 'advice', 
+        word: 'Совет',
+        translate: 'Advice', 
         url: advice
     },
     {
-        word: 'отпуск',
-        translate: 'vacation', 
+        word: 'Отпуск',
+        translate: 'Vacation', 
         url: vacation
     },
     {
-        word: 'хирург',
-        translate: 'a surgeon', 
+        word: 'Хирург',
+        translate: 'A surgeon', 
         url: surgeon
     },
     {
-        word: 'путь',
-        translate: 'way', 
+        word: 'Путь',
+        translate: 'Way', 
         url: way
     },
     {
-        word: 'пламя',
-        translate: 'flame', 
+        word: 'Пламя',
+        translate: 'Flame', 
         url: flame
     },
     {
-          word: 'школа',
-          translate: 'school', 
+          word: 'Школа',
+          translate: 'School', 
           url: scool
     },
   ]

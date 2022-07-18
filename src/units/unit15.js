@@ -1,16 +1,17 @@
+import good from '../img/good.jpg';
 import meet from '../img/meet.jpg';
 import hurt from '../img/hurt.jpg';
 
 
 const unit15 = [
     {
-        word: 'встретиться (с кем-либо)',
-        translate: 'meet', 
+        word: 'Встретиться (с кем-либо)',
+        translate: 'Meet', 
         url: meet
     },
     {
-      word: 'ранить',
-      translate: 'hurt', 
+      word: 'Ранить',
+      translate: 'Hurt', 
       url: hurt
     },
   ]

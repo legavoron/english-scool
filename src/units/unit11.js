@@ -1,16 +1,17 @@
+import good from '../img/good.jpg';
 import listen from '../img/listen.jpg';
 import help from '../img/help.jpg';
 
 
 const unit11 = [
     {
-        word: 'слушать',
-        translate: 'listen', 
+        word: 'Слушать',
+        translate: 'Listen', 
         url: listen
     },
     {
-      word: 'помощь',
-      translate: 'help', 
+      word: 'Помощь',
+      translate: 'Help', 
       url: help
     },
   ]

@@ -1,16 +1,17 @@
+import good from '../img/good.jpg';
 import nighlife from '../img/nighlife.jpg';
 import armchair from '../img/armchair.jpg';
 
 
 const unit9 = [
     {
-        word: 'ночная жизнь',
-        translate: 'nighlife', 
+        word: 'Ночная жизнь',
+        translate: 'Nighlife', 
         url: nighlife
     },
     {
-      word: 'кресло',
-      translate: 'armchair', 
+      word: 'Кресло',
+      translate: 'Armchair', 
       url: armchair
     },
   ]

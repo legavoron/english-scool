@@ -1,16 +1,17 @@
+import good from '../img/good.jpg';
 import lamb from '../img/lamb.jpg';
 import beef from '../img/beef.jpg';
 
 
 const unit7 = [
     {
-        word: 'ягненок',
-        translate: 'lamb', 
+        word: 'Ягненок',
+        translate: 'Lamb', 
         url: lamb
     },
     {
-      word: 'говядина',
-      translate: 'beef', 
+      word: 'Говядина',
+      translate: 'Beef', 
       url: beef
     },
   ]

@@ -34,12 +34,12 @@ const StartPage = ({chooseTask}) => {
                 </div>
                 <div className="startBtnContainer">
                     <div className="startButtonCircle">
-                        <NavLink to="task" className="startPageLink" onClick={chooseTask}>
+                        <NavLink to="task" className="startPageLink" >
                             <img src={startBtnImage} alt="start" className="startBtnImage"/>
                         </NavLink>
                     </div>
                     <NavLink to="task" 
-                        className="linkValue" onClick={chooseTask}>
+                        className="linkValue" >
                         <h3 className="startBtnValue btnValue">Старт</h3>
                     </NavLink>
                 </div>

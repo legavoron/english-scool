@@ -1,16 +1,17 @@
+import good from '../img/good.jpg';
 import swimming from '../img/swimming.jpg';
 import jogging from '../img/jogging.jpg';
 
 
 const unit14 = [
     {
-        word: 'плавание',
-        translate: 'swimming', 
+        word: 'Плавание',
+        translate: 'Swimming', 
         url: swimming
     },
     {
-      word: 'бег трусцой',
-      translate: 'jogging', 
+      word: 'Бег трусцой',
+      translate: 'Jogging', 
       url: jogging
     },
   ]

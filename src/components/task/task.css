@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border: 3px solid #99B3D4;
+    border: 3px solid #F2F2F2;
 }
 .taskImage {
     object-fit: cover;
@@ -30,12 +30,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    white-space: pre-wrap
 }
 
 .taskHeading {
     margin-top: 20vw;
     font-size: 8vw;
-    line-height: 8vw;
+    line-height: 12vw;
     font-weight: 600;
     text-align: center;
 }
@@ -105,8 +106,8 @@
         align-items: space-between;
     }
     .taskHeading {
-        font-size: 10vh;
-        line-height: 10vh;
+        font-size: 5vh;
+        line-height: 7vh;
         margin-top: 20vh;
     }
     
@@ -118,7 +119,7 @@
         color: inherit;
         background-color: #ACD4F7;
         border-radius: 8px;
-        font-size: 10vh;
+        font-size: 5vh;
         position: absolute;
         bottom: 10vh;
     }

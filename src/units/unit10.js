@@ -1,16 +1,17 @@
+import good from '../img/good.jpg';
 import wrong from '../img/wrong.jpg';
 import before from '../img/before.jpg';
 
 
 const unit10 = [
     {
-        word: 'неправильный',
-        translate: 'wrong', 
+        word: 'Неправильный',
+        translate: 'Wrong', 
         url: wrong
     },
     {
-      word: 'до (чего-то)',
-      translate: 'before', 
+      word: 'До (какого- либо события)',
+      translate: 'Before', 
       url: before
     },
   ]
