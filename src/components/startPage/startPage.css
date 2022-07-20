@@ -6,9 +6,9 @@
 }
 .greeting_container {
     width: 100%;
-    height: 29vw;
+    height: 72px;
     background-color: #F2F2F2;
-    padding-top: 10vw;
+    padding-top: 20px;
 }
 .greeting_container:after {
     content: "";
@@ -20,38 +20,38 @@
 .startPageHeading {
     text-align: start;
     padding-left: 5vw;
-    padding-bottom: 5vw;
+    padding-bottom: 10px;
 }
 
 .nowDate {
     color: #99B3D4;
-    font-size: 4vw;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 4vw;
+    line-height: 12px;
 }
 
 .greeting {
-    font-size: 5vw;
+    font-size: 20px;
     font-weight: 600;
-    line-height: 5vw;
+    line-height: 20px;
 }
 
 .outerCirkle {
-    width: 100vw;
-    height: 100vw;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     background-color: #99B3D4;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 14vh;
-    margin-left: -30vw;
+    margin-top: 100px;
+    margin-left: -116px;
     position: relative;;
 }
 
 .innerCircle {
-    width: 80vw;
-    height: 80vw;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     background-color: #F2F2F2;
     display: flex;
@@ -69,8 +69,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    top: -2vw;
-    right: -10vw;
+    top: -2px;
+    right: -43px;
 }
 
 .levelsBtnContainer {
@@ -78,16 +78,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 85vw;
-    right: -16vw;
+    top: 290px;
+    right: -61px;
 }
 
 .startButtonCircle {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 17vw;
-    height: 17vw;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background-color: #B9E6EC;
 }
@@ -113,8 +113,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 17vw;
-    height: 17vw;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background-color: #B9E6EC;
 }
@@ -128,24 +128,52 @@
 }
 
 .btnValue {
-    font-size: 8vw;
+    font-size: 30px;
     font-weight: 400;
     margin-left: 20px;
 }
 .btnValue:active {
     color: #EBD0DE
 }
-
-.startBtnValue {
-    top: 5vw;
-    right: -16vw;
+@media (min-width: 700px) {
+    .outerCirkle {
+        width: 600px;
+        height: 600px;
+        margin-top: 140px;
+        margin-left: -190px;
+    }
+    
+    .innerCircle {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background-color: #F2F2F2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .startButtonCircle {
+        width: 120px;
+        height: 120px;
+    }
+    .levelsButtonCircle {
+        width: 120px;
+        height: 120px;
+    }
+    .startBtnContainer {
+        top: 0px;
+        right: -51px;
+    }
+    .levelsBtnContainer {
+        top: 485px;
+        right: -87px;
+    }
+    .btnValue {
+        font-size: 50px;
+        font-weight: 400;
+        margin-left: 20px;
+    }
 }
-
-.levelsBtnValue {
-    top: 86vw;
-    right: -22vw;
-}
-
 
 @media (orientation: landscape) {
     .greeting_container {

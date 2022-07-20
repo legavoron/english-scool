@@ -5,13 +5,12 @@
     width: 100%;
     height: 100%;
     position: relative;
-    padding: 0 10vw;
 }
 
 .taskImageContainer {
-    width: 80vw;
-    height: 64vw;
-    margin-top: 20vw;
+    width: 90%;
+    height: 40%;
+    margin-top: 60px;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -34,9 +33,10 @@
 }
 
 .taskHeading {
-    margin-top: 20vw;
-    font-size: 8vw;
-    line-height: 12vw;
+    width: 80vw;
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 30px;
     font-weight: 600;
     text-align: center;
 }
@@ -61,10 +61,10 @@
 
 .close {
     position: absolute;
-    right: 10vw;
-    top: 10vw;
-    width: 10vw;
-    height: 10vw;
+    right: 16vw;
+    top: 5vw;
+    width: 10px;
+    height: 10px;
     opacity: 0.3;
     cursor: pointer;
   }
@@ -73,17 +73,47 @@
   }
   .close:before, .close:after {
     position: absolute;
-    left: 5vw;
+    left: 10vw;
     content: ' ';
-    height: 8vw;
-    width: 1vw;
-    background-color: #E93B69;
+    height: 20px;
+    width: 4px;
+    background-color: #99B3D4;
   }
   .close:before {
     transform: rotate(45deg);
   }
   .close:after {
     transform: rotate(-45deg);
+}
+@media (min-width: 700px) {
+    .taskImageContainer {
+        margin-top: 100px;
+        height: 50%;
+    }
+    .close {
+        right: 16vw;
+        top: 5vw;
+        width: 15px;
+        height: 50px;
+        opacity: 0.3;
+        cursor: pointer;
+      }
+    .close:before, .close:after {
+        position: absolute;
+        left: 10vw;
+        content: ' ';
+        height: 40px;
+        width: 5px;
+        background-color: #99B3D4;
+      }
+      .taskHeading {
+        width: 80vw;
+        margin-top: 40px;
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 600;
+        text-align: center;
+    }
 }
 
 @media (orientation:landscape) {

@@ -5,6 +5,16 @@ import surgeon from '../img/surgeon.jpg';
 import way from '../img/way.jpg';
 import flame from '../img/flame.jpg';
 import scool from '../img/scool.jpg';
+import rain from '../img/rain.jpg';
+import south from '../img/south.jpg';
+import punish from '../img/punish.jpg';
+import mystery from '../img/mystery.jpg';
+import reward from '../img/Reward.jpg';
+import handsome from '../img/handsome.jpeg';
+import protect from '../img/protect.jpeg';
+import kind from '../img/kind.jpeg';
+
+
 
 const unit17 = [
     {
@@ -36,6 +46,56 @@ const unit17 = [
           word: 'Школа',
           translate: 'School', 
           url: scool
+    },
+    {
+        word: 'Дождь',
+        translate: 'Rain', 
+        url: rain
+    },
+    {
+        word: 'идет дождь',
+        translate: 'it is raining', 
+        url: rain
+    },
+    {
+        word: 'Юг',
+        translate: 'South', 
+        url: south
+    },
+    {
+        word: 'наказывать',
+        translate: 'punish', 
+        url: punish
+    },
+    {
+        word: 'Загадка',
+        translate: 'mystery', 
+        url: mystery
+    },
+    {
+        word: 'Награда',
+        translate: 'Reward', 
+        url: reward
+    },
+    {
+        word: 'в тот момент',
+        translate: 'at that moment', 
+        url: good
+    },
+    {
+        word: 'привлекательный',
+        translate: 'handsome', 
+        url: handsome
+    },
+    {
+        word: 'охранять (кого-то)',
+        translate: 'protect', 
+        url: protect
+    },
+    {
+        word: 'добрый',
+        translate: 'kind', 
+        url: kind
     },
   ]
 
