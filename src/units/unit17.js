@@ -10,9 +10,9 @@ import south from '../img/south.jpg';
 import punish from '../img/punish.jpg';
 import mystery from '../img/mystery.jpg';
 import reward from '../img/Reward.jpg';
-import handsome from '../img/handsome.jpeg';
-import protect from '../img/protect.jpeg';
-import kind from '../img/kind.jpeg';
+import handsome from '../img/handsome.jpg';
+import protect from '../img/protect.jpg';
+import kind from '../img/kind.jpg';
 
 
 

@@ -1,5 +1,5 @@
 import good from '../img/good.jpg';
-import enjoyYourself from '../img/enjoy-yourself.jpeg';
+import enjoyYourself from '../img/enjoy-yourself.jpg';
 import fareignLanguages from '../img/fareignLanguages.jpg';
 import wrapPresents from '../img/wrapPresents.jpg';
 import wearNewClothes from '../img/wearNewClothes.jpg';
@@ -12,9 +12,10 @@ import spendALotOfMoney from '../img/spendALotOfMoney.jpg';
 import goHomeLate from '../img/goHomeLate.jpg';
 import workWith from '../img/workWith.jpg';
 import newYearsDay from '../img/newYearsDay.jpg';
-
-
-
+import aunt from '../img/aunt.jpg';
+import uncle from '../img/uncle.jpg';
+import nephew from '../img/nephew.jpg';
+import niece from '../img/niece.jpg';
 
 
 const unit2 = [
@@ -82,6 +83,26 @@ const unit2 = [
       word: 'Где ты встречаешь Новый год ?',
       translate: "Where do you spend New Year's day?", 
       url: newYearsDay
+    },
+    {
+      word: 'Тетя',
+      translate: "Aunt", 
+      url: aunt
+    },
+    {
+      word: 'Дядя',
+      translate: "Uncle", 
+      url: uncle
+    },
+    {
+      word: 'Племянник',
+      translate: "Nephew", 
+      url: nephew
+    },
+    {
+      word: 'Племянница',
+      translate: "Niece", 
+      url: niece
     },
   ]
 
