@@ -117,6 +117,11 @@ const unit3 = [
       translate: 'be called', 
       url: beCalled
     },
+    {
+      word: 'для себя',
+      translate: 'for myself', 
+      url: good
+    },
     
   ]
 

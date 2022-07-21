@@ -16,6 +16,8 @@ import aunt from '../img/aunt.jpg';
 import uncle from '../img/uncle.jpg';
 import nephew from '../img/nephew.jpg';
 import niece from '../img/niece.jpg';
+import thosePens from '../img/thosePens.jpg';
+
 
 
 const unit2 = [
@@ -103,6 +105,11 @@ const unit2 = [
       word: 'Племянница',
       translate: "Niece", 
       url: niece
+    },
+    {
+      word: 'те ручки',
+      translate: "those pens", 
+      url: thosePens
     },
   ]
 
