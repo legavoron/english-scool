@@ -37,12 +37,12 @@ import takePhotos from '../img/takePhotos.jpg';
 const unit6 = [
     {
         word: 'Позади (чего-то)',
-        translate: 'Behind', 
+        translate: 'behind', 
         url: behind
     },
     {
       word: 'Перед (чем-то)',
-      translate: 'In front of', 
+      translate: 'in front of', 
       url: inFrontOf
     },
     {
@@ -51,7 +51,7 @@ const unit6 = [
       url: bedroom
     },
     {
-      word: 'Ванная',
+      word: 'Ванная комната',
       translate: 'Bathroom', 
       url: bathroom
     },
