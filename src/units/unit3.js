@@ -1,7 +1,7 @@
 import good from '../img/good.jpg';
 import accountant from '../img/accountant.jpg';
 import headTeacher from '../img/headTeacher.jpg';
-import workWithHands from '../img/headTeacher.jpg';
+import workWithHands from '../img/workWithHands.jpg';
 import wearUniform from '../img/wearUniform.jpg';
 import lawyer from '../img/lawyer.jpg';
 import nurse from '../img/nurse.jpg';
@@ -33,12 +33,12 @@ const unit3 = [
       url: headTeacher
     },
     {
-      word: 'работать руками',
+      word: 'Работать руками',
       translate: 'work with hands', 
       url: workWithHands
     },
     {
-      word: 'носить униформу',
+      word: 'Носить униформу',
       translate: 'wear a uniform', 
       url: wearUniform
     },
@@ -68,17 +68,17 @@ const unit3 = [
       url: pupils
     },
     {
-      word: 'такой же',
+      word: 'Такой же',
       translate: 'same', 
       url: same
     },
     {
-      word: 'громкий',
+      word: 'Громкий',
       translate: 'loud', 
       url: loud
     },
     {
-      word: 'начинаться',
+      word: 'Начинаться',
       translate: 'begin', 
       url: begin
     },
@@ -113,12 +113,12 @@ const unit3 = [
       url: petrolStation
     },
     {
-      word: 'называться',
+      word: 'Называться',
       translate: 'be called', 
       url: beCalled
     },
     {
-      word: 'для себя',
+      word: 'Для себя',
       translate: 'for myself', 
       url: good
     },

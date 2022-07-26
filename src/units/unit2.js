@@ -23,67 +23,67 @@ import thosePens from '../img/thosePens.jpg';
 const unit2 = [
     {
     word: 'Наслаждаться моментом',
-    translate: 'Enjoy yourself', 
+    translate: 'enjoy yourself', 
     url: enjoyYourself
     },
     {
       word: 'Иностранные языки',
-      translate: 'Foreign languages', 
+      translate: 'foreign languages', 
       url: fareignLanguages
     },
     {
       word: 'Заворачивать подарки',
-      translate: 'Wrap presents', 
+      translate: 'wrap presents', 
       url: wrapPresents
     },
     {
       word: 'Носить новую одежду',
-      translate: 'Wear new clothes', 
+      translate: 'wear new clothes', 
       url: wearNewClothes
     },
     {
       word: 'Отправлять письма',
-      translate: 'Send emails', 
+      translate: 'send emails', 
       url: sendLetters
     },
     {
       word: 'Одеваться официально',
-      translate: 'Dress formally', 
+      translate: 'dress formally', 
       url: dressFormaly
     },
     {
       word: 'Обсуждать проблему',
-      translate: 'Discuss the problem', 
+      translate: 'discuss the problem', 
       url: discussTheProblem
     },
     {
       word: 'Общаться с коллегами',
-      translate: 'Socialize with colleagues', 
+      translate: 'socialize with colleagues', 
       url: soccializeWithCollegues
     },
     {
       word: 'Ответь на звонок',
-      translate: 'Answer the phone', 
+      translate: 'answer the phone', 
       url: answerThePhone
     },
     {
       word: 'Ты тратишь много денег?',
-      translate: 'Do you spend a lot of money?', 
+      translate: 'do you spend a lot of money?', 
       url: spendALotOfMoney
     },
     {
       word: 'Ты поздно возвращаешься домой?',
-      translate: 'Do you go home late?', 
+      translate: 'do you go home late?', 
       url: goHomeLate
     },
     {
       word: 'С кем ты работаешь?',
-      translate: 'Who do you work with?', 
+      translate: 'who do you work with?', 
       url: workWith
     },
     {
       word: 'Где ты встречаешь Новый год ?',
-      translate: "Where do you spend New Year's day?", 
+      translate: "where do you spend New Year's day?", 
       url: newYearsDay
     },
     {

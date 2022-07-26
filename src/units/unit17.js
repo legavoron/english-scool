@@ -52,7 +52,7 @@ const unit17 = [
     },
     {
         word: 'Хирург',
-        translate: 'A surgeon', 
+        translate: 'Surgeon', 
         url: surgeon
     },
     {

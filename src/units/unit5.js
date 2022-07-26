@@ -14,52 +14,52 @@ import beLike from '../img/beLike.jpg';
 
 const unit5 = [
     {
-        word: 'богатый',
+        word: 'Богатый',
         translate: 'rich', 
         url: rich
     },
     {
-      word: 'медленный',
+      word: 'Медленный',
       translate: 'slow', 
       url: slow
     },
     {
-      word: 'привлекательный',
+      word: 'Привлекательный',
       translate: 'attractive', 
       url: attractive
     },
     {
-      word: 'толстый',
+      word: 'Толстый',
       translate: 'fat', 
       url: fat
     },
     {
-      word: 'плотный (человек)',
+      word: 'Плотный (человек)',
       translate: 'thick', 
       url: thick
     },
     {
-      word: 'короткий',
+      word: 'Короткий',
       translate: 'short', 
       url: short
     },
     {
-      word: 'тонкий',
+      word: 'Тонкий',
       translate: 'slim', 
       url: slim
     },
     {
-      word: 'высокий',
+      word: 'Высокий',
       translate: 'tall', 
       url: tall
     },
     {
-      word: 'тощий',
+      word: 'Тощий',
       translate: 'skinny', 
       url: skinny
     },
     {
-      word: 'худой',
+      word: 'Худой',
       translate: 'thin', 
       url: thin
     },
@@ -84,37 +84,37 @@ const unit5 = [
       url: haveAShower
     },
     {
-      word: 'быть похожим',
+      word: 'Быть похожим',
       translate: "be like", 
       url: beLike
     },
     {
-      word: 'утром',
+      word: 'Утром',
       translate: "in the morning", 
       url: good
     },
     {
-      word: 'вечером',
+      word: 'Вечером',
       translate: "in the evening", 
       url: good
     },
     {
-      word: 'в субботу',
+      word: 'В субботу',
       translate: "on Sunday", 
       url: good
     },
     {
-      word: 'в будние дни',
+      word: 'В будние дни',
       translate: "on weekdays", 
       url: good
     },
     {
-      word: 'ночью',
+      word: 'Ночью',
       translate: "at night", 
       url: good
     },
     {
-      word: 'в выходные дни',
+      word: 'В выходные дни',
       translate: "at the weekend", 
       url: good
     },

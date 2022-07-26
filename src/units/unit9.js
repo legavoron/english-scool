@@ -137,7 +137,7 @@ const unit9 = [
       url: seeSaw
     },
     {
-      word: 'Видеть - видел',
+      word: 'Продавать - продавал',
       translate: 'sell - sold', 
       url: sellSold
 

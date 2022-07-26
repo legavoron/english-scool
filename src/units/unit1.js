@@ -24,31 +24,6 @@ const unit1 = [
       url: brazil
     },
     {
-      word: 'Мой телефон 349 8175',
-      translate: '', 
-      url: good
-    },
-    {
-      word: 'Мой телефон 0495 122566',
-      translate: '', 
-      url: good
-    },
-    {
-      word: 'Мой телефон 00 44 607 948 7843',
-      translate: '', 
-      url: good
-    },
-    {
-      word: 'Мой email ahmed2412 @gmail.com',
-      translate: '', 
-      url: good
-    },
-    {
-      word: 'Мой email ivanUvalov @yandex.ru',
-      translate: '', 
-      url: good
-    },
-    {
       word: 'Не могли бы вы помочь мне?',
       translate: 'Could you help me?', 
       url: good
@@ -74,42 +49,42 @@ const unit1 = [
       url: hereYouAre
     },
     {
-      word: 'глубокий',
+      word: 'Глубокий',
       translate: 'deep', 
       url: deep
     },
     {
-      word: 'современный',
+      word: 'Современный',
       translate: 'modern', 
       url: modern
     },
     {
-      word: 'огромный',
+      word: 'Огромный',
       translate: 'huge', 
       url: huge
     },
     {
-      word: 'страшный',
+      word: 'Страшный',
       translate: 'horrible', 
       url: horrible
     },
     {
-      word: 'некрасивый',
+      word: 'Некрасивый',
       translate: 'ugly', 
       url: ugly
     },
     {
-      word: 'грязный',
+      word: 'Грязный',
       translate: 'dirty', 
       url: dirty
     },
     {
-      word: 'замечательный',
+      word: 'Замечательный',
       translate: 'wonderful', 
       url: wonderful
     },
     {
-      word: 'поэтому',
+      word: 'Поэтому',
       translate: 'so', 
       url: good
     },

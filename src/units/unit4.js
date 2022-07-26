@@ -30,46 +30,46 @@ import arround from '../img/arround.jpg';
 const unit4 = [
     {
         word: 'Выходить на прогулку',
-        translate: 'Go for a walk', 
+        translate: 'go for a walk', 
         url: goForAwolk
     },
     {
       word: 'Идти танцевать',
-      translate: 'Go dancing', 
+      translate: 'go dancing', 
       url: goDancing
     },
     {
-      word: 'часто (90%)',
+      word: 'Почти всегда (90%)',
       translate: 'frequently', 
       url: good
     },
     {
-      word: 'обычно (80%)',
+      word: 'Обычно (80%)',
       translate: 'normally', 
       url: good
     },
     {
-      word: 'часто (70%)',
+      word: 'Часто (70%)',
       translate: 'often', 
       url: good
     },
     {
-      word: 'от случая к случаю (30%)',
+      word: 'От случая к случаю (30%)',
       translate: 'occasionally', 
       url: good
     },
     {
-      word: 'редко (10%)',
+      word: 'Редко (10%)',
       translate: 'rarely', 
       url: good
     },
     {
-      word: 'редко (10%)',
+      word: 'Редко (10%)',
       translate: 'seldom', 
       url: good
     },
     {
-      word: 'быть вовремя',
+      word: 'Быть вовремя',
       translate: 'on time', 
       url: onTime
     },
@@ -94,12 +94,12 @@ const unit4 = [
       url: sparklingWater
     },
     {
-      word: 'жёсткий (твёрдый)',
+      word: 'Жёсткий (твёрдый)',
       translate: 'hard', 
       url: hard
     },
     {
-      word: 'мягкий',
+      word: 'Мягкий',
       translate: 'soft', 
       url: soft
     },
@@ -134,27 +134,27 @@ const unit4 = [
       url: mosque
     },
     {
-      word: 'рядом с чем-то (на расстоянии)',
+      word: 'Рядом с чем-то (на расстоянии)',
       translate: 'near', 
       url: near
     },
     {
-      word: 'рядом с чем-то (касаясь)',
+      word: 'Рядом с чем-то (касаясь)',
       translate: 'next to', 
       url: nextTo
     },
     {
-      word: 'напротив чего-то',
+      word: 'Напротив чего-то',
       translate: 'opposite', 
       url: opposite
     },
     {
-      word: 'под чем-то',
+      word: 'Под чем-то',
       translate: 'under', 
       url: under
     },
     {
-      word: 'одеяло',
+      word: 'Одеяло',
       translate: 'Blanket', 
       url: blanket
     },
@@ -179,7 +179,7 @@ const unit4 = [
       url: checkoutTime
     },
     {
-      word: 'вокруг',
+      word: 'Вокруг',
       translate: 'arround', 
       url: arround
     },

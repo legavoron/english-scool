@@ -6,12 +6,12 @@ import complain from '../img/complain.jpg';
 const unit12 = [
     {
         word: 'Прибывать',
-        translate: 'Arrive', 
+        translate: 'arrive', 
         url: arrive
     },
     {
       word: 'Жаловаться',
-      translate: 'Complain', 
+      translate: 'complain', 
       url: complain
     },
   ]

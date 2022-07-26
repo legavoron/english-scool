@@ -29,12 +29,12 @@ import toy from '../img/toy.jpg';
 const unit10 = [
     {
         word: 'Неправильный',
-        translate: 'Wrong', 
+        translate: 'wrong', 
         url: wrong
     },
     {
       word: 'До (какого- либо события)',
-      translate: 'Before', 
+      translate: 'before', 
       url: before
     },
     {
