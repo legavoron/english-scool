@@ -29,7 +29,7 @@ const unit14 = [
     },
     {
       word: 'Проводить время вне дома',
-      translate: 'goOut', 
+      translate: 'go out', 
       url: goOut
     },
     {

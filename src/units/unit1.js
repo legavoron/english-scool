@@ -88,6 +88,11 @@ const unit1 = [
       translate: 'so', 
       url: good
     },
+    {
+      word: 'Это полезно для твоего здоровья',
+      translate: 'It is useful for your health', 
+      url: good
+    },
   ]
 
   export default unit1;

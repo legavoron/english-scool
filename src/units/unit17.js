@@ -157,7 +157,7 @@ const unit17 = [
     },
     {
         word: 'Почти никогда',
-        translate: 'hardlyEver', 
+        translate: 'hardly ever', 
         url: good
     },
     {

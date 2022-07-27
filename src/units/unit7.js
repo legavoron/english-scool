@@ -48,12 +48,12 @@ const unit7 = [
     },
     {
       word: 'Оффициант',
-      translate: 'Цaiter', 
+      translate: 'Waiter', 
       url: waiter
     },
     {
       word: 'Счет (в кафе)',
-      translate: 'Иill', 
+      translate: 'Bill', 
       url: bill
     },
     

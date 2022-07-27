@@ -12,7 +12,7 @@ import learnToDrive from '../img/learnToDrive.jpg';
 import leaveHome from '../img/leaveHome.jpg';
 import meetSomeoneSpecial from '../img/meetSomeoneSpecial.jpg';
 import move from '../img/move.jpg';
-import quitYourJob from '../img/move.jpg';
+import quitYourJob from '../img/quitYourJob.jpg';
 import retire from '../img/retire.jpg';
 import angry from '../img/angry.jpg';
 import bored from '../img/bored.jpg';
@@ -129,22 +129,22 @@ const unit10 = [
     },
     {
       word: 'Бокалы',
-      translate: 'glasses', 
+      translate: 'Glasses', 
       url: glasses
     },
     {
       word: 'Растение',
-      translate: 'plant', 
+      translate: 'Plant', 
       url: plant
     },
     {
       word: 'Тарелки и миски',
-      translate: 'plates and bowls', 
+      translate: 'Plates and Bowls', 
       url: platesAndBowls
     },
     {
       word: 'Игрушка',
-      translate: 'toy', 
+      translate: 'Toy', 
       url: toy
     },
   ]

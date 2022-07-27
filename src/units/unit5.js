@@ -118,6 +118,52 @@ const unit5 = [
       translate: "at the weekend", 
       url: good
     },
+    {
+      word: 'В любое время в течении дня',
+      translate: "at any time of the day", 
+      url: good
+    },
+    {
+      word: 'Через несколько дней',
+      translate: "in a few days", 
+      url: good
+    },
+    {
+      word: 'В полдень',
+      translate: "at midday", 
+      url: good
+    },
+    {
+      word: 'В полночь',
+      translate: "at midnight", 
+      url: good
+    },
+    {
+      word: 'На Рождество',
+      translate: "at Cristmas", 
+      url: good
+    },
+    {
+      word: 'Зимой',
+      translate: "in winter", 
+      url: good
+    },
+    {
+      word: 'В обеденное время',
+      translate: "at lunch time", 
+      url: good
+    },
+    {
+      word: 'В субботу ночью',
+      translate: "on saturday night", 
+      url: good
+    },
+    {
+      word: 'В понедельник утром',
+      translate: "on monday morning", 
+      url: good
+    },
+    
   ]
 
 export default unit5;

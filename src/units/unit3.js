@@ -99,7 +99,7 @@ const unit3 = [
     },
     {
       word: 'Банкомат',
-      translate: 'CashPoint', 
+      translate: 'Cashpoint', 
       url: cashpoint
     },
     {
