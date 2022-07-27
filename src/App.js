@@ -9,8 +9,8 @@ import Task from './components/task/task';
 
 import {Routes, Route} from 'react-router-dom';
 
-import error from './img/error.svg';
-import question from './img/question.svg';
+import error from './img/error.jpg';
+import question from './img/question.jpg';
 
 import unit1 from './units/unit1';
 import unit2 from './units/unit2';
