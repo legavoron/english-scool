@@ -37,21 +37,21 @@
 }
 
 .outerCirkle {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     background-color: #99B3D4;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
-    margin-left: -116px;
+    margin-left: -80px;
     position: relative;;
 }
 
 .innerCircle {
-    width: 300px;
-    height: 300px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     background-color: #F2F2F2;
     display: flex;
@@ -70,7 +70,7 @@
     align-items: center;
     justify-content: center;
     top: -2px;
-    right: -43px;
+    right: -60px;
 }
 
 .levelsBtnContainer {
@@ -78,16 +78,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 290px;
-    right: -61px;
+    top: 200px;
+    right: -78px;
 }
 
 .startButtonCircle {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: #B9E6EC;
 }
@@ -113,8 +113,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: #B9E6EC;
 }
