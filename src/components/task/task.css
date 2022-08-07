@@ -122,7 +122,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        padding: 10vh;
+        padding: 5vh;
     }
     .taskImageContainer {
         width: 44%;
@@ -138,7 +138,7 @@
     .taskHeading {
         font-size: 5vh;
         line-height: 7vh;
-        margin-top: 20vh;
+        margin-top: 30vh;
     }
     
     .taskBtn {

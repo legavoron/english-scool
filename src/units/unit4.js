@@ -24,7 +24,12 @@ import kettle from '../img/kettle.jpg';
 import towels from '../img/towels.jpg';
 import checkoutTime from '../img/checkoutTime.jpg';
 import arround from '../img/arround.jpg';
-
+import getAngryWith from '../img/getAngryWith.jpg';
+import applyForHelp from '../img/applyForHelp.jpg';
+import lookAt from '../img/lookAt.jpg';
+import shoutAt from '../img/shoutAt.jpg';
+import apologizeFor from '../img/apologizeFor.jpg';
+import askFor from '../img/askFor.jpg';
 
 
 const unit4 = [
@@ -183,8 +188,45 @@ const unit4 = [
       translate: 'arround', 
       url: arround
     },
+    {
+      word: 'Разозлиться на (кого-то)',
+      translate: 'get angry with', 
+      url: getAngryWith
+    },
+    {
+      word: 'Обратиться за помощью',
+      translate: 'apply for help', 
+      url: applyForHelp
+    },
+    {
+      word: 'Смотреть на (ког-то)',
+      translate: 'look at', 
+      url: lookAt
+    },
+    {
+      word: 'Плохой - хуже',
+      translate: 'bad - worse', 
+      url: good
+    },
+    {
+      word: 'Кричать на (кого-то)',
+      translate: 'shout at', 
+      url: shoutAt
+    },
+    {
+      word: 'Извиняться за (что-то)',
+      translate: 'apologize for', 
+      url: apologizeFor
+    },
+    {
+      word: 'Просить (что-то)',
+      translate: 'ask for', 
+      url: askFor
+    },
     
     
   ]
 
 export default unit4;
+
+

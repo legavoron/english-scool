@@ -8,6 +8,7 @@ import wait from '../img/wait.jpg';
 import forget from '../img/forget.jpg';
 import order from '../img/order.jpg';
 import notice from '../img/notice.jpg';
+import finger from '../img/finger.jpg';
 
 
 
@@ -56,6 +57,11 @@ const unit14 = [
       word: 'Замечать',
       translate: 'notice', 
       url: notice
+    },
+    {
+      word: 'Палец',
+      translate: 'Finger', 
+      url: finger
     },
   ]
 
