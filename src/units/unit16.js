@@ -6,6 +6,12 @@ import pets from '../img/pets.jpg';
 import almost from '../img/almost.jpg';
 import suddenly from '../img/suddenly.jpg';
 import hear from '../img/hear.jpg';
+import usefulFor from '../img/usefulFor.jpg';
+import annoiyng from '../img/annoiyng.jpg';
+import poisonousSnake from '../img/poisonousSnake.jpg';
+import takeCare from '../img/takeCare.jpg';
+import silly from '../img/silly.jpg';
+import laugh from '../img/laugh.jpg';
 
 
 const unit16 = [
@@ -43,7 +49,38 @@ const unit16 = [
       word: 'Слышать',
       translate: 'hear', 
       url: hear
-    }
+    },
+    {
+      word: 'Полезно для',
+      translate: 'useful for', 
+      url: usefulFor
+    },
+    {
+      word: 'Раздражающий',
+      translate: 'annoiyng', 
+      url: annoiyng
+    },
+    {
+      word: 'Ядовитая змея',
+      translate: 'poisonous snake', 
+      url: poisonousSnake
+    },
+    {
+      word: 'Заботиться',
+      translate: 'take care', 
+      url: takeCare
+    },
+    {
+      word: 'Глупый',
+      translate: 'silly', 
+      url: silly
+    },
+    {
+      word: 'Смеяться',
+      translate: 'laugh', 
+      url: laugh
+    },
+
   ]
 
 export default unit16;

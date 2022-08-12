@@ -7,6 +7,14 @@ import object from '../img/object.jpg';
 import among from '../img/among.jpg';
 import far from '../img/far.jpg';
 import closely from '../img/closely.jpg';
+import cause from '../img/cause.jpg';
+import supplies from '../img/supplies.jpg';
+import sweet from '../img/sweet.jpg';
+import touch from '../img/touch.jpg';
+import feed from '../img/feed.jpg';
+import prefer from '../img/prefer.jpg';
+import itIsSnowing from '../img/itIsSnowing.jpg';
+
 
 const unit15 = [
     {
@@ -55,6 +63,74 @@ const unit15 = [
       url: closely
 
     },
+    {
+      word: 'Причина',
+      translate: 'cause', 
+      url: cause
+
+    },
+    {
+      word: 'Товары',
+      translate: 'Supplies', 
+      url: supplies
+
+    },
+    {
+      word: 'Уже',
+      translate: 'already', 
+      url: good
+
+    },
+    {
+      word: 'С 8 до 10 часов',
+      translate: 'from 8 to 10', 
+      url: good
+
+    },
+    {
+      word: 'Милый',
+      translate: 'sweet', 
+      url: sweet
+
+    },
+    {
+      word: 'Будь осторожен',
+      translate: 'be careful', 
+      url: good
+
+    },
+    {
+      word: 'Трогать',
+      translate: 'touch', 
+      url: touch
+
+    },
+    {
+      word: 'Кормить',
+      translate: 'feed', 
+      url: feed
+
+    },
+    {
+      word: 'Предпочитать',
+      translate: 'prefer', 
+      url: prefer
+
+    },
+    {
+      word: 'Всё время',
+      translate: 'all the time', 
+      url: good
+
+    },
+    {
+      word: 'Идет снег',
+      translate: 'it is snowing', 
+      url: itIsSnowing
+
+    },
   ]
 
 export default unit15;
+
+
