@@ -18,6 +18,9 @@ import cashpoint from '../img/cashpoint.jpg';
 import chemist from '../img/chemist.jpg';
 import petrolStation from '../img/petrolStation.jpg';
 import beCalled from '../img/beCalled.jpg';
+import hold from '../img/hold.jpg';
+import helpWith from '../img/helpWith.jpg';
+import beAFriend from '../img/beAFriend.jpg';
 
 
 
@@ -122,7 +125,24 @@ const unit3 = [
       translate: 'for myself', 
       url: good
     },
+    {
+      word: 'Держать',
+      translate: 'holdf', 
+      url: hold
+    },
+    {
+      word: 'Помочь с чем-то',
+      translate: 'help with', 
+      url: helpWith
+    },
+    {
+      word: 'Быть другом',
+      translate: 'be aF fiend', 
+      url: beAFriend
+    },
+    
     
   ]
 
 export default unit3;
+

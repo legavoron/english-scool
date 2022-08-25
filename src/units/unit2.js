@@ -17,6 +17,15 @@ import uncle from '../img/uncle.jpg';
 import nephew from '../img/nephew.jpg';
 import niece from '../img/niece.jpg';
 import thosePens from '../img/thosePens.jpg';
+import during from '../img/during.jpg';
+import onTheOtherHand from '../img/onTheOtherHand.jpg';
+import wherenever from '../img/wherenever.jpg';
+import whenever from '../img/whenever.jpg';
+import whatever from '../img/whatever.jpg';
+import iDontCareAbout from '../img/iDontCareAbout.jpg';
+import itsVeryChallenging from '../img/itsVeryChallenging.jpg';
+import itdependsOn from '../img/itdependsOn.jpg';
+
 
 
 
@@ -111,6 +120,48 @@ const unit2 = [
       translate: "those pens", 
       url: thosePens
     },
+    {
+      word: 'В течении какого-то времени',
+      translate: "during", 
+      url: during
+    },
+    {
+      word: 'С другой стороны',
+      translate: "on the other hand", 
+      url: onTheOtherHand
+    },
+    {
+      word: 'Где угодно',
+      translate: "wherenever", 
+      url: wherenever
+    },
+    {
+      word: 'Когда угодно',
+      translate: "whenever", 
+      url: whenever
+    },
+    {
+      word: 'Что угодно',
+      translate: "whatever", 
+      url: whatever
+    },
+    {
+      word: 'Мне всё равно на',
+      translate: "i don't care about (ing)", 
+      url: iDontCareAbout
+    },
+    {
+      word: 'Это очень трудно',
+      translate: "it's very challenging", 
+      url: itsVeryChallenging
+    },
+    {
+      word: 'Это зависит от',
+      translate: "it depends on", 
+      url: itdependsOn
+    },
   ]
 
 export default unit2;
+
+

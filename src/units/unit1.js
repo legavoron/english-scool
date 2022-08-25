@@ -10,6 +10,15 @@ import horrible from '../img/horrible.jpg';
 import ugly from '../img/ugly.jpg';
 import dirty from '../img/dirty.jpg';
 import wonderful from '../img/wonderful.jpg';
+import humid from '../img/humid.jpg';
+import warm from '../img/warm.jpg';
+import rent from '../img/rent.jpg';
+import haveEnough from '../img/haveEnough.jpg';
+import desert from '../img/desert.jpg';
+import slowDown from '../img/slowDown.jpg';
+import insect from '../img/insect.jpg';
+import nail from '../img/nail.jpg';
+import cruel from '../img/cruel.jpg';
 
 
 const unit1 = [
@@ -93,6 +102,69 @@ const unit1 = [
       translate: 'It is useful for your health', 
       url: good
     },
+    {
+      word: 'Даже',
+      translate: 'even', 
+      url: good
+    },
+    {
+      word: 'Влажно',
+      translate: 'humid', 
+      url: humid
+    },
+    {
+      word: 'Тепло',
+      translate: 'warm', 
+      url: warm
+    },
+    {
+      word: 'Арендовать',
+      translate: 'rent', 
+      url: rent
+    },
+    {
+      word: 'Иметь достаточное количество',
+      translate: 'have enough', 
+      url: haveEnough
+    },
+    {
+      word: 'Пустыня',
+      translate: 'desert', 
+      url: desert
+    },
+    {
+      word: 'Помедленнее',
+      translate: 'slow wown', 
+      url: slowDown
+    },
+    {
+      word: 'Слишком',
+      translate: 'too', 
+      url: good
+    },
+    {
+      word: 'Насекомое',
+      translate: 'Insect', 
+      url: insect
+    },
+    {
+      word: 'Ноготь',
+      translate: 'Nail', 
+      url: nail
+    },
+    {
+      word: 'Прошлый',
+      translate: 'past', 
+      url: good
+    },
+    {
+      word: 'Жестокий',
+      translate: 'cruel', 
+      url: cruel
+    },
   ]
 
   export default unit1;
+
+  
+  

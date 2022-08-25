@@ -12,6 +12,7 @@ import poisonousSnake from '../img/poisonousSnake.jpg';
 import takeCare from '../img/takeCare.jpg';
 import silly from '../img/silly.jpg';
 import laugh from '../img/laugh.jpg';
+import picture from '../img/picture.jpg';
 
 
 const unit16 = [
@@ -79,6 +80,11 @@ const unit16 = [
       word: 'Смеяться',
       translate: 'laugh', 
       url: laugh
+    },
+    {
+      word: 'Картина',
+      translate: 'Picture', 
+      url: picture
     },
 
   ]

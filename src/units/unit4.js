@@ -30,6 +30,7 @@ import lookAt from '../img/lookAt.jpg';
 import shoutAt from '../img/shoutAt.jpg';
 import apologizeFor from '../img/apologizeFor.jpg';
 import askFor from '../img/askFor.jpg';
+import charity from '../img/charity.jpg';
 
 
 const unit4 = [
@@ -222,6 +223,16 @@ const unit4 = [
       word: 'Просить (что-то)',
       translate: 'ask for', 
       url: askFor
+    },
+    {
+      word: 'Маленький - меньше - самый маленький',
+      translate: 'little - less - the least', 
+      url: good
+    },
+    {
+      word: 'Благотворительность',
+      translate: 'Charity', 
+      url: good
     },
     
     
