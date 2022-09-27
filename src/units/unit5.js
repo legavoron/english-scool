@@ -11,6 +11,28 @@ import skinny from '../img/skinny.jpg';
 import thin from '../img/thin.jpg';
 import haveAShower from '../img/haveAShower.jpg';
 import beLike from '../img/beLike.jpg';
+import scarf from '../img/scarf.jpg';
+import socks from '../img/socks.jpg';
+import sneackers from '../img/sneackers.jpg';
+import tie from '../img/tie.jpg';
+import belt from '../img/belt.jpg';
+import boots from '../img/boots.jpg';
+import trousers from '../img/trousers.jpg';
+import hat from '../img/hat.jpg';
+import cap from '../img/cap.jpg';
+import swimsuit from '../img/swimsuit.jpg';
+import skirt from '../img/skirt.jpg';
+import suit from '../img/suit.jpg';
+import carrot from '../img/carrot.jpg';
+import pleasure from '../img/pleasure.jpg';
+import honey from '../img/honey.jpg';
+import porridge from '../img/porridge.jpg';
+import ham from '../img/ham.jpg';
+import watermelon from '../img/watermelon.jpg';
+import tuna from '../img/tuna.jpg';
+import grapes from '../img/grapes.jpg';
+
+
 
 const unit5 = [
     {
@@ -163,7 +185,124 @@ const unit5 = [
       translate: "on monday morning", 
       url: good
     },
+    {
+      word: 'Шарф',
+      translate: "Scarf", 
+      url: scarf
+    },
+    {
+      word: 'Носки',
+      translate: "Socks", 
+      url: socks
+    },
+    {
+      word: 'Кеды',
+      translate: "Sneackers", 
+      url: sneackers
+    },
+    {
+      word: 'Галстук',
+      translate: "Tie", 
+      url: tie
+    },
+    {
+      word: 'Ремень',
+      translate: "Belt", 
+      url: belt
+    },
+    {
+      word: 'Сапоги',
+      translate: "Boots", 
+      url: boots
+    },
+    {
+      word: 'Брюки',
+      translate: "Trousers", 
+      url: trousers
+    },
+    {
+      word: 'Шляпа',
+      translate: "Hat", 
+      url: hat
+    },
+    {
+      word: 'Бейсболка',
+      translate: "Cap", 
+      url: cap
+    },
+    {
+      word: 'Купальник',
+      translate: "Swimsuit", 
+      url: swimsuit
+    },
+    {
+      word: 'Юбка',
+      translate: "Skirt", 
+      url: skirt
+    },
+    {
+      word: 'Костюм',
+      translate: "Suit", 
+      url: suit
+    },
+    {
+      word: 'Принять решение',
+      translate: "decide", 
+      url: good
+    },
+    {
+      word: 'Примерять одежду',
+      translate: "try on", 
+      url: good
+    },
+    {
+      word: 'Примерять одежду',
+      translate: "try on", 
+      url: good
+    },
+    {
+      word: 'Морковка',
+      translate: 'Carrot', 
+      url: carrot
+    },
+    {
+      word: 'Удовольствие',
+      translate: 'Pleasure', 
+      url: pleasure
+    },
+    {
+      word: 'Мёд',
+      translate: 'Honey', 
+      url: honey
+    },
+    {
+      word: 'Каша',
+      translate: 'Porridge', 
+      url: porridge
+    },
+    {
+      word: 'Ветчина',
+      translate: 'Ham', 
+      url: ham
+    },
+    {
+      word: 'Арбуз',
+      translate: 'Watermelon', 
+      url: watermelon
+    },
+    {
+      word: 'Тунец',
+      translate: 'Tuna', 
+      url: tuna
+    },
+    {
+      word: 'Виноград',
+      translate: 'Grapes', 
+      url: grapes
+    },
     
   ]
 
 export default unit5;
+
+

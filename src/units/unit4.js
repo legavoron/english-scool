@@ -31,6 +31,15 @@ import shoutAt from '../img/shoutAt.jpg';
 import apologizeFor from '../img/apologizeFor.jpg';
 import askFor from '../img/askFor.jpg';
 import charity from '../img/charity.jpg';
+import raiseMoney from '../img/raiseMoney.jpg';
+import elderlyPeople from '../img/elderlyPeople.jpg';
+import adult from '../img/adult.jpg';
+import facilities from '../img/facilities.jpg';
+import rectangular from '../img/rectangular.jpg';
+import square from '../img/square.jpg';
+import triangulare from '../img/triangulare.jpg';
+import round from '../img/round.jpg';
+import shape from '../img/shape.jpg';
 
 
 const unit4 = [
@@ -232,10 +241,63 @@ const unit4 = [
     {
       word: 'Благотворительность',
       translate: 'Charity', 
+      url: charity
+    },
+    {
+      word: 'Собирать деньги',
+      translate: 'raise money', 
+      url: raiseMoney
+    },
+    {
+      word: 'Пожилые люди',
+      translate: 'elderly people', 
+      url: elderlyPeople
+    },
+    {
+      word: 'Взрослый человек',
+      translate: 'adult', 
+      url: adult
+    },
+    {
+      word: 'Удобства',
+      translate: 'Facilities', 
+      url: facilities
+    },
+    {
+      word: 'Как пройти к магазину?',
+      translate: 'How do I get to the shop?', 
       url: good
     },
-    
-    
+    {
+      word: 'Прямоугольный',
+      translate: 'rectangular', 
+      url: rectangular
+    },
+    {
+      word: 'Квадратный',
+      translate: 'square', 
+      url: square
+    },
+    {
+      word: 'Треугольный',
+      translate: 'triangulare', 
+      url: triangulare
+    },
+    {
+      word: 'Круглый',
+      translate: 'round', 
+      url: round
+    },
+    {
+      word: 'Форма предмета',
+      translate: 'Shape', 
+      url: shape
+    },
+    {
+      word: 'Форма предмета',
+      translate: `What is it made of?`, 
+      url: good
+    },
   ]
 
 export default unit4;

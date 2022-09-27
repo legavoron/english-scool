@@ -56,7 +56,7 @@ const unit11 = [
     },
     {
       word: 'Красть',
-      translate: 'stealn', 
+      translate: 'steal', 
       url: steal
     },
     {

@@ -13,6 +13,9 @@ import takeCare from '../img/takeCare.jpg';
 import silly from '../img/silly.jpg';
 import laugh from '../img/laugh.jpg';
 import picture from '../img/picture.jpg';
+import burglar from '../img/burglar.jpg';
+import alarm from '../img/alarm.jpg';
+
 
 
 const unit16 = [
@@ -86,9 +89,33 @@ const unit16 = [
       translate: 'Picture', 
       url: picture
     },
+    {
+      word: 'Кстати',
+      translate: 'by the way', 
+      url: good
+    },
+    {
+      word: 'Так или иначе',
+      translate: 'anyway', 
+      url: good
+    },
+    {
+      word: 'Грабитель',
+      translate: 'Burglar', 
+      url: burglar
+    },
+    {
+      word: 'Сигнализация',
+      translate: 'Alarm', 
+      url: alarm
+    },
+    {
+      word: 'После этого',
+      translate: 'after that', 
+      url: good
+    },
 
   ]
 
 export default unit16;
-
 

@@ -127,7 +127,7 @@ const unit3 = [
     },
     {
       word: 'Держать',
-      translate: 'holdf', 
+      translate: 'hold', 
       url: hold
     },
     {
@@ -137,7 +137,7 @@ const unit3 = [
     },
     {
       word: 'Быть другом',
-      translate: 'be aF fiend', 
+      translate: 'be a friend', 
       url: beAFriend
     },
     

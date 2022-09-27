@@ -132,7 +132,7 @@ const unit2 = [
     },
     {
       word: 'Где угодно',
-      translate: "wherenever", 
+      translate: "wherever", 
       url: wherenever
     },
     {
