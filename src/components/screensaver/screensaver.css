@@ -1,20 +1,46 @@
 .screensaver {
     width: 100%;
     height: 100%;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+
+    
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .logoContainer {
     width: 200px;
     height: 200px;
     background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 40%;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+   
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .logoImage {
@@ -32,19 +58,44 @@
     .screensaver {
         width: 100%;
         height: 500px;
+
+        display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
         flex-direction: column;
+        
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
     .logoContainer {
         width: 40vh;
         height: 40vh;
         background-color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         margin-top: 10vh;
+
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
     .screensaver_heading {
         margin-bottom: 10vh;

@@ -1,7 +1,13 @@
 .startPage {
     width: 100%;
     height: 100%;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 .greeting_container {
@@ -41,12 +47,25 @@
     height: 250px;
     border-radius: 50%;
     background-color: #99B3D4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 30px;
     margin-left: -80px;
-    position: relative;;
+    position: relative;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+   
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .innerCircle {
@@ -54,9 +73,21 @@
     height: 220px;
     border-radius: 50%;
     background-color: #F2F2F2;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
-    align-items: center;
+
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+   
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .innerCircleImage {
@@ -66,30 +97,69 @@
 
 .startBtnContainer {
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     top: -2px;
     right: -60px;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+   
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .levelsBtnContainer {
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     top: 200px;
     right: -78px;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+   
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .startButtonCircle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: #B9E6EC;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+   
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .startButtonCircle:active {
     background-color: #EBD0DE;
@@ -110,13 +180,26 @@
 }
 
 .levelsButtonCircle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: #B9E6EC;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+   
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .levelsButtonCircle:active {
     background-color: #EBD0DE;
@@ -148,9 +231,22 @@
         height: 500px;
         border-radius: 50%;
         background-color: #F2F2F2;
+        
+        display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
-        align-items: center;
+
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
         justify-content: center;
+
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
     .startButtonCircle {
         width: 120px;

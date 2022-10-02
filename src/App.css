@@ -1,7 +1,18 @@
 .App {
   height: 80vh;
   text-align: center;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
-  align-items: center;
+
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
