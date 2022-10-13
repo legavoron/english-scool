@@ -40,6 +40,8 @@ import square from '../img/square.jpg';
 import triangulare from '../img/triangulare.jpg';
 import round from '../img/round.jpg';
 import shape from '../img/shape.jpg';
+import sunset from '../img/sunset.jpg';
+import sunrise from '../img/sunrise.jpg';
 
 
 const unit4 = [
@@ -297,6 +299,16 @@ const unit4 = [
       word: 'Форма предмета',
       translate: `What is it made of?`, 
       url: good
+    },
+    {
+      word: 'Закат',
+      translate: `Sunset`, 
+      url: sunset
+    },
+    {
+      word: 'Рассвет',
+      translate: `Sunrise`, 
+      url: sunrise
     },
   ]
 

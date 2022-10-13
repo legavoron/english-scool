@@ -8,6 +8,7 @@ import talkTo from '../img/talkTo.jpg';
 import book from '../img/book.jpg';
 import waiter from '../img/waiter.jpg';
 import bill from '../img/bill.jpg';
+import stuffParty from '../img/stuffParty.jpg';
 
 
 const unit7 = [
@@ -55,6 +56,11 @@ const unit7 = [
       word: 'Счет (в кафе)',
       translate: 'Bill', 
       url: bill
+    },
+    {
+      word: 'Корпоратив',
+      translate: 'stuff party', 
+      url: stuffParty
     },
     
   ]

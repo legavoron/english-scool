@@ -21,6 +21,8 @@ import beCalled from '../img/beCalled.jpg';
 import hold from '../img/hold.jpg';
 import helpWith from '../img/helpWith.jpg';
 import beAFriend from '../img/beAFriend.jpg';
+import legs from '../img/legs.jpg';
+import rude from '../img/rude.jpg';
 
 
 
@@ -139,6 +141,16 @@ const unit3 = [
       word: 'Быть другом',
       translate: 'be a friend', 
       url: beAFriend
+    },
+    {
+      word: 'Ноги',
+      translate: 'Legs', 
+      url: legs
+    },
+    {
+      word: 'Грубый',
+      translate: 'rude', 
+      url: rude
     },
     
     

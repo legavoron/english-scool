@@ -22,7 +22,14 @@ import seeSaw from '../img/seeSaw.jpg';
 import sellSold from '../img/sellSold.jpg';
 import spendSpent from '../img/spendSpent.jpg';
 import writeWrote from '../img/writeWrote.jpg';
-
+import shelves from '../img/shelves.jpg';
+import curtains from '../img/curtains.jpg';
+import cupBoard from '../img/cupBoard.jpg';
+import rug from '../img/rug.jpg';
+import pan from '../img/pan.jpg';
+import fryingPan from '../img/fryingPan.jpg';
+import heatUp from '../img/heatUp.jpg';
+import decision from '../img/decision.jpg';
 
 
 const unit9 = [
@@ -140,23 +147,69 @@ const unit9 = [
       word: 'Продавать - продавал',
       translate: 'sell - sold', 
       url: sellSold
-
     },
     {
       word: 'Проводить время - проводил время',
       translate: 'spend - spent', 
       url: spendSpent
-
     },
     {
       word: 'Писать - писал',
       translate: 'write - wrote', 
       url: writeWrote
-
+    },
+    {
+      word: 'Полочки',
+      translate: 'Shelves', 
+      url: shelves
+    },
+    {
+      word: 'Шторы',
+      translate: 'Curtains', 
+      url: curtains
+    },
+    {
+      word: 'Кухонный шкафчик',
+      translate: 'cupboard', 
+      url: cupBoard
+    },
+    {
+      word: 'Коврик',
+      translate: 'Rug', 
+      url: rug
+    },
+    {
+      word: 'Кастрюля',
+      translate: 'pan', 
+      url: pan
+    },
+    {
+      word: 'Сковорода',
+      translate: 'frying pan', 
+      url: fryingPan
+    },
+    {
+      word: 'Разогреть',
+      translate: 'heat up', 
+      url: heatUp
+    },
+    {
+      word: 'Я того же мнения',
+      translate: `I'm on the same page`, 
+      url: good
+    },
+    {
+      word: 'Боюсь, что нет',
+      translate: `I'm afraid not is`, 
+      url: good
+    },
+    {
+      word: 'Решение',
+      translate: `Decision`, 
+      url: decision
     },
     
   ]
 
 export default unit9;
-
 

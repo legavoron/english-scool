@@ -1,6 +1,4 @@
 import good from '../img/good.jpg';
-import japan from '../img/japan.jpg';
-import brazil from '../img/brazil.jpg';
 import anythingElse from '../img/anythingElse.jpg';
 import hereYouAre from '../img/hereYouAre.jpg';
 import deep from '../img/deep.jpg';
@@ -19,19 +17,13 @@ import slowDown from '../img/slowDown.jpg';
 import insect from '../img/insect.jpg';
 import nail from '../img/nail.jpg';
 import cruel from '../img/cruel.jpg';
+import patience from '../img/patience.jpg';
+import tipping from '../img/tipping.jpg';
+import tip from '../img/tip.jpg';
+import raincoat from '../img/raincoat.jpg';
 
 
 const unit1 = [
-    {
-    word: 'Япония',
-    translate: 'Japan', 
-    url: japan
-    },
-    {
-      word: 'Бразилия',
-      translate: 'Brazil', 
-      url: brazil
-    },
     {
       word: 'Не могли бы вы помочь мне?',
       translate: 'Could you help me?', 
@@ -161,6 +153,31 @@ const unit1 = [
       word: 'Жестокий',
       translate: 'cruel', 
       url: cruel
+    },
+    {
+      word: 'Терпение',
+      translate: 'Patience', 
+      url: patience
+    },
+    {
+      word: 'Давать чаевые',
+      translate: 'Tipping', 
+      url: tipping
+    },
+    {
+      word: 'Чаевые',
+      translate: 'Tip', 
+      url: tip
+    },
+    {
+      word: 'Дождевик',
+      translate: 'Raincoat', 
+      url: raincoat
+    },
+    {
+      word: 'За исключением',
+      translate: 'expext', 
+      url: good
     },
   ]
 

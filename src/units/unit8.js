@@ -11,6 +11,17 @@ import arroundTheWorld from '../img/arroundTheWorld.jpg';
 import famousFor from '../img/famousFor.jpg';
 import lastNight from '../img/lastNight.jpg';
 import yesterdayMorning from '../img/yesterdayMorning.jpg';
+import toothacke from '../img/toothacke.jpg';
+import hurts from '../img/hurts.jpg';
+import iHaveAPainInMyBack from '../img/iHaveAPainInMyBack.jpg';
+import takePainkillers from '../img/takePainkillers.jpg';
+import toCatchTheBus  from '../img/toCatchTheBus.jpg';
+import toMissTheSubway  from '../img/toMissTheSubway.jpg';
+import onFoot  from '../img/onFoot.jpg';
+import ferry  from '../img/ferry.jpg';
+import boat  from '../img/boat.jpg';
+import hire  from '../img/hire.jpg';
+import drivingLicense from '../img/drivingLicense.jpg';
 
 
 const unit8 = [
@@ -77,6 +88,67 @@ const unit8 = [
     {
       word: 'Быть хорошим в чем-то',
       translate: 'be good at', 
+      url: good
+    },
+    {
+      word: 'Зубная боль',
+      translate: 'Toothache', 
+      url: toothacke
+    },
+    {
+      word: 'Болит (что-то)',
+      translate: 'hurts', 
+      url: hurts
+    },
+    {
+      word: 'Болит (что-то)',
+      translate: 'i have a pain in my back', 
+      url: iHaveAPainInMyBack
+    },
+    {
+      word: 'Принимать обезболивающие',
+      translate: 'take painkillers', 
+      url: takePainkillers
+    },
+    {
+      word: 'Успеть на автобус',
+      translate: 'to catch the bus', 
+      url: toCatchTheBus
+    },
+    {
+      word: 'Пропустить метро',
+      translate: 'to miss the subway', 
+      url: toMissTheSubway
+    },
+    {
+      word: 'Ходить пешком',
+      translate: 'go on foot', 
+      url: onFoot
+    },
+    {
+      word: 'Паром',
+      translate: 'Ferry', 
+      url: ferry
+    },
+    {
+      word: 'Лодка',
+      translate: 'Boat', 
+      url: boat
+    },
+    
+    {
+      word: 'Нанять (взять в аренду)',
+      translate: 'hire', 
+      url: hire
+    },
+    {
+      word: 'Водительские права',
+      translate: 'driving license', 
+      url: drivingLicense
+    },
+    {
+      word: 'Это может занять 20 минут',
+      translate: 'it can take 20 minuts', 
       url: good
     },
   ]
