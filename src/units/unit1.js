@@ -21,6 +21,19 @@ import patience from '../img/patience.jpg';
 import tipping from '../img/tipping.jpg';
 import tip from '../img/tip.jpg';
 import raincoat from '../img/raincoat.jpg';
+import advice from '../img/advice.jpg';
+import vacation from '../img/vacation.jpg';
+import surgeon from '../img/surgeon.jpg';
+import way from '../img/way.jpg';
+import flame from '../img/flame.jpg';
+import scool from '../img/scool.jpg';
+import rain from '../img/rain.jpg';
+import south from '../img/south.jpg';
+import punish from '../img/punish.jpg';
+import mystery from '../img/mystery.jpg';
+import reward from '../img/Reward.jpg';
+import handsome from '../img/handsome.jpg';
+import protect from '../img/protect.jpg';
 
 
 const unit1 = [
@@ -179,6 +192,81 @@ const unit1 = [
       translate: 'expext', 
       url: good
     },
+    {
+      word: 'Совет',
+      translate: 'Advice', 
+      url: advice
+  },
+  {
+      word: 'Отпуск',
+      translate: 'Vacation', 
+      url: vacation
+  },
+  {
+      word: 'Хирург',
+      translate: 'Surgeon', 
+      url: surgeon
+  },
+  {
+      word: 'Путь',
+      translate: 'Way', 
+      url: way
+  },
+  {
+      word: 'Пламя',
+      translate: 'Flame', 
+      url: flame
+  },
+  {
+        word: 'Школа',
+        translate: 'School', 
+        url: scool
+  },
+  {
+      word: 'Дождь',
+      translate: 'Rain', 
+      url: rain
+  },
+  {
+      word: 'Идет дождь',
+      translate: 'it is raining', 
+      url: rain
+  },
+  {
+      word: 'Юг',
+      translate: 'South', 
+      url: south
+  },
+  {
+      word: 'Наказывать',
+      translate: 'punish', 
+      url: punish
+  },
+  {
+      word: 'Загадка',
+      translate: 'Mystery', 
+      url: mystery
+  },
+  {
+      word: 'Награда',
+      translate: 'Reward', 
+      url: reward
+  },
+  {
+      word: 'В тот момент',
+      translate: 'at that moment', 
+      url: good
+  },
+  {
+      word: 'Привлекательный',
+      translate: 'handsome', 
+      url: handsome
+  },
+  {
+      word: 'Защищать (кого-то)',
+      translate: 'protect', 
+      url: protect
+  },
   ]
 
   export default unit1;

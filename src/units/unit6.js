@@ -31,6 +31,7 @@ import camcoder from '../img/camcoder.jpg';
 import laptop from '../img/laptop.jpg';
 import wirelessInternet from '../img/wirelessInternet.jpg';
 import takePhotos from '../img/takePhotos.jpg';
+import suitcase from '../img/suitcase.jpg';
 
 
 
@@ -194,6 +195,11 @@ const unit6 = [
       word: 'Фотографировать',
       translate: 'take photos', 
       url: takePhotos
+    },
+    {
+      word: 'Чемодан',
+      translate: 'Suitcase', 
+      url: suitcase
     },
 
   ]

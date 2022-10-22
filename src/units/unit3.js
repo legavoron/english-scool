@@ -23,6 +23,17 @@ import helpWith from '../img/helpWith.jpg';
 import beAFriend from '../img/beAFriend.jpg';
 import legs from '../img/legs.jpg';
 import rude from '../img/rude.jpg';
+import voice from '../img/voice.jpg';
+import invent from '../img/invent.jpg';
+import pain from '../img/pain.jpg';
+import sound from '../img/sound.jpg';
+import felling from '../img/felling.jpg';
+import leaf from '../img/leaf.jpg';
+import burst from '../img/burst.jpg';
+import regret from '../img/regret.jpg';
+import turnLeft from '../img/turnLeft.jpg';
+import straight from '../img/straight.jpg';
+import last from '../img/last.jpg';
 
 
 
@@ -152,6 +163,66 @@ const unit3 = [
       translate: 'rude', 
       url: rude
     },
+    {
+      word: 'Голос',
+      translate: 'Voice', 
+      url: voice
+  },
+  {
+      word: 'Изобретать',
+      translate: 'invent', 
+      url: invent
+  },
+  {
+      word: 'Боль',
+      translate: 'Pain', 
+      url: pain
+  },
+  {
+      word: 'Звук',
+      translate: 'Sound', 
+      url: sound
+  },
+  {
+      word: 'Чувство',
+      translate: 'Felling', 
+      url: felling
+  },
+  {
+      word: 'Лист',
+      translate: 'Leaf', 
+      url: leaf
+  },
+  {
+      word: 'Лопнуть',
+      translate: 'burst', 
+      url: burst
+  },
+  {
+      word: 'Сожалеть',
+      translate: 'regret', 
+      url: regret
+  },
+  {
+      word: 'Повернуть налево',
+      translate: 'turn left', 
+      url: turnLeft
+  },
+  {
+      word: 'Прямо',
+      translate: 'straight', 
+      url: straight
+  },
+  {
+      word: 'Последний',
+      translate: 'last', 
+      url: last
+  },
+  {
+      word: 'Не может быть',
+      translate: 'last', 
+      url: last
+  },
     
     
   ]

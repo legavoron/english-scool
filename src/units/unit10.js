@@ -23,6 +23,21 @@ import glasses from '../img/glasses.jpg';
 import plant from '../img/plant.jpg';
 import platesAndBowls from '../img/platesAndBowls.jpg';
 import toy from '../img/toy.jpg';
+import excellent from '../img/excellent.jpg';
+import average from '../img/average.jpg';
+import suburbs from '../img/suburbs.jpg';
+import expect from '../img/expect.jpg';
+import clever from '../img/clever.jpg';
+import disappointed from '../img/disappointed.jpg';
+import harmful from '../img/harmful.jpg';
+import notSpecial from '../img/notSpecial.jpg';
+import severalTimes from '../img/severalTimes.jpg';
+import delayed from '../img/delayed.jpg';
+import bacauseOf from '../img/bacauseOf.jpg';
+import broken from '../img/broken.jpg';
+import beMissing from '../img/beMissing.jpg';
+import setOf from '../img/setOf.jpg';
+import narrow from '../img/narrow.jpg';
 
 
 
@@ -146,6 +161,81 @@ const unit10 = [
       word: 'Игрушка',
       translate: 'Toy', 
       url: toy
+    },
+    {
+      word: 'Отлично',
+      translate: 'excellent', 
+      url: excellent
+    },
+    {
+      word: 'Средне',
+      translate: 'average', 
+      url: average
+    },
+    {
+      word: 'Пригород',
+      translate: 'Suburbs', 
+      url: suburbs
+    },
+    {
+      word: 'Ожидать',
+      translate: 'expect', 
+      url: expect
+    },
+    {
+      word: 'Умный',
+      translate: 'Clever', 
+      url: clever
+    },
+    {
+      word: 'Разочарованный',
+      translate: 'disappointed', 
+      url: disappointed
+    },
+    {
+      word: 'Вредный (для здоровья)',
+      translate: 'harmful', 
+      url: harmful
+    },
+    {
+      word: 'Ничего особенного',
+      translate: 'not special', 
+      url: notSpecial
+    },
+    {
+      word: 'Несколько раз',
+      translate: 'several times', 
+      url: severalTimes
+    },
+    {
+      word: 'Отложенный',
+      translate: 'delayed', 
+      url: delayed
+    },
+    {
+      word: 'Из-за',
+      translate: 'bacause of', 
+      url: bacauseOf
+    },
+    {
+      word: 'Сломанный',
+      translate: 'broken', 
+      url: broken
+    },
+    {
+      word: 'Отсутствует',
+      translate: 'be missing', 
+      url: beMissing
+    },
+    {
+      word: 'Комплект',
+      translate: 'set of', 
+      url: setOf
+    },
+    {
+      word: 'Узкий',
+      translate: 'narrow', 
+      url: narrow
     },
   ]
 

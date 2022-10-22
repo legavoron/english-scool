@@ -25,6 +25,19 @@ import whatever from '../img/whatever.jpg';
 import iDontCareAbout from '../img/iDontCareAbout.jpg';
 import itsVeryChallenging from '../img/itsVeryChallenging.jpg';
 import itdependsOn from '../img/itdependsOn.jpg';
+import kind from '../img/kind.jpg';
+import turnAround from '../img/turnAround.jpg';
+import loudly from '../img/loudly.jpg';
+import everyone from '../img/everyone.jpg';
+import quickly from '../img/quickly.jpg';
+import noise from '../img/noise.jpg';
+import heavy from '../img/heavy.jpg';
+import spring from '../img/spring.jpg';
+import autumn from '../img/autumn.jpg';
+import cow from '../img/cow.jpg';
+import bedLinen from '../img/bedLinen.jpg';
+import thunder from '../img/thunder.jpg';
+import paint from '../img/paint.jpg';
 
 
 
@@ -160,6 +173,81 @@ const unit2 = [
       translate: "it depends on", 
       url: itdependsOn
     },
+    {
+      word: 'Добрый',
+      translate: 'kind', 
+      url: kind
+  },
+  {
+      word: 'Оборачиваться',
+      translate: 'turn around', 
+      url: turnAround
+  },
+  {
+      word: 'Громко',
+      translate: 'loudly', 
+      url: loudly
+  },
+  {
+      word: 'Все',
+      translate: 'everyone', 
+      url: everyone
+  },
+  {
+      word: 'Возможно',
+      translate: 'perhaps', 
+      url: good
+  },
+  {
+      word: 'Быстро',
+      translate: 'quickly', 
+      url: quickly
+  },
+  {
+      word: 'Шум',
+      translate: 'Noise', 
+      url: noise
+  },
+  {
+      word: 'Тяжелый',
+      translate: 'heavy', 
+      url: heavy
+  },
+  {
+      word: 'Почти никогда',
+      translate: 'hardly ever', 
+      url: good
+  },
+  {
+      word: 'Весна',
+      translate: 'Spring', 
+      url: spring
+  },
+  {
+      word: 'Осень',
+      translate: 'Autumn', 
+      url: autumn
+  },
+  {
+      word: 'Корова',
+      translate: 'Cow', 
+      url: cow
+  },
+  {
+      word: 'Постельное белье',
+      translate: 'Bed Linen', 
+      url: bedLinen
+  },
+  {
+      word: 'Гром',
+      translate: 'Thunder', 
+      url: thunder
+  },
+  {
+      word: 'Красить',
+      translate: 'paint', 
+      url: paint
+  },
   ]
 
 export default unit2;

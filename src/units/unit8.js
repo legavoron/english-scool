@@ -22,6 +22,7 @@ import ferry  from '../img/ferry.jpg';
 import boat  from '../img/boat.jpg';
 import hire  from '../img/hire.jpg';
 import drivingLicense from '../img/drivingLicense.jpg';
+import advertisement from '../img/advertisement.jpg';
 
 
 const unit8 = [
@@ -150,6 +151,11 @@ const unit8 = [
       word: 'Это может занять 20 минут',
       translate: 'it can take 20 minuts', 
       url: good
+    },
+    {
+      word: 'Реклама',
+      translate: 'Advertisement', 
+      url: advertisement
     },
   ]
 
