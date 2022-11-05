@@ -31,7 +31,12 @@ import ham from '../img/ham.jpg';
 import watermelon from '../img/watermelon.jpg';
 import tuna from '../img/tuna.jpg';
 import grapes from '../img/grapes.jpg';
-
+import replace from '../img/replace.jpg';
+import statement from '../img/statement.jpg';
+import prevent from '../img/prevent.jpg';
+import illness from '../img/illness.jpg';
+import ill from '../img/ill.jpg';
+import letsNot from '../img/letsNot.jpg';
 
 
 const unit5 = [
@@ -299,6 +304,36 @@ const unit5 = [
       word: 'Виноград',
       translate: 'Grapes', 
       url: grapes
+    },
+    {
+      word: 'Заменить',
+      translate: 'replace', 
+      url: replace
+    },
+    {
+      word: 'Утверждение',
+      translate: 'Satement', 
+      url: statement
+    },
+    {
+      word: 'Предотвратить что-то',
+      translate: 'prevent', 
+      url: prevent
+    },
+    {
+      word: 'Болезнь',
+      translate: 'Illness', 
+      url: illness
+    },
+    {
+      word: 'Больной',
+      translate: 'Ill', 
+      url: ill
+    },
+    {
+      word: 'Давай не будем',
+      translate: 'lets not', 
+      url: letsNot
     },
     
   ]

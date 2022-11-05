@@ -34,6 +34,10 @@ import mystery from '../img/mystery.jpg';
 import reward from '../img/Reward.jpg';
 import handsome from '../img/handsome.jpg';
 import protect from '../img/protect.jpg';
+import beard from '../img/beard.jpg';
+import appropriate from '../img/appropriate.jpg';
+import witch from '../img/witch.jpg';
+import passExam from '../img/passExam.jpg';
 
 
 const unit1 = [
@@ -266,6 +270,26 @@ const unit1 = [
       word: 'Защищать (кого-то)',
       translate: 'protect', 
       url: protect
+  },
+  {
+    word: 'Борода',
+    translate: 'Beard', 
+    url: beard
+  },
+  {
+    word: 'Подходит (соответствует)',
+    translate: 'appropriate', 
+    url: appropriate
+  },
+  {
+    word: 'Ведьма',
+    translate: 'Witch', 
+    url: witch
+  },
+  {
+    word: 'Сдать экзамен',
+    translate: 'pass exam', 
+    url: passExam
   },
   ]
 

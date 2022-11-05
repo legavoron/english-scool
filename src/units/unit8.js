@@ -23,6 +23,18 @@ import boat  from '../img/boat.jpg';
 import hire  from '../img/hire.jpg';
 import drivingLicense from '../img/drivingLicense.jpg';
 import advertisement from '../img/advertisement.jpg';
+import competition from '../img/competition.jpg';
+import hit from '../img/hit.jpg';
+import hitOnATable from '../img/hitOnATable.jpg';
+import knife from '../img/knife.jpg';
+import fly from '../img/fly.jpg';
+import until from '../img/until.jpg';
+import untilTheEnd from '../img/untilTheEnd.jpg';
+import disaster from '../img/disaster.jpg';
+import resolveTheProblem from '../img/resolveTheProblem.jpg';
+import introduce from '../img/introduce.jpg';
+import suggestASolution from '../img/suggestASolution.jpg';
+import iAmSorryToHearThat from '../img/iAmSorryToHearThat.jpg';
 
 
 const unit8 = [
@@ -157,6 +169,62 @@ const unit8 = [
       translate: 'Advertisement', 
       url: advertisement
     },
+    {
+      word: 'Конкуренция (соревнования)',
+      translate: 'Competition', 
+      url: competition
+    },
+    {
+      word: 'Ударить',
+      translate: 'hit', 
+      url: hit
+    },
+    {
+      word: 'Я ударился ногой об стол',
+      translate: 'I hit my leg ON a table', 
+      url: hitOnATable
+    },
+    {
+      word: 'Нож',
+      translate: 'knife', 
+      url: knife
+    },
+    {
+      word: 'Муха',
+      translate: 'Fly', 
+      url: fly
+    },
+    {
+      word: 'До того момента, когда...',
+      translate: 'until', 
+      url: until
+    },
+    {
+      word: 'До конца',
+      translate: 'until the end', 
+      url: untilTheEnd
+    },
+    {
+      word: 'Катастрофа',
+      translate: 'Disaster', 
+      url: disaster
+    },
+    {
+      word: 'Решить проблему',
+      translate: 'resolve the problem', 
+      url: resolveTheProblem
+    },
+    {
+      word: 'Представиться',
+      translate: 'introduce', 
+      url: introduce
+    },
+    {
+      word: 'Предложить решение',
+      translate: 'suggest a solution', 
+      url: suggestASolution
+    },
+    
   ]
 
 export default unit8;

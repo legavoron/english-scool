@@ -38,6 +38,9 @@ import broken from '../img/broken.jpg';
 import beMissing from '../img/beMissing.jpg';
 import setOf from '../img/setOf.jpg';
 import narrow from '../img/narrow.jpg';
+import soil from '../img/soil.jpg';
+import suggestion from '../img/suggestion.jpg';
+import toGetRich from '../img/toGetRich.jpg';
 
 
 
@@ -237,8 +240,24 @@ const unit10 = [
       translate: 'narrow', 
       url: narrow
     },
+    {
+      word: 'Почва',
+      translate: 'Soil', 
+      url: soil
+    },
+    {
+      word: 'Предложение',
+      translate: 'Suggestion', 
+      url: suggestion
+
+    },
+    {
+      word: 'Разбогатеть',
+      translate: 'to get rich', 
+      url: toGetRich
+
+    },
   ]
 
 export default unit10;
-
 

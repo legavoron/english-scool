@@ -3,21 +3,18 @@
     height: 100%;
 
     display: -ms-flexbox;
-    display: -webkit-flex;
+    display: -webkit-box;
     display: flex;
-
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
-
-    
-    -webkit-justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
     -ms-flex-pack: justify;
-    justify-content: space-between;
-    
-    -webkit-align-items: center;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
     -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
 }
 
 .logoContainer {
@@ -27,24 +24,23 @@
     margin-top: 40%;
 
     display: -ms-flexbox;
-    display: -webkit-flex;
+    display: -webkit-box;
     display: flex;
-
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
-   
-    -webkit-justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
     -ms-flex-pack: center;
-    justify-content: center;
-    
-    -webkit-align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
 }
 
 .logoImage {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 100%;
 }
 
@@ -60,20 +56,18 @@
         height: 500px;
 
         display: -ms-flexbox;
-        display: -webkit-flex;
+        display: -webkit-box;
         display: flex;
-
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
-        flex-direction: column;
-        
-        -webkit-justify-content: space-between;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
         -ms-flex-pack: justify;
-        justify-content: space-between;
-        
-        -webkit-align-items: center;
+        -webkit-box-pack: justify;
+                justify-content: space-between;
         -ms-flex-align: center;
-        align-items: center;
+        -webkit-box-align: center;
+                align-items: center;
     }
     .logoContainer {
         width: 40vh;
@@ -82,20 +76,18 @@
         margin-top: 10vh;
 
         display: -ms-flexbox;
-        display: -webkit-flex;
+        display: -webkit-box;
         display: flex;
-
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
-        flex-direction: column;
-        
-        -webkit-justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
         -ms-flex-pack: center;
-        justify-content: center;
-        
-        -webkit-align-items: center;
+        -webkit-box-pack: center;
+                justify-content: center;
         -ms-flex-align: center;
-        align-items: center;
+        -webkit-box-align: center;
+                align-items: center;
     }
     .screensaver_heading {
         margin-bottom: 10vh;

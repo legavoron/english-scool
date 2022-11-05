@@ -32,6 +32,12 @@ import laptop from '../img/laptop.jpg';
 import wirelessInternet from '../img/wirelessInternet.jpg';
 import takePhotos from '../img/takePhotos.jpg';
 import suitcase from '../img/suitcase.jpg';
+import weird from '../img/weird.jpg';
+import imagine from '../img/imagine.jpg';
+import ankle from '../img/ankle.jpg';
+import mind from '../img/mind.jpg';
+import remain from '../img/remain.jpg';
+import admit from '../img/admit.jpg';
 
 
 
@@ -200,6 +206,36 @@ const unit6 = [
       word: 'Чемодан',
       translate: 'Suitcase', 
       url: suitcase
+    },
+    {
+      word: 'Странный',
+      translate: 'weird', 
+      url: weird
+    },
+    {
+      word: 'Странный',
+      translate: 'imagine', 
+      url: imagine
+    },
+    {
+      word: 'Лодыжка',
+      translate: 'Ankle', 
+      url: ankle
+    },
+    {
+      word: 'Ум',
+      translate: 'Mind', 
+      url: mind
+    },
+    {
+      word: 'Оставаться (пребывать где-то)',
+      translate: 'remain', 
+      url: remain
+    },
+    {
+      word: 'Признавать ошибки',
+      translate: 'admit your mistakes', 
+      url: admit
     },
 
   ]

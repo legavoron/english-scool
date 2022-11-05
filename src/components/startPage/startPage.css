@@ -3,12 +3,12 @@
     height: 100%;
 
     display: -ms-flexbox;
-    display: -webkit-flex;
+    display: -webkit-box;
     display: flex;
-
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
 }
 .greeting_container {
     width: 100%;
@@ -52,20 +52,18 @@
     position: relative;
 
     display: -ms-flexbox;
-    display: -webkit-flex;
+    display: -webkit-box;
     display: flex;
-
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
-   
-    -webkit-justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
     -ms-flex-pack: center;
-    justify-content: center;
-    
-    -webkit-align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
 }
 
 .innerCircle {
@@ -74,24 +72,23 @@
     border-radius: 50%;
     background-color: #F2F2F2;
     display: -ms-flexbox;
-    display: -webkit-flex;
+    display: -webkit-box;
     display: flex;
-
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
-   
-    -webkit-justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
     -ms-flex-pack: center;
-    justify-content: center;
-    
-    -webkit-align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
 }
 
 .innerCircleImage {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 74%;
 }
 
@@ -101,20 +98,18 @@
     right: -60px;
 
     display: -ms-flexbox;
-    display: -webkit-flex;
+    display: -webkit-box;
     display: flex;
-
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
-    flex-direction: row;
-   
-    -webkit-justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
     -ms-flex-pack: center;
-    justify-content: center;
-    
-    -webkit-align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
 }
 
 .levelsBtnContainer {
@@ -123,20 +118,18 @@
     right: -78px;
 
     display: -ms-flexbox;
-    display: -webkit-flex;
+    display: -webkit-box;
     display: flex;
-
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
-    flex-direction: row;
-   
-    -webkit-justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
     -ms-flex-pack: center;
-    justify-content: center;
-    
-    -webkit-align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
 }
 
 .startButtonCircle {
@@ -146,20 +139,18 @@
     background-color: #B9E6EC;
 
     display: -ms-flexbox;
-    display: -webkit-flex;
+    display: -webkit-box;
     display: flex;
-
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
-   
-    -webkit-justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
     -ms-flex-pack: center;
-    justify-content: center;
-    
-    -webkit-align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
 }
 .startButtonCircle:active {
     background-color: #EBD0DE;
@@ -175,7 +166,8 @@
 }
 
 .startBtnImage {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 60%;
 }
 
@@ -186,27 +178,26 @@
     background-color: #B9E6EC;
 
     display: -ms-flexbox;
-    display: -webkit-flex;
+    display: -webkit-box;
     display: flex;
-
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
-   
-    -webkit-justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
     -ms-flex-pack: center;
-    justify-content: center;
-    
-    -webkit-align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
 }
 .levelsButtonCircle:active {
     background-color: #EBD0DE;
 }
 
 .levelsBtnImage {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 60%;
 }
 
@@ -233,20 +224,18 @@
         background-color: #F2F2F2;
         
         display: -ms-flexbox;
-        display: -webkit-flex;
+        display: -webkit-box;
         display: flex;
-
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
-        flex-direction: column;
-
-        -webkit-justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
         -ms-flex-pack: center;
-        justify-content: center;
-
-        -webkit-align-items: center;
+        -webkit-box-pack: center;
+                justify-content: center;
         -ms-flex-align: center;
-        align-items: center;
+        -webkit-box-align: center;
+                align-items: center;
     }
     .startButtonCircle {
         width: 120px;

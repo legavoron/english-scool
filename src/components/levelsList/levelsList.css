@@ -1,18 +1,24 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .levelsListContainer {
     padding: 5vw;
     padding-top: 60px;
     
     display: -ms-flexbox;
-    display: -webkit-flex;
+    display: -webkit-box;
     display: flex;
-
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
-    
-    -webkit-align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
     -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
 }
 
 .levelsListHeading {

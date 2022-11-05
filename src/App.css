@@ -2,17 +2,15 @@
   height: 80vh;
   text-align: center;
   display: -ms-flexbox;
-  display: -webkit-flex;
+  display: -webkit-box;
   display: flex;
-
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
-  flex-direction: column;
-  
-  -webkit-align-content: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
