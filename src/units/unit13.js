@@ -119,7 +119,7 @@ const unit13 = [
       url: good
     },
     {
-      word: 'Не более чем',
+      word: 'Не дольше чем',
       translate: 'not longer than', 
       url: good
     },

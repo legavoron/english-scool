@@ -211,7 +211,7 @@ const unit4 = [
       url: applyForHelp
     },
     {
-      word: 'Смотреть на (ког-то)',
+      word: 'Смотреть на (кого-то)',
       translate: 'look at', 
       url: lookAt
     },
@@ -246,7 +246,7 @@ const unit4 = [
       url: charity
     },
     {
-      word: 'Собирать деньги',
+      word: 'Собирать деньги (на благотвварительность)',
       translate: 'raise money', 
       url: raiseMoney
     },

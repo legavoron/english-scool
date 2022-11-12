@@ -312,7 +312,7 @@ const unit5 = [
     },
     {
       word: 'Утверждение',
-      translate: 'Satement', 
+      translate: 'Statement', 
       url: statement
     },
     {

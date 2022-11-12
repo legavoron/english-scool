@@ -30,6 +30,10 @@ import pan from '../img/pan.jpg';
 import fryingPan from '../img/fryingPan.jpg';
 import heatUp from '../img/heatUp.jpg';
 import decision from '../img/decision.jpg';
+import pot from '../img/pot.jpg';
+import unexpected from '../img/unexpected.jpg';
+import include from '../img/include.jpg';
+import joke from '../img/joke.jpg';
 
 
 const unit9 = [
@@ -207,6 +211,26 @@ const unit9 = [
       word: 'Решение',
       translate: `Decision`, 
       url: decision
+    },
+    {
+      word: 'Горшок',
+      translate: `Pot`, 
+      url: pot
+    },
+    {
+      word: 'Неожиданно',
+      translate: `unexpected`, 
+      url: unexpected
+    },
+    {
+      word: 'Включает в себя',
+      translate: `include`, 
+      url: include
+    },
+    {
+      word: 'Шутка',
+      translate: `Joke`, 
+      url: joke
     },
     
   ]

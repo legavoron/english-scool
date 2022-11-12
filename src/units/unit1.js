@@ -38,6 +38,7 @@ import beard from '../img/beard.jpg';
 import appropriate from '../img/appropriate.jpg';
 import witch from '../img/witch.jpg';
 import passExam from '../img/passExam.jpg';
+import jorney from '../img/jorney.jpg';
 
 
 const unit1 = [
@@ -290,6 +291,11 @@ const unit1 = [
     word: 'Сдать экзамен',
     translate: 'pass exam', 
     url: passExam
+  },
+  {
+    word: 'Путешествие',
+    translate: 'Jorney', 
+    url: jorney
   },
   ]
 

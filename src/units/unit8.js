@@ -39,8 +39,8 @@ import iAmSorryToHearThat from '../img/iAmSorryToHearThat.jpg';
 
 const unit8 = [
     {
-        word: 'Чувствовать',
-        translate: 'feel', 
+        word: 'Чувствовать - чувствовал',
+        translate: 'feel - felt', 
         url: feel
     },
     {
@@ -114,7 +114,7 @@ const unit8 = [
       url: hurts
     },
     {
-      word: 'Болит (что-то)',
+      word: 'У меня болит спина',
       translate: 'i have a pain in my back', 
       url: iHaveAPainInMyBack
     },

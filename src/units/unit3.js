@@ -27,13 +27,15 @@ import voice from '../img/voice.jpg';
 import invent from '../img/invent.jpg';
 import pain from '../img/pain.jpg';
 import sound from '../img/sound.jpg';
+import last from '../img/last.jpg';
 import felling from '../img/felling.jpg';
 import leaf from '../img/leaf.jpg';
 import burst from '../img/burst.jpg';
 import regret from '../img/regret.jpg';
 import turnLeft from '../img/turnLeft.jpg';
 import straight from '../img/straight.jpg';
-import last from '../img/last.jpg';
+import cannotBe from '../img/cannotBe.jpg';
+import pillow from '../img/pillow.jpg';
 
 
 
@@ -220,9 +222,14 @@ const unit3 = [
   },
   {
       word: 'Не может быть',
-      translate: 'last', 
-      url: last
+      translate: 'can not be', 
+      url: cannotBe
   },
+  {
+    word: 'Подушка',
+    translate: 'Pillow', 
+    url: pillow
+},
     
     
   ]
