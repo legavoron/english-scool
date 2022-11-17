@@ -1,5 +1,6 @@
 import './levelsList.css';
-import {NavLink} from 'react-router-dom';
+import closeBtn from '../../logo/close.png';
+import {Link} from 'react-router-dom';
 
 import Level from '../level/level';
 
@@ -14,16 +15,14 @@ const LevelsList = ({chooseLevels, colors, chooseTask}) => {
     
 
     return (
-        <div className="levelsListContainer">
-            <NavLink to="/main">
-                <div className="close" onClick={chooseTask}>
-                
-                </div>
-            </NavLink>
-            <h1 className="levelsListHeading">
+        <div className="levels levels__container">
+            <Link to="/main" className='levels_close' onClick={chooseTask}>
+                <img src={closeBtn} alt="close" className='levels___close_btn'/>
+            </Link>
+            <h1 className="levels__heading">
                 Выберите уровни
             </h1>
-            <ul className="levelsList">
+            <ul className="levels__list">
                 {levels}
             </ul>
         </div>

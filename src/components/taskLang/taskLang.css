@@ -1,0 +1,119 @@
+.taskLang {
+    padding-top: 40px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.taskLang__close-container {
+    text-align: right;
+}
+
+.taskLang__close-btn {
+    width: 30px;
+    height: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.taskLang__close-btn:hover {
+    scale: 1.2;
+}
+
+.taskLang__heading {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.taskLang__container {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.taskLang__lang {
+    width: 50%;
+    height: 200px;
+    font-size: 50px;
+    border: 4px solid #D3CBBD;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.taskLang__lang:hover {
+    scale: 1.1;
+    background-color: #1C1919;
+    color: #D3CBBD;
+}
+
+.taskLang__lang_active {
+    background-color: #1C1919;
+    color: #D3CBBD;
+}
+
+@media(max-width: 840px) {
+    .taskLang {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .taskLang__container {
+        gap: 30px;
+    }
+    .taskLang__lang {
+        width: 44%;
+    }
+    
+}
+
+
+@media(max-width:600px) {
+    .taskLang {
+        padding-top: 20px;
+    }
+    .taskLang__close-btn {
+        width: 15px;
+        height: 15px;
+    }
+    .taskLang__close-container {
+        top: 30px;
+        right: 30px;
+    }
+    .taskLang__heading {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .taskLang__container {
+        gap: 20px;
+    }
+    .taskLang__lang {
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+    .taskLang__heading {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .taskLang__container {
+        gap: 20px;
+    }
+    .taskLang__lang {
+        height: 140px;
+    }
+}

@@ -4,6 +4,7 @@ import Screensaver from './components/screensaver/screensaver';
 import StartPage from './components/startPage/startPage';
 import LevelsList from './components/levelsList/levelsList';
 import Task from './components/task/task';
+import TaskLang from './components/taskLang/taskLang';
 
 import {Routes, Route} from 'react-router-dom';
 import { useState } from 'react';
@@ -34,7 +35,6 @@ const App = () => {
 
   const units = {unit0: false, unit1: false, unit2: false, unit3: false, unit4: false, unit5: false, unit6: false, unit7: false, unit8: false, unit9: false, unit10: false, unit11: false, unit12: false, unit13: false, unit14: false, unit15: false, unit16: false};
 
-
   const [levels, setLevels] = useState(units);
   const [btnValue, setBtnValue] = useState('');
   const [task, setTask] = useState({
@@ -43,19 +43,17 @@ const App = () => {
     url: error,
     answerImage: ''
   });
+  const [lang, setLang] = useState('ru');
 
-  // const [currentTask, setCurrentTask] = useState('');
   const [isActiveTask, setIsActiveTask] = useState(false);
-  const [isError, setIsError] = useState(true);
   
 
   const chooseLevels = (event) => {
+    const targetId = event.target.id;
 
-    const target = event.target.id;
-    const unit = levels;
+    const changedUnits = {...levels};
     
-    if (event.target.id === 'unit0') {
-      let changedUnits = units;
+    if (targetId === 'unit0') {
 
       if (levels.unit0 === false) {
         for (let unit in changedUnits) {
@@ -69,10 +67,9 @@ const App = () => {
         setLevels(changedUnits);
       }
     } else {
-        unit[target]  = !unit[target];
-        setLevels(unit);
+      changedUnits[targetId] = !changedUnits[targetId];
+      setLevels(changedUnits);
     }
-    setIsError(false);
   }
 
   const getRandomNum = (max, min=0) => {
@@ -80,26 +77,28 @@ const App = () => {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
+  
+
 
   const chooseTask = () => {
     if (isActiveTask === false ) {
 
-      if (isError) {
-        return
-      }
-
       const units = [];
       
-      // В units хранится список выбранных unit. Если уровни не выбраны - он пустой
       for (const unit in levels) {
         if (levels[unit]) {
           units.push(unit);
         }
       }
 
-      // Если не выбраны уровни, то выходим из функции
-      if (units.length === 0) {
-        return
+      if (units.length === 0 || units.length === undefined) {
+        setTask({
+          word: 'Вы не выбрали уровень',
+          translate: '',
+          url: error,
+          answerImage: ''
+        })
+        return;
       }
 
       let maxNumUnits = 0;
@@ -121,10 +120,7 @@ const App = () => {
       const maxNumTask = unit.length - 1;
       const numTask = getRandomNum(maxNumTask);
 
-      // В currentTask хранится текущий task
-      console.log(unit[numTask]);
       const currentTask = unit[numTask];
-      console.log(currentTask);
 
       setTask({
         word: currentTask.word,
@@ -134,17 +130,9 @@ const App = () => {
       });
       setBtnValue('Ответ');
       setIsActiveTask(true);
-
-      console.log('isActiveTask: ' + isActiveTask);
-      console.log(task);
-
-
     } else {
-      
-      console.log('isActiveTask: ' + isActiveTask);
-      console.log(task);
+
       const temporaryState = task;
-      console.log(temporaryState.url)
 
       setTask({
         word: temporaryState.translate,
@@ -155,14 +143,9 @@ const App = () => {
       setBtnValue('Далее');
       setIsActiveTask(false);
       }
+
   }
   
-
-  
-  const exitFromTask = (event) => {
-    chooseTask(event);
-  }
-
 
   return (
     <div className="App">
@@ -179,7 +162,8 @@ const App = () => {
                                                     url={task.url} 
                                                     btnValue={btnValue} 
                                                     chooseTask={chooseTask} 
-                                                    exitFromTask={exitFromTask}/>} />
+                                                    />} />
+          <Route exact path='/main/lang' element={<TaskLang chooseTask={chooseTask}/>} />
       </Routes>
     
   </div>

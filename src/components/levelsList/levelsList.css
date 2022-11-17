@@ -1,44 +1,66 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
 
-.levelsListContainer {
-    padding: 5vw;
-    padding-top: 60px;
-    
-    display: -ms-flexbox;
-    display: -webkit-box;
+.levels__container {
+    padding-top: 40px;
+    width: 100%;
+    max-width: 800px;
     display: flex;
-    -ms-flex-direction: column;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
-    -ms-flex-align: center;
-    -webkit-box-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-.levelsListHeading {
-    font-size: 8vw;
-    line-height: 8vw;
+.levels_close {
+    text-align: right;
+}
+
+.levels___close_btn {
+    width: 30px;
+    height: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.levels___close_btn:hover {
+    scale: 1.2;
+}
+
+.levels___close_btn:active {
+    scale: 1.2;
+    filter: drop-shadow(0 0 2px #F2935C);
+}
+
+.levels__heading {
+    font-size: 50px;
+    line-height: 50px;
     font-weight: 600;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
 }
 
-.levelsList {
-    width: 90vw;
+.levels__list {
+    width: 100%;
     list-style: none;
+    margin-top: 20px;
 }
 
 
-@media (orientation:landscape) {
-    .levelsListContainer {
-        padding: 10vh;
+@media(max-width: 840px) {
+    .levels__container {
+        padding-right: 20px;
+        padding-left: 20px;
     }
-    .levelsListHeading {
-        font-size: 6vh;
-        line-height: 8vh;
+}
+
+@media(max-width: 600px) {
+    .levels__container {
+        padding-top: 20px;
+    }
+    .levels__heading {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .levels___close_btn {
+        width: 15px;
+        height: 15px;
     }
 }
