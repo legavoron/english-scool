@@ -4,6 +4,9 @@ import closeBtn from '../../logo/close.png';
 import {Link} from 'react-router-dom';
 
 const Task = (props) => {
+
+    const style = props.lang === 'en' ? {backgroundColor: '#2A4B5D', color: '#D3CBBD'}: {backgroundColor: '#A0C3D9', color: '#505050'}
+
     return (
         <div className="task">
             <Link to="/main" className='task__close-container'>
@@ -19,7 +22,7 @@ const Task = (props) => {
                     <h2 className="task__heading">
                             {props.word}
                     </h2>
-                    <button className='task__btn' onClick={props.chooseTask}>{props.btnValue}</button>
+                    <button className='task__btn' style={style} onClick={props.chooseTask}>{props.btnValue}</button>
                 </div>
             </div>
         </div>

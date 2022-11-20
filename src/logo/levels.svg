@@ -3,12 +3,12 @@
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 283.8 283.8" style="enable-background:new 0 0 283.8 283.8;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#1C1919;stroke-width:19.84;stroke-linecap:round;stroke-linejoin:round;}
-	.st1{fill:none;stroke:#1C1919;stroke-width:14.17;stroke-linecap:round;stroke-linejoin:round;}
+	.st0{fill:#2A4B5D;stroke:#F8DFD1;stroke-width:5.6693;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:#A71E26;stroke:#F8DFD1;stroke-width:5.6693;stroke-linecap:round;stroke-linejoin:round;}
 </style>
 <title>levels</title>
-<circle class="st0" cx="141.9" cy="141.9" r="132"/>
-<rect x="60.9" y="141.9" class="st1" width="34" height="69"/>
-<rect x="124.9" y="110.9" class="st1" width="34" height="100"/>
-<rect x="186.9" y="70.9" class="st1" width="34" height="140"/>
+<circle class="st0" cx="141.9" cy="140.8" r="136.1"/>
+<rect x="72.5" y="141.7" class="st1" width="29.1" height="59"/>
+<rect x="127.2" y="115.2" class="st1" width="29.1" height="85.5"/>
+<rect x="180.1" y="81" class="st1" width="29.1" height="119.6"/>
 </svg>

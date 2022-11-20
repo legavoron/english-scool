@@ -46,7 +46,7 @@ const App = () => {
   const [lang, setLang] = useState('ru');
 
   const [isActiveTask, setIsActiveTask] = useState(false);
-  
+    
 
   const chooseLevels = (event) => {
     const targetId = event.target.id;
@@ -72,17 +72,16 @@ const App = () => {
     }
   }
 
+
   const getRandomNum = (max, min=0) => {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
-  
 
 
   const chooseTask = () => {
     if (isActiveTask === false ) {
-
       const units = [];
       
       for (const unit in levels) {
@@ -98,6 +97,7 @@ const App = () => {
           url: error,
           answerImage: ''
         })
+        setBtnValue('')
         return;
       }
 
@@ -116,11 +116,9 @@ const App = () => {
       }
       
       const unit = unitsList[unitName];
-
       const maxNumTask = unit.length - 1;
       const numTask = getRandomNum(maxNumTask);
-
-      const currentTask = unit[numTask];
+      const currentTask = checkLang(unit[numTask]);
 
       setTask({
         word: currentTask.word,
@@ -128,24 +126,59 @@ const App = () => {
         url: question,
         answerImage: currentTask.url
       });
+
       setBtnValue('Ответ');
       setIsActiveTask(true);
-    } else {
 
-      const temporaryState = task;
+    } else {
+      const temporaryState = checkLang(task);
 
       setTask({
         word: temporaryState.translate,
         translate: temporaryState.word,
-        url: temporaryState.answerImage
+        url: temporaryState.answerImage,
+        answerImage: question
       });
-
+      
       setBtnValue('Далее');
       setIsActiveTask(false);
       }
-
   }
+
+
+  const checkLang = (currentTask) => {
+    let task = {};
+
+    if (lang === 'ru') {
+      task = {...currentTask}
+    } else {
+     task = isActiveTask ? {
+                              word: currentTask.word,
+                              translate: currentTask.translate, 
+                              url: currentTask.url,
+                              answerImage: currentTask.answerImage,
+                            } : {
+                              word: currentTask.translate,
+                              translate: currentTask.word, 
+                              url: currentTask.url,
+                              answerImage: currentTask.answerImage,
+                            }
+    }
+    return task;
+  };
+
   
+  const changeLang = (event) => {
+    const target = event.target;
+    setLang(target.innerHTML);
+  }
+
+
+  const changeStartIsActiveTask = () => {
+    setIsActiveTask(false);
+    chooseTask();
+  }
+
 
   return (
     <div className="App">
@@ -161,9 +194,9 @@ const App = () => {
                                                     word={task.word}  
                                                     url={task.url} 
                                                     btnValue={btnValue} 
-                                                    chooseTask={chooseTask} 
+                                                    chooseTask={chooseTask} lang={lang}
                                                     />} />
-          <Route exact path='/main/lang' element={<TaskLang chooseTask={chooseTask}/>} />
+          <Route exact path='/main/lang' element={<TaskLang changeStartIsActiveTask={changeStartIsActiveTask} changeLang={changeLang} lang={lang}/>} />
       </Routes>
     
   </div>

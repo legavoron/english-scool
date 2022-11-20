@@ -1,8 +1,8 @@
 import './startPage.css';
 import * as React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-import englishLogo from '../../logo/english.svg';
+import englishLogo from '../../logo/english_logo.svg';
 import startLogo from '../../logo/start.svg';
 import langLogo from '../../logo/lang.svg';
 import levelsLogo from '../../logo/levels.svg';
@@ -37,36 +37,36 @@ const StartPage = ({chooseTask}) => {
                 <div className="english__logos-container">
                     <div className="english__logo_wrapper">
                         <div className="english__btn_container start">
-                            <NavLink to="task" className="english__link" >
+                            <Link to="task" className="english__link" >
                                 <img src={startLogo} alt="start" className="english__btn"/>
-                            </NavLink>
+                            </Link>
                         </div>
-                        <NavLink to="task" 
-                            className="linkValue" >
+                        <Link to="task" 
+                            className="english__link" >
                             <h3 className="english__link_value ">Старт</h3>
-                        </NavLink>
+                        </Link>
                     </div>
 
                     <div className="english__logo_wrapper lang_container">
                         <div className="english__btn_container lang">
-                            <NavLink to="lang" className='english__link'>
+                            <Link to="lang" className='english__link'>
                                 <img src={langLogo} alt="levels" className="english__btn"/>
-                            </NavLink>
+                            </Link>
                         </div>
-                        <NavLink to='levels' className="linkValue">
+                        <Link to='levels' className="english__link">
                             <h3 className="english__link_value ">Язык</h3>
-                        </NavLink>
+                        </Link>
                     </div>
 
                     <div className="english__logo_wrapper">
                         <div className="english__btn_container levels">
-                            <NavLink to="levels" className='english__link'>
+                            <Link to="levels" className='english__link'>
                                 <img src={levelsLogo} alt="levels" className="english__btn"/>
-                            </NavLink>
+                            </Link>
                         </div>
-                        <NavLink to='levels' className="linkValue">
+                        <Link to='levels' className="english__link">
                             <h3 className="english__link_value ">Уровни</h3>
-                        </NavLink>
+                        </Link>
                     </div>
                 </div>
             </div>
