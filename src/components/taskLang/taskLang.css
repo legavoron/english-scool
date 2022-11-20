@@ -130,6 +130,9 @@
 }
 
 @media screen and (max-width: 1000px) and (orientation: landscape) {
+    .taskLang {
+        padding-top: 20px;
+    }
     .taskLang__heading {
         font-size: 30px;
         line-height: 30px;
@@ -137,8 +140,15 @@
     }
     .taskLang__container {
         gap: 20px;
+        height: 100px;
     }
     .taskLang__lang {
-        height: 140px;
+        height: 80px;
+        width: 30%;
+        font-size: 40px;
+    }
+    .taskLang__close-btn {
+        width: 15px;
+        height: 15px;
     }
 }

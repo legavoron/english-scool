@@ -42,3 +42,17 @@
         font-size: 18px;
     }
 }
+
+
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+    .level {
+        margin-top: 20px;
+        height: 60px;
+        text-align: center;
+    }
+    
+    .levelBtn {
+        font-size: 18px;
+        max-width: 400px;
+    }
+}

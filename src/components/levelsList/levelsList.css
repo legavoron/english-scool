@@ -73,3 +73,18 @@
         height: 15px;
     }
 }
+
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+    .levels__container {
+        padding-top: 20px;
+    }
+    .levels__heading {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .levels___close_btn {
+        width: 15px;
+        height: 15px;
+    }
+}

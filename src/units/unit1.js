@@ -144,7 +144,7 @@ const unit1 = [
     },
     {
       word: 'Помедленнее',
-      translate: 'slow wown', 
+      translate: 'slow down', 
       url: slowDown
     },
     {
