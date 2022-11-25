@@ -213,7 +213,7 @@ const unit6 = [
       url: weird
     },
     {
-      word: 'Странный',
+      word: 'Воображать (представлять себе)',
       translate: 'imagine', 
       url: imagine
     },
