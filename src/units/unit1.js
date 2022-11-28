@@ -39,6 +39,15 @@ import appropriate from '../img/appropriate.jpg';
 import witch from '../img/witch.jpg';
 import passExam from '../img/passExam.jpg';
 import jorney from '../img/jorney.jpg';
+import courageous from '../img/courageous.jpg';
+import cheerful from '../img/cheerful.jpg';
+import alarmClock from '../img/alarmClock.jpg';
+import request from '../img/request.jpg';
+import gratefull from '../img/gratefull.jpg';
+import employ from '../img/employ.jpg';
+import asWellAs from '../img/asWellAs.jpg';
+import asWellAsDiving from '../img/asWellAsDiving.jpg';
+import wind from '../img/wind.jpg';
 
 
 const unit1 = [
@@ -139,7 +148,7 @@ const unit1 = [
     },
     {
       word: 'Пустыня',
-      translate: 'desert', 
+      translate: 'Desert', 
       url: desert
     },
     {
@@ -297,9 +306,53 @@ const unit1 = [
     translate: 'Jorney', 
     url: jorney
   },
+  {
+    word: 'Смелый',
+    translate: 'courageous', 
+    url: courageous
+  },
+  {
+    word: 'Весёлый',
+    translate: 'cheerful', 
+    url: cheerful
+  },
+  {
+    word: 'Будильник',
+    translate: 'alarm clock', 
+    url: alarmClock
+  },
+  {
+    word: 'Запрос',
+    translate: 'Request', 
+    url: request
+  },
+  {
+    word: 'Быть благодарным',
+    translate: 'gratefull', 
+    url: gratefull
+  },
+  {
+    word: 'Нанимать (на работу)',
+    translate: 'employ', 
+    url: employ
+  },
+  {
+    word: 'Также как',
+    translate: 'as well as', 
+    url: asWellAs
+  },
+  {
+    word: 'Также как',
+    translate: 'I like swimming as well as diving', 
+    url: asWellAsDiving
+  },
+  {
+    word: 'Ветер',
+    translate: 'Wind', 
+    url: wind
+  },
   ]
 
   export default unit1;
 
-  
   

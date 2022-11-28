@@ -39,7 +39,7 @@ import joke from '../img/joke.jpg';
 const unit9 = [
     {
         word: 'Ночная жизнь',
-        translate: 'Nighlife', 
+        translate: 'Nightlife', 
         url: nighlife
     },
     {
@@ -174,7 +174,7 @@ const unit9 = [
     },
     {
       word: 'Кухонный шкафчик',
-      translate: 'cupboard', 
+      translate: 'Cupboard', 
       url: cupBoard
     },
     {

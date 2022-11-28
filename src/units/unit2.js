@@ -84,7 +84,7 @@ const unit2 = [
       url: soccializeWithCollegues
     },
     {
-      word: 'Ответь на звонок',
+      word: 'Ответить на звонок',
       translate: 'answer the phone', 
       url: answerThePhone
     },

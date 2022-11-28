@@ -15,6 +15,8 @@ import press from '../img/press.jpg';
 import takeANap from '../img/takeANap.jpg';
 import disturb from '../img/disturb.jpg';
 import expenses from '../img/expenses.jpg';
+import notLongerThan from '../img/notLongerThan.jpg';
+
 
 
 const unit13 = [
@@ -65,7 +67,7 @@ const unit13 = [
     },
     {
       word: 'Не за что',
-      translate: `doy't mention it`, 
+      translate: `don't mention it`, 
       url: good
     },
     {
@@ -121,7 +123,7 @@ const unit13 = [
     {
       word: 'Не дольше чем',
       translate: 'not longer than', 
-      url: good
+      url: notLongerThan
     },
     
   ]

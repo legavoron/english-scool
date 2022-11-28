@@ -296,7 +296,7 @@ const unit4 = [
       url: shape
     },
     {
-      word: 'Форма предмета',
+      word: 'Из чего это сделано?',
       translate: `What is it made of?`, 
       url: good
     },

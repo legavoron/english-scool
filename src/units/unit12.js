@@ -35,6 +35,18 @@ import beFurious from '../img/beFurious.jpg';
 import traitor from '../img/traitor.jpg';
 import prison from '../img/prison.jpg';
 import capture from '../img/capture.jpg';
+import thief from '../img/thief.jpg';
+import fog from '../img/fog.jpg';
+import afterAll from '../img/afterAll.jpg';
+import sheep from '../img/sheep.jpg';
+import smooth from '../img/smooth.jpg';
+import impossible from '../img/impossible.jpg';
+import isIncreasingGradually from '../img/isIncreasingGradually.jpg';
+import isRiseSlightly from '../img/isRiseSlightly.jpg';
+import isGoingUpSharply from '../img/isGoingUpSharply.jpg';
+import isGoingDownSlightly from '../img/isGoingDownSlightly.jpg';
+import isFallingGradualy from '../img/isFallingGradualy.jpg';
+import isdecreasingSharply from '../img/isdecreasingSharply.jpg';
 
 
 const unit12 = [
@@ -217,6 +229,66 @@ const unit12 = [
       word: 'Схватить (завладеть)',
       translate: 'capture', 
       url: capture
+    },
+    {
+      word: 'Вор',
+      translate: 'Thief', 
+      url: thief
+    },
+    {
+      word: 'Туман',
+      translate: 'Fog', 
+      url: fog
+    },
+    {
+      word: 'В конце концов',
+      translate: 'after all', 
+      url: afterAll
+    },
+    {
+      word: 'Овца',
+      translate: 'Sheepl', 
+      url: sheep
+    },
+    {
+      word: 'Гладкий',
+      translate: 'smooth', 
+      url: smooth
+    },
+    {
+      word: 'Невозможно',
+      translate: 'impossible', 
+      url: impossible
+    },
+    {
+      word: 'Постепенно растет вверх',
+      translate: 'is increasing gradually', 
+      url: isIncreasingGradually
+    },
+    {
+      word: 'Незначительно растет вверх',
+      translate: 'is riseng slightly', 
+      url: isRiseSlightly
+    },
+    {
+      word: 'Резко растет вверх',
+      translate: 'is going up sharply', 
+      url: isGoingUpSharply
+    },
+    {
+      word: 'Незначительно падает вниз',
+      translate: 'is going down slightly', 
+      url: isGoingDownSlightly
+    },
+    {
+      word: 'Постепенно падает вниз',
+      translate: 'is falling gradually', 
+      url: isFallingGradualy
+    },
+    {
+      word: 'Резко падает вниз',
+      translate: 'is decreasing sharply', 
+      url: isdecreasingSharply
     },
 
   ]
