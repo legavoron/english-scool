@@ -85,7 +85,7 @@ const unit17 = [
     },
     {
         word: `Три формы глагола "ВЫБИРАТЬ"`,
-        translate: 'choose - chose - choose', 
+        translate: 'choose - chose - choosen', 
         url: choose
     },
     {
