@@ -202,7 +202,7 @@ const unit7 = [
       url: madeOf
     },
     {
-      word: 'Это сделано из (с обработкой)',
+      word: 'Это сделано из (c обработкой)',
       translate: 'it is made from', 
       url: madeFrom
     },

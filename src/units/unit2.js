@@ -38,8 +38,10 @@ import cow from '../img/cow.jpg';
 import bedLinen from '../img/bedLinen.jpg';
 import thunder from '../img/thunder.jpg';
 import paint from '../img/paint.jpg';
-
-
+import memorize from '../img/memorize.jpg';
+import solveProblems from '../img/solveProblems.jpg';
+import actually from '../img/actually.jpg';
+import satisfaction from '../img/satisfaction.jpg';
 
 
 const unit2 = [
@@ -247,6 +249,26 @@ const unit2 = [
       word: 'Красить',
       translate: 'paint', 
       url: paint
+  },
+  {
+    word: 'Запоминать',
+    translate: 'memorize', 
+    url: memorize
+  },
+  {
+    word: 'Решать проблемы',
+    translate: 'solve problems', 
+    url: solveProblems
+  },
+  {
+    word: 'Вобще-то',
+    translate: 'actually', 
+    url: actually
+  },
+  {
+    word: 'Удовлетворенность',
+    translate: 'satisfaction', 
+    url: satisfaction
   },
   ]
 
