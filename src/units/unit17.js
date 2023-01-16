@@ -35,6 +35,42 @@ import hidden from '../img/hidden.jpg';
 import hit from '../img/hit.jpg';
 import hurt from '../img/hurt.jpg';
 import kept from '../img/kept.jpg';
+import know from '../img/know.jpg';
+import learn from '../img/learn.jpg';
+import leave from '../img/leave.jpg';
+import loseLost from '../img/loseLost.jpg';
+import make from '../img/make.jpg';
+import meant from '../img/meant.jpg';
+import meet from '../img/meet.jpg';
+import pay from '../img/pay.jpg';
+import put from '../img/put.jpg';
+import readRead from '../img/readRead.jpg';
+import ring from '../img/ring.jpg';
+import runRan from '../img/runRan.jpg';
+import say from '../img/say.jpg';
+import seeSaw from '../img/seeSaw.jpg';
+import sellSold from '../img/sellSold.jpg';
+import sendLetters from '../img/sendLetters.jpg';
+import show from '../img/show.jpg';
+import shut from '../img/shut.jpg';
+import singSang from '../img/singSang.jpg';
+import sit from '../img/sit.jpg';
+import sleepSlept from '../img/sleepSlept.jpg';
+import speak from '../img/speak.jpg';
+import spendSpent from '../img/spendSpent.jpg';
+import stand from '../img/stand.jpg';
+import swimming from '../img/swimming.jpg';
+import take from '../img/take.jpg';
+import teachTaught from '../img/teachTaught.jpg';
+import tell from '../img/tell.jpg';
+import thinkThought from '../img/thinkThought.jpg';
+import thrown from '../img/thrown.jpg';
+import understandUnderstood from '../img/understandUnderstood.jpg';
+import wake from '../img/wake.jpg';
+import wearWore from '../img/wearWore.jpg';
+import win from '../img/win.jpg';
+import writeWrote from '../img/writeWrote.jpg';
+
 
 
 const unit17 = [
@@ -50,7 +86,7 @@ const unit17 = [
     },
     {
         word: `Три формы глагола "СТАНОВИТЬСЯ"`,
-        translate: 'become', 
+        translate: 'become - became - become', 
         url: becomeBecame
     },
     {
@@ -129,7 +165,7 @@ const unit17 = [
         url: drunk
     },
     {
-        word: `Три формы глагола "ПИТЬ"`,
+        word: `Три формы глагола "ВОДИТЬ (авто)"`,
         translate: 'drive - drove - driven', 
         url: learnToDrive
     },
@@ -217,6 +253,181 @@ const unit17 = [
         word: `Три формы глагола "Держать (СОХРАТЯТЬ)"`,
         translate: 'keep - kept - kept', 
         url: kept
+    },
+    {
+        word: `Три формы глагола "ЗНАТЬ"`,
+        translate: 'know - knew - known', 
+        url: know
+    },
+    {
+        word: `Три формы глагола "УЧИТЬ"`,
+        translate: 'learn - learnt/lerned - learnt/lerned', 
+        url: learn
+    },
+    {
+        word: `Три формы глагола "ПОКИДАТЬ"`,
+        translate: 'leave - left - left', 
+        url: leave
+    },
+    {
+        word: `Три формы глагола "ТЕРЯТЬ"`,
+        translate: 'lose - lost - lost', 
+        url: loseLost
+    },
+    {
+        word: `Три формы глагола "ДЕЛАТЬ"`,
+        translate: 'make - made - made', 
+        url: make
+    },
+    {
+        word: `Три формы глагола "ОЗНАЧАТЬ"`,
+        translate: 'mean - meant/ment - meant/ment', 
+        url: meant
+    },
+    {
+        word: `Три формы глагола "ВСТРЕТИТЬ"`,
+        translate: 'meet - met - met', 
+        url: meet
+    },
+    {
+        word: `Три формы глагола "ПЛАТИТЬ"`,
+        translate: 'pay - payd - payd', 
+        url: pay
+    },
+    {
+        word: `Три формы глагола "КЛАСТЬ"`,
+        translate: 'put - put - put', 
+        url: put
+    },
+    {
+        word: `Три формы глагола "КЛАСТЬ"`,
+        translate: 'read - read/red - read/red', 
+        url: readRead
+    },
+    {
+        word: `Три формы глагола "ЗВОНИТЬ"`,
+        translate: 'ring - rang - rung', 
+        url: ring
+    },
+    {
+        word: `Три формы глагола "БЕЖАТЬ"`,
+        translate: 'run - ran - run', 
+        url: runRan
+    },
+    {
+        word: `Три формы глагола "СКАЗАТЬ"`,
+        translate: 'say - sayd - sayd', 
+        url: say
+    },
+    {
+        word: `Три формы глагола "ВИДЕТЬ"`,
+        translate: 'see - saw - seen', 
+        url: seeSaw
+    },
+    {
+        word: `Три формы глагола "ПРОДАВАТЬ"`,
+        translate: 'sell - sold - sold', 
+        url: sellSold
+    },
+    {
+        word: `Три формы глагола "ПОСЫЛАТЬ"`,
+        translate: 'send - sent - sent', 
+        url: sendLetters
+    },
+    {
+        word: `Три формы глагола "ПОКАЗЫВАТЬ"`,
+        translate: 'show - showed - shown', 
+        url: show
+    },
+    {
+        word: `Три формы глагола "ЗАКРЫВАТЬ"`,
+        translate: 'shut - shut - shut', 
+        url: shut
+    },
+    {
+        word: `Три формы глагола "ПЕТЬ"`,
+        translate: 'sing - sang - sung', 
+        url: singSang
+    },
+    {
+        word: `Три формы глагола "СИДЕТЬ"`,
+        translate: 'sit - sat - sat', 
+        url: sit
+    },
+    {
+        word: `Три формы глагола "СПАТЬ"`,
+        translate: 'sleep - slept - slept', 
+        url: sleepSlept
+    },
+    {
+        word: `Три формы глагола "ГОВОРИТЬ"`,
+        translate: 'speak - spoke - spoken', 
+        url: speak
+    },
+    {
+        word: `Три формы глагола "ТРАТИТЬ (ПРОВОДИТЬ ВРЕМЯ)"`,
+        translate: 'spend - spent - spent', 
+        url: spendSpent
+    },
+    {
+        word: `Три формы глагола "СТОЯТЬ"`,
+        translate: 'stand - stood - stood', 
+        url: stand
+    },
+    {
+        word: `Три формы глагола "ПЛАВАТЬ"`,
+        translate: 'swim - swam - swum', 
+        url: swimming
+    },
+    {
+        word: `Три формы глагола "БРАТЬ"`,
+        translate: 'take - took - taken', 
+        url: take
+    },
+    {
+        word: `Три формы глагола "ОБУЧАТЬ"`,
+        translate: 'teach - tought - tought', 
+        url: teachTaught
+    },
+    {
+        word: `Три формы глагола "РАССКАЗЫВАТЬ"`,
+        translate: 'tell - told - told', 
+        url: tell
+    },
+    {
+        word: `Три формы глагола "ДУМАТЬ"`,
+        translate: 'think - thought - thought', 
+        url: thinkThought
+    },
+    {
+        word: `Три формы глагола "БРОСАТЬ"`,
+        translate: 'throw - threw - thrown', 
+        url: thrown
+    },
+    {
+        word: `Три формы глагола "ПОНИМАТЬ"`,
+        translate: 'understand - understood - understood', 
+        url: understandUnderstood
+    },
+    {
+        word: `Три формы глагола "ПРОСЫПАТЬСЯ"`,
+        translate: 'wake - woke - woken', 
+        url: wake
+    },
+    {
+        word: `Три формы глагола "НОСИТЬ (ОДЕЖДУ)"`,
+        translate: 'wear - wore - worn', 
+        url: wearWore
+    },
+    {
+        word: `Три формы глагола "ПОБЕЖДАТЬ"`,
+        translate: 'win - won - won', 
+        url: win
+    },
+    {
+        word: `Три формы глагола "ПОБЕЖДАТЬ"`,
+        translate: 'write - wrote - written', 
+        url: writeWrote
     },
 
 ]
