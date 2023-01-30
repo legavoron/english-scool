@@ -305,7 +305,7 @@ const unit17 = [
         url: readRead
     },
     {
-        word: `Три формы глагола "ЗВОНИТЬ"`,
+        word: `Три формы глагола "ЗВЕНЕТЬ"`,
         translate: 'ring - rang - rung', 
         url: ring
     },
@@ -425,7 +425,7 @@ const unit17 = [
         url: win
     },
     {
-        word: `Три формы глагола "ПОБЕЖДАТЬ"`,
+        word: `Три формы глагола "ПИСАТЬ"`,
         translate: 'write - wrote - written', 
         url: writeWrote
     },

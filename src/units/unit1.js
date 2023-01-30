@@ -172,7 +172,7 @@ const unit1 = [
       url: nail
     },
     {
-      word: 'Прошлый',
+      word: 'Прошедший',
       translate: 'past', 
       url: good
     },

@@ -36,7 +36,7 @@ const unit16 = [
     },
     {
       word: 'Домашние животные',
-      translate: 'pets', 
+      translate: 'Pets', 
       url: pets
     },
     {

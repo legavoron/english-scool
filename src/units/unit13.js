@@ -16,6 +16,19 @@ import takeANap from '../img/takeANap.jpg';
 import disturb from '../img/disturb.jpg';
 import expenses from '../img/expenses.jpg';
 import notLongerThan from '../img/notLongerThan.jpg';
+import modest from '../img/modest.jpg';
+import stubborn from '../img/stubborn.jpg';
+import reliable from '../img/reliable.jpg';
+import wize from '../img/wize.jpg';
+import respectfull from '../img/respectfull.jpg';
+import slipperry from '../img/slipperry.jpg';
+import relyOn from '../img/relyOn.jpg';
+import chores from '../img/chores.jpg';
+import invite from '../img/invite.jpg';
+import groceries from '../img/groceries.jpg';
+import chilly from '../img/chilly.jpg';
+import atFirstSight from '../img/atFirstSight.jpg';
+import aBit from '../img/aBit.jpg';
 
 
 
@@ -124,6 +137,76 @@ const unit13 = [
       word: 'Не дольше чем',
       translate: 'not longer than', 
       url: notLongerThan
+    },
+    {
+      word: 'Скромный',
+      translate: 'modest', 
+      url: modest
+    },
+    {
+      word: 'Упрямый',
+      translate: 'stubborn', 
+      url: stubborn
+    },
+    {
+      word: 'Надежный ',
+      translate: 'reliable', 
+      url: reliable
+    },
+    {
+      word: 'Мудрый ',
+      translate: 'wize', 
+      url: wize
+    },
+    {
+      word: 'Уважаемый (человек) ',
+      translate: 'respectfull', 
+      url: respectfull
+    },
+    {
+      word: 'Скользкий (изворотливый) ',
+      translate: 'slipperry', 
+      url: slipperry
+    },
+    {
+      word: 'Полагаться на ',
+      translate: 'rely on', 
+      url: relyOn
+    },
+    {
+      word: 'Дела (обязанности) ',
+      translate: 'Chores', 
+      url: chores
+    },
+    {
+      word: 'Приглашать ',
+      translate: 'invite', 
+      url: invite
+    },
+    {
+      word: 'Продовольственный товары ',
+      translate: 'groceries', 
+      url: groceries
+    },
+    {
+      word: 'Прохладно ',
+      translate: 'chilly', 
+      url: chilly
+    },
+    {
+      word: 'На первый взгляд ',
+      translate: 'at first sight', 
+      url: atFirstSight
+    },
+    {
+      word: 'Такой + сущ. ',
+      translate: 'such', 
+      url: good
+    },
+    {
+      word: 'Немного ',
+      translate: 'aBit (a little bit)', 
+      url: aBit
     },
     
   ]

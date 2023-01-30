@@ -246,7 +246,7 @@ const unit4 = [
       url: charity
     },
     {
-      word: 'Собирать деньги (на благотвварительность)',
+      word: 'Собирать деньги (на благотварительность)',
       translate: 'raise money', 
       url: raiseMoney
     },

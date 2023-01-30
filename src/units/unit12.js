@@ -141,7 +141,7 @@ const unit12 = [
       url: opportunity
     },
     {
-      word: 'Авиабилеты',
+      word: 'СТоимость авиабилетов',
       translate: 'Airfares', 
       url: airfares
     },
@@ -222,7 +222,7 @@ const unit12 = [
     },
     {
       word: 'Тюрьма',
-      translate: 'prison', 
+      translate: 'Prison', 
       url: prison
     },
     {

@@ -28,13 +28,12 @@ import hit from '../img/hit.jpg';
 import hitOnATable from '../img/hitOnATable.jpg';
 import knife from '../img/knife.jpg';
 import fly from '../img/fly.jpg';
-import until from '../img/until.jpg';
+import until from '../img/untilTheEnd.jpg';
 import untilTheEnd from '../img/untilTheEnd.jpg';
 import disaster from '../img/disaster.jpg';
 import resolveTheProblem from '../img/resolveTheProblem.jpg';
 import introduce from '../img/introduce.jpg';
 import suggestASolution from '../img/suggestASolution.jpg';
-import iAmSorryToHearThat from '../img/iAmSorryToHearThat.jpg';
 
 
 const unit8 = [
@@ -186,7 +185,7 @@ const unit8 = [
     },
     {
       word: 'Нож',
-      translate: 'knife', 
+      translate: 'Knife', 
       url: knife
     },
     {
