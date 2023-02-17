@@ -17,7 +17,7 @@ const Screensaver = () => {
         <div className="logoContainer">
             <img src={logo} alt="english-cards" className='logoImage'/>
         </div>
-        <h1 className='screensaver_heading'>А1 Elementary</h1>
+        <h1 className='screensaver_heading'>А2 - B1</h1>
     </div>
 )
 }

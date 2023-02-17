@@ -9,6 +9,9 @@ import forget from '../img/forget.jpg';
 import order from '../img/order.jpg';
 import notice from '../img/notice.jpg';
 import finger from '../img/finger.jpg';
+import inARow from '../img/inARow.jpg';
+import still from '../img/still.jpg';
+import choice from '../img/choice.jpg';
 
 
 
@@ -62,6 +65,21 @@ const unit14 = [
       word: 'Палец',
       translate: 'Finger', 
       url: finger
+    },
+    {
+      word: 'Подряд',
+      translate: 'in a Row', 
+      url: inARow
+    },
+    {
+      word: 'Всё ещё (по прежнему)',
+      translate: 'still', 
+      url: still
+    },
+    {
+      word: 'Выбор (вариант)',
+      translate: 'choice', 
+      url: choice
     },
   ]
 
