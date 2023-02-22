@@ -328,7 +328,7 @@ const unit1 = [
   },
   {
     word: 'Быть благодарным',
-    translate: 'gratefull', 
+    translate: 'gratefull to', 
     url: gratefull
   },
   {
@@ -342,7 +342,7 @@ const unit1 = [
     url: asWellAs
   },
   {
-    word: 'Также как',
+    word: 'Я люблю плавание также как дайвинг',
     translate: 'I like swimming as well as diving', 
     url: asWellAsDiving
   },

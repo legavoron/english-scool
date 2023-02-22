@@ -260,7 +260,7 @@ const unit17 = [
         url: know
     },
     {
-        word: `Три формы глагола "УЧИТЬ"`,
+        word: `Три формы глагола "УЧИТЬ (изучать)"`,
         translate: 'learn - learnt/lerned - learnt/lerned', 
         url: learn
     },
@@ -275,7 +275,7 @@ const unit17 = [
         url: loseLost
     },
     {
-        word: `Три формы глагола "ДЕЛАТЬ"`,
+        word: `Три формы глагола "ДЕЛАТЬ (создавать)"`,
         translate: 'make - made - made', 
         url: make
     },
@@ -300,7 +300,7 @@ const unit17 = [
         url: put
     },
     {
-        word: `Три формы глагола "КЛАСТЬ"`,
+        word: `Три формы глагола "ЧИТАТЬ"`,
         translate: 'read - read/red - read/red', 
         url: readRead
     },

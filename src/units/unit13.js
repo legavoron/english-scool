@@ -205,7 +205,7 @@ const unit13 = [
     },
     {
       word: 'Немного ',
-      translate: 'aBit (a little bit)', 
+      translate: 'a bit (a little bit)', 
       url: aBit
     },
     
