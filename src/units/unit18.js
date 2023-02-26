@@ -10,6 +10,12 @@ import keepInTouch from '../img/keepInTouch.jpg';
 import belong from '../img/belong.jpg';
 import leaveOnGoodTerms from '../img/leaveOnGoodTerms.jpg';
 import since from '../img/since.jpg';
+import aquaintance from '../img/aquaintance.jpg';
+import signHere from '../img/signHere.jpg';
+import coverForMe from '../img/coverForMe.jpg';
+import giveMeALift from '../img/giveMeALift.jpg';
+import pickMeUp from '../img/pickMeUp.jpg';
+
 
 
 const unit18 = [
@@ -72,6 +78,31 @@ const unit18 = [
         word: `Так как, с тех пор как`,
         translate: 'since', 
         url: since
+    },
+    {
+        word: `Знакомый`,
+        translate: 'Aquaintance', 
+        url: aquaintance
+    },
+    {
+        word: `Подписать (расписаться)`,
+        translate: 'sign here', 
+        url: signHere
+    },
+    {
+        word: `Прикрой меня (подмени меня)`,
+        translate: 'cover for me', 
+        url: coverForMe
+    },
+    {
+        word: `Подвези меня`,
+        translate: 'give me a lift', 
+        url: giveMeALift
+    },
+    {
+        word: `Забери меня`,
+        translate: 'pick me up', 
+        url: pickMeUp
     },
 
 ]

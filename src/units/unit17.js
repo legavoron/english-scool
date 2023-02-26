@@ -50,7 +50,6 @@ import runRan from '../img/runRan.jpg';
 import say from '../img/say.jpg';
 import seeSaw from '../img/seeSaw.jpg';
 import sellSold from '../img/sellSold.jpg';
-import sendLetters from '../img/sendLetters.jpg';
 import show from '../img/show.jpg';
 import shut from '../img/shut.jpg';
 import singSang from '../img/singSang.jpg';
@@ -328,11 +327,6 @@ const unit17 = [
         word: `Три формы глагола "ПРОДАВАТЬ"`,
         translate: 'sell - sold - sold', 
         url: sellSold
-    },
-    {
-        word: `Три формы глагола "ПОСЫЛАТЬ"`,
-        translate: 'send - sent - sent', 
-        url: sendLetters
     },
     {
         word: `Три формы глагола "ПОКАЗЫВАТЬ"`,

@@ -1,19 +1,9 @@
 import good from '../img/good.jpg';
-import arrive from '../img/arrive.jpg';
-import complain from '../img/complain.jpg';
-import put from '../img/put.jpg';
-import example from '../img/example.jpg';
-import bend from '../img/bend.jpg';
-import weight from '../img/weight.jpg';
-import gloves from '../img/gloves.jpg';
-import wall from '../img/wall.jpg';
-import foot from '../img/foot.jpg';
 import burn from '../img/burn.jpg';
 import deserve from '../img/deserve.jpg';
 import accept from '../img/accept.jpg';
 import prettyMuch from '../img/prettyMuch.jpg';
 import ahead from '../img/ahead.jpg';
-import haveALieDown from '../img/haveALieDown.jpg';
 import haveALook from '../img/haveALook.jpg';
 import definition from '../img/definition.jpg';
 import opportunity from '../img/opportunity.jpg';
@@ -22,7 +12,6 @@ import inOrderTo from '../img/inOrderTo.jpg';
 import worried from '../img/worried.jpg';
 import theNumberOfIs from '../img/theNumberOfIs.jpg';
 import destination from '../img/destination.jpg';
-import celebrate from '../img/celebrate.jpg';
 import knock from '../img/knock.jpg';
 import appear from '../img/appear.jpg';
 import honest from '../img/honest.jpg';
@@ -39,7 +28,6 @@ import thief from '../img/thief.jpg';
 import fog from '../img/fog.jpg';
 import afterAll from '../img/afterAll.jpg';
 import sheep from '../img/sheep.jpg';
-import smooth from '../img/smooth.jpg';
 import impossible from '../img/impossible.jpg';
 import isIncreasingGradually from '../img/isIncreasingGradually.jpg';
 import isRiseSlightly from '../img/isRiseSlightly.jpg';
@@ -50,51 +38,6 @@ import isdecreasingSharply from '../img/isdecreasingSharply.jpg';
 
 
 const unit12 = [
-    {
-        word: 'Прибывать',
-        translate: 'arrive', 
-        url: arrive
-    },
-    {
-      word: 'Жаловаться',
-      translate: 'complain', 
-      url: complain
-    },
-    {
-      word: 'Положить',
-      translate: 'put', 
-      url: put
-    },
-    {
-      word: 'Пример',
-      translate: 'example', 
-      url: example
-    },
-    {
-      word: 'Согнуть',
-      translate: 'bend', 
-      url: bend
-    },
-    {
-      word: 'Вес',
-      translate: 'Weight', 
-      url: weight
-    },
-    {
-      word: 'Перчатки',
-      translate: 'Gloves', 
-      url: gloves
-    },
-    {
-      word: 'Стена',
-      translate: 'Wall', 
-      url: wall
-    },
-    {
-      word: 'Ступня',
-      translate: 'Foot', 
-      url: foot
-    },
     {
       word: 'Гореть',
       translate: 'burn', 
@@ -119,11 +62,6 @@ const unit12 = [
       word: 'Впереди',
       translate: 'ahead', 
       url: ahead
-    },
-    {
-      word: 'Прилечь',
-      translate: 'have a lie down', 
-      url: haveALieDown
     },
     {
       word: 'Взглянуть',
@@ -164,11 +102,6 @@ const unit12 = [
       word: 'Пункт назначения',
       translate: 'destination', 
       url: destination
-    },
-    {
-      word: 'Отмечать (праздновать)',
-      translate: 'celebrate', 
-      url: celebrate
     },
     {
       word: 'Стучать',
@@ -249,11 +182,6 @@ const unit12 = [
       word: 'Овца',
       translate: 'Sheep', 
       url: sheep
-    },
-    {
-      word: 'Гладкий',
-      translate: 'smooth', 
-      url: smooth
     },
     {
       word: 'Невозможно',
