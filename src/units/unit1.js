@@ -1,7 +1,6 @@
 import good from '../img/good.jpg';
 import hereYouAre from '../img/hereYouAre.jpg';
 import horrible from '../img/horrible.jpg';
-import wonderful from '../img/wonderful.jpg';
 import humid from '../img/humid.jpg';
 import rent from '../img/rent.jpg';
 import desert from '../img/desert.jpg';
