@@ -75,11 +75,6 @@ const unit19 = [
         url: iLetYouKnow
     },
     {
-        word: `Дам вам знать как только получится`,
-        translate: "I'll be back up and running soon", 
-        url: iLetYouKnow
-    },
-    {
         word: `Я перезвоню тебе с информацией`,
         translate: "I'll call you back with the information", 
         url: iCallYouBack
@@ -106,7 +101,7 @@ const unit19 = [
     },
     {
         word: `Не стесняйтесь`,
-        translate: "don't hesistate", 
+        translate: "don't hesitate", 
         url: dontHesistate
     },
     {
@@ -121,7 +116,7 @@ const unit19 = [
     },
     {
         word: `Запрос`,
-        translate: "enquiry", 
+        translate: "Enquiry", 
         url: enquiry
     },
     {
