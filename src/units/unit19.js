@@ -19,6 +19,16 @@ import further from '../img/further.jpg';
 import approximately from '../img/approximately.jpg';
 import enquiry from '../img/enquiry.jpg';
 import imInTheMidle from '../img/imInTheMidle.jpg';
+import arrange from '../img/arrange.jpg';
+import checkIn from '../img/checkIn.jpg';
+import aisleSeat from '../img/aisleSeat.jpg';
+import windowSeat from '../img/windowSeat.jpg';
+import receipt from '../img/receipt.jpg';
+import packInBag from '../img/packInBag.jpg';
+import blowsAway from '../img/blowsAway.jpg';
+import flightAttendant from '../img/flightAttendant.jpg';
+import purposeTrip from '../img/purposeTrip.jpg';
+
 
 
 
@@ -128,6 +138,51 @@ const unit19 = [
         word: `Я в самом разгаре работы`,
         translate: "i'm in the middle of work", 
         url: imInTheMidle
+    },
+    {
+        word: `Организовать, устроить что-то`,
+        translate: "arrange", 
+        url: arrange
+    },
+    {
+        word: `Регистрация (стойка регистрации)`,
+        translate: "check-in", 
+        url: checkIn
+    },
+    {
+        word: `Место у прохода`,
+        translate: "aisle seat", 
+        url: aisleSeat
+    },
+    {
+        word: `Место у окна`,
+        translate: "window seat", 
+        url: windowSeat
+    },
+    {
+        word: `Чек`,
+        translate: "receipt", 
+        url: receipt
+    },
+    {
+        word: `Собирать вещи`,
+        translate: "pack in your bag", 
+        url: packInBag
+    },
+    {
+        word: `Сдуть ветром`,
+        translate: "blows away", 
+        url: blowsAway
+    },
+    {
+        word: `Стюардесса`,
+        translate: "flight attendant", 
+        url: flightAttendant
+    },
+    {
+        word: `Цель поездки`,
+        translate: "purpose of yor trip", 
+        url: purposeTrip
     },
     
 ]

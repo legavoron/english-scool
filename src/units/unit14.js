@@ -8,6 +8,7 @@ import itsSimilarTo from '../img/itsSimilarTo.jpg';
 import thatsWhy from '../img/thatsWhy.jpg';
 import urgentCall from '../img/urgentCall.jpg';
 import hurry from '../img/hurry.jpg';
+import headphones from '../img/headphones.jpg';
 
 
 
@@ -56,6 +57,11 @@ const unit14 = [
       word: 'Спешить, торопиться',
       translate: 'hurry', 
       url: hurry
+    },
+    {
+      word: 'Наушники',
+      translate: 'Headphones', 
+      url: headphones
     },
   ]
 
