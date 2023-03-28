@@ -22,6 +22,14 @@ import getIn from '../img/getIn.jpg';
 import getOutOf from '../img/getOutOf.jpg';
 import getThrough from '../img/getThrough.jpg';
 import giveUp from '../img/giveUp.jpg';
+import outOfOrder from '../img/outOfOrder.jpg';
+import sink from '../img/sink.jpg';
+import failur from '../img/failur.jpg';
+import getOn from '../img/getOn.jpg';
+import turnover from '../img/turnover.jpg';
+import setUp from '../img/setUp.jpg';
+import howDidItGo from '../img/howDidItGo.jpg';
+import judge from '../img/judge.jpg';
 
 
 
@@ -142,6 +150,46 @@ const unit20 = [
         word: 'Сдаться (перестать делать что-то)',
         translate: "give up", 
         url: giveUp
+    },
+    {
+        word: 'Не работает (не в порядке)',
+        translate: "out of order", 
+        url: outOfOrder
+    },
+    {
+        word: 'Умывальник',
+        translate: "Sink", 
+        url: sink
+    },
+    {
+        word: 'Неудача, провал',
+        translate: "Failur", 
+        url: failur
+    },
+    {
+        word: 'Попасть на, сесть на (самолет)',
+        translate: "get on", 
+        url: getOn
+    },
+    {
+        word: 'Товарооборот',
+        translate: "Turnover", 
+        url: turnover
+    },
+    {
+        word: 'Создать, организовать (компанию)',
+        translate: "set up", 
+        url: setUp
+    },
+    {
+        word: 'Как прошло?',
+        translate: "How did it go?", 
+        url: howDidItGo
+    },
+    {
+        word: 'Судья',
+        translate: "Judge", 
+        url: judge
     },
 
   ]

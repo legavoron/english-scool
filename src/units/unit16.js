@@ -4,7 +4,14 @@ import hear from '../img/hear.jpg';
 import annoiyng from '../img/annoiyng.jpg';
 import burglar from '../img/burglar.jpg';
 import mood from '../img/mood.jpg';
-
+import equipment from '../img/equipment.jpg';
+import putUp from '../img/putUp.jpg';
+import complience from '../img/complience.jpg';
+import screensaver from '../img/screensaver.jpg';
+import insteadOf from '../img/insteadOf.jpg';
+import fill from '../img/fill.jpg';
+import advertise from '../img/advertise.jpg';
+import disease from '../img/disease.jpg';
 
 
 const unit16 = [
@@ -44,8 +51,49 @@ const unit16 = [
       translate: 'Mood', 
       url: mood
     },
+    {
+      word: 'Оборудование, аппаратура',
+      translate: 'Equipment', 
+      url: equipment
+    },
+    {
+      word: 'Повесить, разместить',
+      translate: 'put up', 
+      url: putUp
+    },
+    {
+      word: 'Соблюдение (выполнение) правил',
+      translate: 'Complience', 
+      url: complience
+    },
+    {
+      word: 'Заставка на телефоне',
+      translate: 'Screensaver', 
+      url: screensaver
+    },
+    {
+      word: 'Вместо... (чего-то)',
+      translate: 'instead of', 
+      url: insteadOf
+    },
+    {
+      word: 'Наполнить что-то',
+      translate: 'fill', 
+      url: fill
+    },
+    {
+      word: 'Рекламировать что-то',
+      translate: 'advertise', 
+      url: advertise
+    },
+    {
+      word: 'Заболевание',
+      translate: 'Disease', 
+      url: disease
+    },
 
   ]
 
 export default unit16;
+
 
