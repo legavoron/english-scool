@@ -30,6 +30,18 @@ import turnover from '../img/turnover.jpg';
 import setUp from '../img/setUp.jpg';
 import howDidItGo from '../img/howDidItGo.jpg';
 import judge from '../img/judge.jpg';
+import production from '../img/production.jpg';
+import exceed from '../img/exceed.jpg';
+import achieve from '../img/achieve.jpg';
+import target from '../img/target.jpg';
+import shutDown from '../img/shutDown.jpg';
+import overnight from '../img/overnight.jpg';
+import fire from '../img/fire.jpg';
+import investment from '../img/investment.jpg';
+import throwAway from '../img/throwAway.jpg';
+import beInChargeOf from '../img/beInChargeOf.jpg';
+import speedUp from '../img/speedUp.jpg';
+import instead from '../img/insteadOf.jpg';
 
 
 
@@ -190,6 +202,71 @@ const unit20 = [
         word: 'Судья',
         translate: "Judge", 
         url: judge
+    },
+    {
+        word: 'Производство чего-то',
+        translate: "Production", 
+        url: production
+    },
+    {
+        word: 'Превысить',
+        translate: "exceed", 
+        url: exceed
+    },
+    {
+        word: 'Достить',
+        translate: "achieve", 
+        url: achieve
+    },
+    {
+        word: 'Цель',
+        translate: "Target", 
+        url: target
+    },
+    {
+        word: 'Остановить, выключить, закрыть',
+        translate: "shut down", 
+        url: shutDown
+    },
+    {
+        word: 'Остановить, выключить, закрыть',
+        translate: "shut down", 
+        url: shutDown
+    },
+    {
+        word: 'За одну ночь',
+        translate: "overnight", 
+        url: overnight
+    },
+    {
+        word: 'Уволить',
+        translate: "fire", 
+        url: fire
+    },
+    {
+        word: 'Инвестиция',
+        translate: "Investment", 
+        url: investment
+    },
+    {
+        word: 'Выбросить',
+        translate: "throw away", 
+        url: throwAway
+    },
+    {
+        word: 'Руководить чем-то, быть отвественным за',
+        translate: "to be in charge of", 
+        url: beInChargeOf
+    },
+    {
+        word: 'Ускорить',
+        translate: "speed up", 
+        url: speedUp
+    },
+    {
+        word: 'Вместо этого',
+        translate: "instead", 
+        url: instead
     },
 
   ]

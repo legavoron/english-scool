@@ -6,6 +6,9 @@ import passerBy from '../img/passerBy.jpg';
 import notes from '../img/notes.jpg';
 import sightseeingTour from '../img/sightseeingTour.jpg';
 import haveBack from '../img/haveBack.jpg';
+import ability from '../img/ability.jpg';
+import confidence from '../img/confidence.jpg';
+import develop from '../img/develop.jpg';
 
 
 const unit15 = [
@@ -50,6 +53,21 @@ const unit15 = [
       word: 'Вернуть деньги назад',
       translate: "have money back", 
       url: haveBack
+    },
+    {
+      word: 'Способность, навык',
+      translate: "Ability", 
+      url: ability
+    },
+    {
+      word: 'Уверенность в ком-то, доверие',
+      translate: "Confidence", 
+      url: confidence
+    },
+    {
+      word: 'Развивать, разрабатывать',
+      translate: "develop", 
+      url: develop
     },
 
   ]

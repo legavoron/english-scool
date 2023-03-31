@@ -12,6 +12,9 @@ import insteadOf from '../img/insteadOf.jpg';
 import fill from '../img/fill.jpg';
 import advertise from '../img/advertise.jpg';
 import disease from '../img/disease.jpg';
+import survey from '../img/survey.jpg';
+import provide from '../img/provide.jpg';
+
 
 
 const unit16 = [
@@ -91,9 +94,20 @@ const unit16 = [
       translate: 'Disease', 
       url: disease
     },
+    {
+      word: 'Опрос',
+      translate: 'Survey', 
+      url: survey
+
+    },
+    {
+      word: 'Обеспечивать, предоставлять',
+      translate: 'provide', 
+      url: provide
+
+    },
 
   ]
 
 export default unit16;
-
 
