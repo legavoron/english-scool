@@ -42,6 +42,7 @@ import throwAway from '../img/throwAway.jpg';
 import beInChargeOf from '../img/beInChargeOf.jpg';
 import speedUp from '../img/speedUp.jpg';
 import instead from '../img/insteadOf.jpg';
+import efficiency from '../img/efficiency.jpg';
 
 
 
@@ -267,6 +268,11 @@ const unit20 = [
         word: 'Вместо этого',
         translate: "instead", 
         url: instead
+    },
+    {
+        word: 'Эффективность',
+        translate: "Efficiency", 
+        url: efficiency
     },
 
   ]

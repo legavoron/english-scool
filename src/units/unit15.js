@@ -9,6 +9,7 @@ import haveBack from '../img/haveBack.jpg';
 import ability from '../img/ability.jpg';
 import confidence from '../img/confidence.jpg';
 import develop from '../img/develop.jpg';
+import mostPeople from '../img/mostPeople.jpg';
 
 
 const unit15 = [
@@ -68,6 +69,11 @@ const unit15 = [
       word: 'Развивать, разрабатывать',
       translate: "develop", 
       url: develop
+    },
+    {
+      word: 'Большинство людей',
+      translate: "most people", 
+      url: mostPeople
     },
 
   ]

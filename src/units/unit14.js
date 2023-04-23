@@ -9,6 +9,11 @@ import thatsWhy from '../img/thatsWhy.jpg';
 import urgentCall from '../img/urgentCall.jpg';
 import hurry from '../img/hurry.jpg';
 import headphones from '../img/headphones.jpg';
+import roof from '../img/roof.jpg';
+import wealthy from '../img/wealthy.jpg';
+import goat from '../img/goat.jpg';
+import scissors from '../img/scissors.jpg';
+
 
 
 
@@ -63,6 +68,27 @@ const unit14 = [
       translate: 'Headphones', 
       url: headphones
     },
+    {
+      word: 'Крыша',
+      translate: 'Roof', 
+      url: roof
+    },
+    {
+      word: 'Богатый (обеспеченный)',
+      translate: 'wealthy', 
+      url: wealthy
+    },
+    {
+      word: 'Коза',
+      translate: 'Goat', 
+      url: goat
+    },
+    {
+      word: 'Ножницы',
+      translate: 'Scissors', 
+      url: scissors
+    },
+    
   ]
 
 export default unit14;
