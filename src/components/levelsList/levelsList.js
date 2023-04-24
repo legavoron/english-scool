@@ -12,7 +12,8 @@ const LevelsList = ({chooseLevels, colors, chooseTask}) => {
      "A2: Unit 9", "A2: Unit 10", "A2: Unit 11", 
      "A2: Unit 12", "A2: Unit 13", "A2: Unit 14", 
      "A2: Unit 15", "A2: Unit 16","A2: Unit 17", 
-     "B1: Unit 1", "B1: Unit 2", "B1: Unit 3", "B1: Unit4"];
+     "B1: Unit 1", "B1: Unit 2", "B1: Unit 3", "B1: Unit4",
+     "B1: Unit 5"];
 
     const levels = levelsValue.map ((item, count) => {
         return <Level key={count} value={item} id={`unit${count}`} chooseLevels={chooseLevels} colors={colors}/>
