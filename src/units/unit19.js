@@ -61,7 +61,7 @@ const unit19 = [
     },
     {
         word: `Я выясню в чем проблема`,
-        translate: "I'll' work out what the problem", 
+        translate: "I'll work out what the problem", 
         url: iWillWorkOut
     },
     {

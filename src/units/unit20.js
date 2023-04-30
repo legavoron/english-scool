@@ -215,7 +215,7 @@ const unit20 = [
         url: exceed
     },
     {
-        word: 'Достить',
+        word: 'Достичь',
         translate: "achieve", 
         url: achieve
     },

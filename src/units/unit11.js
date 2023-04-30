@@ -15,6 +15,8 @@ import exactly from '../img/exactly.jpg';
 import calm from '../img/calm.jpg';
 import compare from '../img/compare.jpg';
 import catchCold from '../img/catchCold.jpg';
+import fan from '../img/fan.jpg';
+import doorbell from '../img/doorbell.jpg';
 
 
 const unit11 = [
@@ -117,6 +119,16 @@ const unit11 = [
       word: 'Простудиться',
       translate: 'catch cold', 
       url: catchCold
+    },
+    {
+      word: 'Вентилятор',
+      translate: 'fan', 
+      url: fan
+    },
+    {
+      word: 'Дверной звонок',
+      translate: 'doorbell', 
+      url: doorbell
     },
   ]
 
