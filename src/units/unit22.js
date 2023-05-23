@@ -141,7 +141,7 @@ const unit22 = [
         url: avocation
     },
     {
-        word: 'Петереть что-то (трение)',
+        word: 'Потереть что-то (трение)',
         translate: 'rub', 
         url: rub
     },
@@ -226,7 +226,7 @@ const unit22 = [
         url: lead
     },
     {
-        word: 'Приводит к чему-то',
+        word: 'Внимание',
         translate: 'attention', 
         url: attention
     },

@@ -1,13 +1,22 @@
-import good from '../img/good.jpg';
 import loud from '../img/loud.jpg';
 import queue from '../img/queue.jpg';
 import hold from '../img/hold.jpg';
-import helpWith from '../img/helpWith.jpg';
-import legs from '../img/legs.jpg';
-import voice from '../img/voice.jpg';
-import pain from '../img/pain.jpg';
-import cannotBe from '../img/cannotBe.jpg';
-import pillow from '../img/pillow.jpg';
+import hikking from '../img/hikking.jpg';
+import nightmare from '../img/nightmare.jpg';
+import explosion from '../img/explosion.jpg';
+import prepare from '../img/prepare.jpg';
+import cannon from '../img/cannon.jpg';
+import silently from '../img/silently.jpg';
+import force from '../img/force.jpg';
+import breathe from '../img/breathe.jpg';
+import broom from '../img/broom.jpg';
+import socket from '../img/socket.jpg';
+import bucket from '../img/bucket.jpg';
+import dustpan from '../img/dustpan.jpg';
+import hush from '../img/hush.jpg';
+import paradise from '../img/paradise.jpg';
+
+
 
 
 
@@ -29,38 +38,81 @@ const unit3 = [
       url: hold
     },
     {
-      word: 'Помочь с чем-то',
-      translate: 'help with', 
-      url: helpWith
+      word: 'Поход в горы',
+      translate: 'hikking', 
+      url: hikking
     },
     {
-      word: 'Ноги',
-      translate: 'Legs', 
-      url: legs
+      word: 'Ночной кошмар',
+      translate: 'Nightmare', 
+      url: nightmare
     },
     {
-      word: 'Голос',
-      translate: 'Voice', 
-      url: voice
+      word: 'Взрыв',
+      translate: 'Explosion', 
+      url: explosion
     },
     {
-        word: 'Боль',
-        translate: 'Pain', 
-        url: pain
+      word: 'Подготовиться, подготовить что-то',
+      translate: 'prepare', 
+      url: prepare
     },
     {
-        word: 'Не может быть',
-        translate: 'can not be', 
-        url: cannotBe
+      word: 'Пушка, орудие',
+      translate: 'Cannon', 
+      url: cannon
     },
     {
-      word: 'Подушка',
-      translate: 'Pillow', 
-      url: pillow
+      word: 'Молча',
+      translate: 'silently', 
+      url: silently
     },
+    {
+      word: 'Принудить, заставить силой',
+      translate: 'force', 
+      url: force
+    },
+    {
+      word: 'Дышать',
+      translate: 'breathe', 
+      url: breathe
+    },
+    {
+      word: 'Метла',
+      translate: 'Broom', 
+      url: broom
+    },
+    {
+      word: 'Розетка',
+      translate: 'Socket', 
+      url: socket
+    },
+    {
+      word: 'Ведро',
+      translate: 'Bucket', 
+      url: bucket
+    },
+    {
+      word: 'Совок',
+      translate: 'Dustpan', 
+      url: dustpan
+    },
+    {
+      word: 'Тишина (умолкнуть, замолчать)',
+      translate: 'Hush', 
+      url: hush
+    },
+    {
+      word: 'Рай',
+      translate: 'Paradise', 
+      url: paradise
+    },
+  
     
     
   ]
 
 export default unit3;
+
+
 
