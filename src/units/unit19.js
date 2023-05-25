@@ -12,7 +12,6 @@ import iLetYouKnow from '../img/iLetYouKnow.jpg';
 import iCallYouBack from '../img/iCallYouBack.jpg';
 import iTellYouAsSoon from '../img/iTellYouAsSoon.jpg';
 import itWillWork from '../img/itWillWork.jpg';
-import solveProblems from '../img/solveProblems.jpg';
 import confirm from '../img/confirm.jpg';
 import dontHesistate from '../img/dontHesistate.jpg';
 import further from '../img/further.jpg';
@@ -98,11 +97,6 @@ const unit19 = [
         word: `Это скоро снова заработает`,
         translate: "It'll work again soon", 
         url: itWillWork
-    },
-    {
-        word: `Решить проблему`,
-        translate: "solve the problem", 
-        url: solveProblems
     },
     {
         word: `Подтвердить`,
