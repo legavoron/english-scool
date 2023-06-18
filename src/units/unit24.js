@@ -16,7 +16,21 @@ import seems from '../img/seems.jpg';
 import legit from '../img/legit.jpg';
 import seemsLegit from '../img/seemsLegit.jpg';
 import stuffTurnover from '../img/stuffTurnover.jpg';
-
+import issue from '../img/issue.jpg';
+import atTheBeginingOf from '../img/atTheBeginingOf.jpg';
+import toMeetTarget from '../img/toMeetTarget.jpg';
+import asIAlreadySaid from '../img/asIAlreadySaid.jpg';
+import advantages from '../img/advantages.jpg';
+import disadvantages from '../img/disadvantages.jpg';
+import executive from '../img/executive.jpg';
+import require from '../img/require.jpg';
+import perform from '../img/perform.jpg';
+import approve from '../img/approve.jpg';
+import evaluate from '../img/evaluate.jpg';
+import evaluation from '../img/evaluation.jpg';
+import threat from '../img/threat.jpg';
+import iHaveRequestForYou from '../img/iHaveRequestForYou.jpg';
+import fewer from '../img/fewer.jpg';
 
 
 
@@ -111,11 +125,85 @@ const unit24 = [
     translate: "stuff turnover", 
     url: stuffTurnover
   },
+  {
+    word: 'Вопрос, проблема, задача',
+    translate: "Issue", 
+    url: issue
+  },
+  {
+    word: 'В начале (чего-то)',
+    translate: "at the begining of", 
+    url: atTheBeginingOf
+  },
+  {
+    word: 'Достигнуть цели',
+    translate: "to meet target", 
+    url: toMeetTarget
+  },
+  {
+    word: 'Как я уже говорил ранее',
+    translate: "as i've already said", 
+    url: asIAlreadySaid
+  },
+  {
+    word: 'Преимущества',
+    translate: "Advantages", 
+    url: advantages
+  },
+  {
+    word: 'Недостатки',
+    translate: "Disadvantages", 
+    url: disadvantages
+  },
+  {
+    word: 'Руководитель, исполнительный (президент компании)',
+    translate: "Executive", 
+    url: executive
+  },
+  {
+    word: 'Требует, нуждается в ',
+    translate: "require", 
+    url: require
+  },
+  {
+    word: 'Выполнять, исполнять, осуществлять',
+    translate: "perform", 
+    url: perform
+  },
+  {
+    word: 'Одобрить, утвердить',
+    translate: "approve", 
+    url: approve
+  },
+  {
+    word: 'Оценить, сделать анализ, взвесить',
+    translate: "evaluate", 
+    url: evaluate
+  },
+  {
+    word: 'Оценка, экспертиза, обследование',
+    translate: "Evaluation", 
+    url: evaluation
+  },
+  {
+    word: 'Риск, угроза',
+    translate: "Threat", 
+    url: threat
+  },
+  {
+    word: 'У меня к тебе просьба',
+    translate: "i have request for you", 
+    url: iHaveRequestForYou
+  },
+  {
+    word: 'Меньше (количественно, можно посчитать)',
+    translate: "fewer", 
+    url: fewer
+  },
 
   ]
 
 export default unit24;
-
 
 
 
