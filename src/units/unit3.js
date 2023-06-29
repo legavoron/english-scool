@@ -15,6 +15,15 @@ import bucket from '../img/bucket.jpg';
 import dustpan from '../img/dustpan.jpg';
 import hush from '../img/hush.jpg';
 import paradise from '../img/paradise.jpg';
+import comeUp1 from '../img/comeUp1.jpg';
+import itsUpToYou from '../img/itsUpToYou.jpg';
+import illDoMyBest from '../img/illDoMyBest.jpg';
+import goodForYou from '../img/goodForYou.jpg';
+import icantStandIt from '../img/icantStandIt.jpg';
+import andAllThatJazz from '../img/andAllThatJazz.jpg';
+import imdonewithit from '../img/imdonewithit.jpg';
+import imAllEars from '../img/imAllEars.jpg';
+import inTheMiddleOfNowhere from '../img/inTheMiddleOfNowhere.jpg';
 
 
 
@@ -106,6 +115,51 @@ const unit3 = [
       word: 'Рай',
       translate: 'Paradise', 
       url: paradise
+    },
+    {
+      word: 'Придти, подойти физически',
+      translate: 'come up', 
+      url: comeUp1
+    },
+    {
+      word: 'Тебе решать',
+      translate: `it's up to you`, 
+      url: itsUpToYou
+    },
+    {
+      word: 'Я постараюсь, сделаю все возможное',
+      translate: `i'll do my best`, 
+      url: illDoMyBest
+    },
+    {
+      word: 'Ты молодец',
+      translate: `good for you`, 
+      url: goodForYou
+    },
+    {
+      word: 'Меня это бесит',
+      translate: `i can't stand it`, 
+      url: icantStandIt
+    },
+    {
+      word: 'И все в том же духе',
+      translate: `and all that jazz`, 
+      url: andAllThatJazz
+    },
+    {
+      word: 'Меня задолбало',
+      translate: `i'm done with it`, 
+      url: imdonewithit
+    },
+    {
+      word: 'Я весь во внимании',
+      translate: `i'm all ears`, 
+      url: imAllEars
+    },
+    {
+      word: 'Хрен знает где',
+      translate: `in the middle of nowhere`, 
+      url: inTheMiddleOfNowhere
     },
   
     

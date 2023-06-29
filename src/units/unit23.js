@@ -145,7 +145,7 @@ const unit23 = [
     },
     {
         word: 'Количество, сумма',
-        translate: 'amount ща', 
+        translate: 'amount of', 
         url: amount
     },
     {

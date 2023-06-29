@@ -12,6 +12,13 @@ import behavior from '../img/behavior.jpg';
 import pattern from '../img/pattern.jpg';
 import anxiousFeeling from '../img/anxiousFeeling.jpg';
 import environment from '../img/environment.jpg';
+import innocent from '../img/innocent.jpg';
+import possibility from '../img/possibility.jpg';
+import appointment from '../img/appointment.jpg';
+import diary from '../img/diary.jpg';
+import invitation from '../img/invitation.jpg';
+import attitudeTo from '../img/attitudeTo.jpg';
+
 
 
 const unit25 = [
@@ -86,10 +93,39 @@ const unit25 = [
     translate: "Environment", 
     url: environment
   },
+  {
+    word: 'Невиновный, безвредный, безобидный',
+    translate: "innocent", 
+    url: innocent
+  },
+  {
+    word: 'Возможность, вероятность чего-либо',
+    translate: "Possibility", 
+    url: possibility
+  },
+  {
+    word: 'Встреча, запись на прием',
+    translate: "Appointment", 
+    url: appointment
+  },
+  {
+    word: 'Ежедневник',
+    translate: "Diary", 
+    url: diary
+  },
+  {
+    word: 'Приглашение',
+    translate: "Invitation", 
+    url: invitation
+  },
+  {
+    word: 'Отношение к чему-либо ,взгляд на что-то',
+    translate: "have attitude to", 
+    url: attitudeTo
+  },
 
   ]
 
 export default unit25;
-
 
 
