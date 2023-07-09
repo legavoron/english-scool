@@ -24,6 +24,15 @@ import andAllThatJazz from '../img/andAllThatJazz.jpg';
 import imdonewithit from '../img/imdonewithit.jpg';
 import imAllEars from '../img/imAllEars.jpg';
 import inTheMiddleOfNowhere from '../img/inTheMiddleOfNowhere.jpg';
+import reduce from '../img/reduce.jpg';
+import heFellForHer from '../img/heFellForHer.jpg';
+import itsquiteclearthat from '../img/itsquiteclearthat.jpg';
+import savage from '../img/savage.jpg';
+import notTooShabby from '../img/notTooShabby.jpg';
+import thatsImpressive from '../img/thatsImpressive.jpg';
+import myHatsOff from '../img/myHatsOff.jpg';
+import imNotShureWhatYouSaying from '../img/imNotShureWhatYouSaying.jpg';
+import iDontGetIt from '../img/iDontGetIt.jpg';
 
 
 
@@ -161,12 +170,62 @@ const unit3 = [
       translate: `in the middle of nowhere`, 
       url: inTheMiddleOfNowhere
     },
+    {
+      word: 'Уменьшить, снизить',
+      translate: `reduce`, 
+      url: reduce
+    },
+    {
+      word: 'Он влюбился в нее',
+      translate: `he fell for her`, 
+      url: heFellForHer
+    },
+    {
+      word: 'Совершенно очевидно, что...',
+      translate: `it's quite clear that`, 
+      url: itsquiteclearthat
+    },
+    {
+      word: 'Дикий, свирепый',
+      translate: `savage`, 
+      url: savage
+    },
+    {
+      word: 'Дикий, свирепый',
+      translate: `savage`, 
+      url: savage
+    },
+    {
+      word: 'Не так уж и плохо',
+      translate: `not to shabby`, 
+      url: notTooShabby
+    },
+    {
+      word: 'Впечатляюще, впечатляет',
+      translate: `that's impressive`, 
+      url: thatsImpressive
+    },
+    {
+      word: 'Снимаю шляпу',
+      translate: `mu hat's off`, 
+      url: myHatsOff
+    },
+    {
+      word: 'Не уверен, что понял тебя ',
+      translate: `i'm not shure what you saying`, 
+      url: imNotShureWhatYouSaying
+    },
+    {
+      word: 'Я не понимаю',
+      translate: `i don't get it`, 
+      url: iDontGetIt
+
+    },
   
     
     
   ]
 
 export default unit3;
-
 
 

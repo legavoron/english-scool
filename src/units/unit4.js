@@ -23,6 +23,7 @@ import illSay from '../img/illSay.jpg';
 import iRestMyCase from '../img/iRestMyCase.jpg';
 import takeYourPick from '../img/takeYourPick.jpg';
 import jogYourMemory from '../img/jogYourMemory.jpg';
+import fella from '../img/fella.jpg';
 
 
 
@@ -166,6 +167,11 @@ const unit4 = [
       word: 'Напряги свою память, постарайся вспомнить',
       translate: `jog your memory`, 
       url: jogYourMemory
+    },
+    {
+      word: 'Приятель, парень',
+      translate: `Fella`, 
+      url: fella
     },
   ]
 
