@@ -1,5 +1,3 @@
-import good from '../img/good.jpg';
-import burn from '../img/burn.jpg';
 import deserve from '../img/deserve.jpg';
 import accept from '../img/accept.jpg';
 import prettyMuch from '../img/prettyMuch.jpg';
@@ -11,23 +9,15 @@ import airfares from '../img/airfares.jpg';
 import inOrderTo from '../img/inOrderTo.jpg';
 import worried from '../img/worried.jpg';
 import theNumberOfIs from '../img/theNumberOfIs.jpg';
-import destination from '../img/destination.jpg';
 import knock from '../img/knock.jpg';
-import appear from '../img/appear.jpg';
 import honest from '../img/honest.jpg';
 import whisper from '../img/whisper.jpg';
-import injury from '../img/injury.jpg';
-import ride from '../img/ride.jpg';
-import shoulder from '../img/shoulder.jpg';
 import weak from '../img/weak.jpg';
-import beFurious from '../img/beFurious.jpg';
 import traitor from '../img/traitor.jpg';
-import prison from '../img/prison.jpg';
 import capture from '../img/capture.jpg';
 import thief from '../img/thief.jpg';
 import fog from '../img/fog.jpg';
 import afterAll from '../img/afterAll.jpg';
-import sheep from '../img/sheep.jpg';
 import impossible from '../img/impossible.jpg';
 import isIncreasingGradually from '../img/isIncreasingGradually.jpg';
 import isRiseSlightly from '../img/isRiseSlightly.jpg';
@@ -38,11 +28,6 @@ import isdecreasingSharply from '../img/isdecreasingSharply.jpg';
 
 
 const unit12 = [
-    {
-      word: 'Гореть',
-      translate: 'burn', 
-      url: burn
-    },
     {
       word: 'Заслуживает',
       translate: 'deserve', 
@@ -99,19 +84,9 @@ const unit12 = [
       url: theNumberOfIs
     },
     {
-      word: 'Пункт назначения',
-      translate: 'destination', 
-      url: destination
-    },
-    {
       word: 'Стучать',
       translate: 'knock', 
       url: knock
-    },
-    {
-      word: 'Появиться (показаться)',
-      translate: 'appear', 
-      url: appear
     },
     {
       word: 'Честный',
@@ -124,39 +99,14 @@ const unit12 = [
       url: whisper
     },
     {
-      word: 'Травма',
-      translate: 'Injury', 
-      url: injury
-    },
-    {
-      word: 'Ехать верхом на',
-      translate: 'ride', 
-      url: ride
-    },
-    {
-      word: 'Плечо',
-      translate: 'shoulder', 
-      url: shoulder
-    },
-    {
       word: 'Слабый',
       translate: 'weak', 
       url: weak
     },
     {
-      word: 'Быть в ярости',
-      translate: 'be furious', 
-      url: beFurious
-    },
-    {
       word: 'Предатель',
       translate: 'Traitor', 
       url: traitor
-    },
-    {
-      word: 'Тюрьма',
-      translate: 'Prison', 
-      url: prison
     },
     {
       word: 'Схватить (завладеть)',
@@ -177,11 +127,6 @@ const unit12 = [
       word: 'В конце концов',
       translate: 'after all', 
       url: afterAll
-    },
-    {
-      word: 'Овца',
-      translate: 'Sheep', 
-      url: sheep
     },
     {
       word: 'Невозможно',

@@ -30,9 +30,7 @@ import giveGave from '../img/giveGave.jpg';
 import gone from '../img/gone.jpg';
 import grown from '../img/grown.jpg';
 import had from '../img/had.jpg';
-import hear from '../img/hear.jpg';
 import hidden from '../img/hidden.jpg';
-import hit from '../img/hit.jpg';
 import hurt from '../img/hurt.jpg';
 import kept from '../img/kept.jpg';
 import know from '../img/know.jpg';
@@ -229,19 +227,9 @@ const unit17 = [
         url: had
     },
     {
-        word: `Три формы глагола "СЛЫШАТЬ"`,
-        translate: 'hear - heard - heard', 
-        url: hear
-    },
-    {
         word: `Три формы глагола "ПРЯТАТЬ"`,
         translate: 'hide - hid - hidden', 
         url: hidden
-    },
-    {
-        word: `Три формы глагола "УДАРИТЬ"`,
-        translate: 'hit - hit - hit', 
-        url: hit
     },
     {
         word: `Три формы глагола "РАНИТЬ"`,

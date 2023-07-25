@@ -35,6 +35,13 @@ import unemployment from '../img/unemployment.jpg';
 import income from '../img/income.jpg';
 import beautifulScenery from '../img/beautifulScenery.jpg';
 import toGetAway from '../img/toGetAway.jpg';
+import artificial from '../img/artificial.jpg';
+import shoreline from '../img/shoreline.jpg';
+import attract from '../img/attract.jpg';
+import consist from '../img/consist.jpg';
+import shore from '../img/shore.jpg';
+import skyscraper from '../img/skyscraper.jpg';
+import ancient from '../img/ancient.jpg';
 
 
 
@@ -225,10 +232,46 @@ const unit26 = [
         translate: `to get away from it all`, 
         url: toGetAway
     },
+    {
+        word: 'Искусственный, ненатуральный',
+        translate: `artificial`, 
+        url: artificial
+    },
+    {
+        word: 'Береговая линия, побережье',
+        translate: `Shoreline`, 
+        url: shoreline
+    },
+    {
+        word: 'Привлечь, притягивать',
+        translate: `attract`, 
+        url: attract
+    },
+    {
+        word: 'Заключается в... (представляет собой ...)',
+        translate: `consist of`, 
+        url: consist
+    },
+    {
+        word: 'Берег',
+        translate: `Shore`, 
+        url: shore
+    },
+    {
+        word: 'Небескреб',
+        translate: `Skyscraper`, 
+        url: skyscraper
+    },
+    {
+        word: 'Древний, старинный',
+        translate: `ancient`, 
+        url: ancient
+    },
 
 
 ]
 
 export default unit26;
+
 
 

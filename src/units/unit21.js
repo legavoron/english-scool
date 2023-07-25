@@ -35,7 +35,6 @@ import determined from '../img/determined.jpg';
 import innovative  from '../img/innovative.jpg';
 import motivated  from '../img/motivated.jpg';
 import optimistic  from '../img/optimistic.jpg';
-import reliable  from '../img/reliable.jpg';
 import fair  from '../img/fair.jpg';
 import intelligent  from '../img/intelligent.jpg';
 import patient  from '../img/patient.jpg';
@@ -228,11 +227,6 @@ const unit21 = [
         word: 'Оптимист',
         translate: 'optimistic', 
         url: optimistic
-    },
-    {
-        word: 'Надежный',
-        translate: 'reliable', 
-        url: reliable
     },
     {
         word: 'Справедливый (честный)',

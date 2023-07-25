@@ -1,70 +1,15 @@
-import good from '../img/good.jpg';
-import shake from '../img/shake.jpg';
-import wave from '../img/wave.jpg';
-import agreement from '../img/agreement.jpg';
-import rat from '../img/rat.jpg';
-import pear from '../img/pear.jpg';
-import siblings from '../img/siblings.jpg';
-import couple from '../img/couple.jpg';
-import above from '../img/above.jpg';
-import below from '../img/below.jpg';
 import abroad from '../img/abroad.jpg';
 import quiteFar from '../img/quiteFar.jpg';
-import pal from '../img/pal.jpg';
-import sickLeave from '../img/sickLeave.jpg';
-import getSick from '../img/getSick.jpg';
 import livelyPlace from '../img/livelyPlace.jpg';
-import madeOf from '../img/madeOf.jpg';
-import madeFrom from '../img/madeFrom.jpg';
+import iBothered from '../img/iBothered.jpg';
+import notCup from '../img/notCup.jpg';
+import itsSlipped from '../img/itsSlipped.jpg';
+import dontKeepMeWaiting from '../img/dontKeepMeWaiting.jpg';
+import keepAPromise from '../img/keepAPromise.jpg';
 
 
 const unit7 = [
     
-    {
-      word: 'Трясти',
-      translate: 'shake', 
-      url: shake
-    },
-    {
-      word: 'Волна',
-      translate: 'Wave', 
-      url: wave
-    },
-    {
-      word: 'Соглашение',
-      translate: 'Agreement', 
-      url: agreement
-    },
-    {
-      word: 'Крыса',
-      translate: 'Rat', 
-      url: rat
-    },
-    {
-      word: 'Груша',
-      translate: 'Pear', 
-      url: pear
-    },
-    {
-      word: 'Брат и сестра',
-      translate: 'Siblings', 
-      url: siblings
-    },
-    {
-      word: 'Пара (в отношениях)',
-      translate: 'couple', 
-      url: couple
-    },
-    {
-      word: 'Сверху',
-      translate: 'above', 
-      url: above
-    },
-    {
-      word: 'Снизу',
-      translate: 'below', 
-      url: below
-    },
     {
       word: 'За границей',
       translate: 'Abroad', 
@@ -76,34 +21,34 @@ const unit7 = [
       url: quiteFar
     },
     {
-      word: 'Приятель',
-      translate: 'Pal', 
-      url: pal
-    },
-    {
-      word: 'Быть на больничном',
-      translate: 'sick leave', 
-      url: sickLeave
-    },
-    {
-      word: 'Заболеть',
-      translate: 'get sick', 
-      url: getSick
-    },
-    {
       word: 'Оживленное место',
       translate: 'lively place', 
       url: livelyPlace
     },
     {
-      word: 'Это сделано из (без обработки)',
-      translate: 'it is made of', 
-      url: madeOf
+      word: 'Мне лень, мне пофигу',
+      translate: `i can't be bothered`, 
+      url: iBothered
     },
     {
-      word: 'Это сделано из (c обработкой)',
-      translate: 'it is made from', 
-      url: madeFrom
+      word: 'Мне это не по вкусу, это не мое',
+      translate: `it's not my cup of tea`, 
+      url: notCup
+    },
+    {
+      word: 'Вылетело из головы',
+      translate: `it's slipped my mind`, 
+      url: itsSlipped
+    },
+    {
+      word: 'Не заставляй меня ждать',
+      translate: `don't keep me waining`, 
+      url: dontKeepMeWaiting
+    },
+    {
+      word: 'Сдержать обещание',
+      translate: `keep a promise`, 
+      url: keepAPromise
     },
     
   ]

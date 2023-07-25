@@ -1,14 +1,7 @@
 import good from '../img/good.jpg';
 
 import onTheOtherHand from '../img/onTheOtherHand.jpg';
-import itsVeryChallenging from '../img/itsVeryChallenging.jpg';
-import itdependsOn from '../img/itdependsOn.jpg';
-import loudly from '../img/loudly.jpg';
-import everyone from '../img/everyone.jpg';
-import quickly from '../img/quickly.jpg';
 import actually from '../img/actually.jpg';
-import satisfaction from '../img/satisfaction.jpg';
-import remove from '../img/remove.jpg';
 import backUp from '../img/backUp.jpg';
 import runInto from '../img/runInto.jpg';
 import setOff from '../img/setOff.jpg';
@@ -43,49 +36,9 @@ const unit2 = [
     url: onTheOtherHand
   },
   {
-    word: 'Это очень трудно',
-    translate: "it's very challenging", 
-    url: itsVeryChallenging
-  },
-  {
-    word: 'Это зависит от',
-    translate: "it depends on", 
-    url: itdependsOn
-  },
-  {
-      word: 'Громко',
-      translate: 'loudly', 
-      url: loudly
-  },
-  {
-      word: 'Все',
-      translate: 'everyone', 
-      url: everyone
-  },
-  {
-      word: 'Возможно',
-      translate: 'perhaps', 
-      url: good
-  },
-  {
-      word: 'Быстро',
-      translate: 'quickly', 
-      url: quickly
-  },
-  {
     word: 'Вобще-то',
     translate: 'actually', 
     url: actually
-  },
-  {
-    word: 'Удовлетворенность',
-    translate: 'satisfaction', 
-    url: satisfaction
-  },
-  {
-    word: 'Удалить, снять, устранить',
-    translate: 'remove', 
-    url: remove
   },
   {
     word: 'Поддерживать',

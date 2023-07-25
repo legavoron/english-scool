@@ -1,80 +1,37 @@
-import good from '../img/good.jpg';
-import useless from '../img/useless.jpg';
-import iWillBeAble from '../img/iWillBeAble.jpg';
-import getLost from '../img/getLost.jpg';
-import passerBy from '../img/passerBy.jpg';
-import notes from '../img/notes.jpg';
-import sightseeingTour from '../img/sightseeingTour.jpg';
-import haveBack from '../img/haveBack.jpg';
-import ability from '../img/ability.jpg';
 import confidence from '../img/confidence.jpg';
-import develop from '../img/develop.jpg';
-import mostPeople from '../img/mostPeople.jpg';
+import takeItEasy from '../img/takeItEasy.jpg';
+import takeYourTime from '../img/takeYourTime.jpg';
+import keepTheChange from '../img/keepTheChange.jpg';
+import howsItGoing from '../img/howsItGoing.jpg';
 
 
 const unit15 = [
-    {
-      word: 'Уже',
-      translate: 'already', 
-      url: good
-
-    },
-    {
-      word: 'Бессполезный',
-      translate: 'useless', 
-      url: useless
-
-    },
-    {
-    word: 'Я смогу',
-    translate: "I'll be able", 
-    url: iWillBeAble
-    },
-    {
-      word: 'Потеряться, заблудиться',
-      translate: "get lost", 
-      url: getLost
-    },
-    {
-      word: 'Прохожий',
-      translate: "passer-by", 
-      url: passerBy
-    },
-    {
-      word: 'Заметки, записи',
-      translate: "Notes", 
-      url: notes
-    },
-    {
-      word: 'Обзорная экскурсия',
-      translate: "sightseeing tour", 
-      url: sightseeingTour
-    },
-    {
-      word: 'Вернуть деньги назад',
-      translate: "have money back", 
-      url: haveBack
-    },
-    {
-      word: 'Способность, навык',
-      translate: "Ability", 
-      url: ability
-    },
     {
       word: 'Уверенность в ком-то, доверие',
       translate: "Confidence", 
       url: confidence
     },
     {
-      word: 'Развивать, разрабатывать',
-      translate: "develop", 
-      url: develop
+      word: 'Не бери в голову, не заморачивайся',
+      translate: "take it easy", 
+      url: takeItEasy
     },
     {
-      word: 'Большинство людей',
-      translate: "most people", 
-      url: mostPeople
+      word: 'Не спеши, время еще есть, не торопись',
+      translate: "take your time", 
+      url: takeYourTime
     },
+    {
+      word: 'Сдачи не надо',
+      translate: "keep the change", 
+      url: keepTheChange
+    },
+    {
+      word: 'Как дела? Как поживаешь?',
+      translate: `How's it going?`, 
+      url: howsItGoing
+    },
+
 
   ]
 
