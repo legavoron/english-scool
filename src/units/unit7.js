@@ -6,6 +6,7 @@ import notCup from '../img/notCup.jpg';
 import itsSlipped from '../img/itsSlipped.jpg';
 import dontKeepMeWaiting from '../img/dontKeepMeWaiting.jpg';
 import keepAPromise from '../img/keepAPromise.jpg';
+import toGetRidOf from '../img/toGetRidOf.jpg';
 
 
 const unit7 = [
@@ -50,6 +51,12 @@ const unit7 = [
       translate: `keep a promise`, 
       url: keepAPromise
     },
+    {
+      word: 'Избавиться от ... ',
+      translate: `to get rid of`, 
+      url: toGetRidOf
+    },
+    
     
   ]
 
