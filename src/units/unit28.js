@@ -24,6 +24,7 @@ import measure from '../img/measure.jpg';
 import occupation from '../img/occupation.jpg';
 import involve from '../img/involve.jpg';
 import getInvolved from '../img/getInvolved.jpg';
+import heating from '../img/heating.jpg';
 
 
 
@@ -158,11 +159,17 @@ const unit28 = [
         translate: `get involved`, 
         url: getInvolved
     },
+    {
+        word: 'Отопление, нагрев',
+        translate: `heating`, 
+        url: heating
+    },
 
 
 
 ]
 
 export default unit28;
+
 
 
