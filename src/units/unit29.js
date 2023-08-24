@@ -15,6 +15,19 @@ import seniority from '../img/seniority.jpg';
 import overlap from '../img/overlap.jpg';
 import briefly from '../img/briefly.jpg';
 import repair from '../img/repair.jpg';
+import redundancy from '../img/redundancy.jpg';
+import participants from '../img/participants.jpg';
+import steepHill from '../img/steepHill.jpg';
+import delay from '../img/delay.jpg';
+import walkers from '../img/walkers.jpg';
+import eitherOr from '../img/eitherOr.jpg';
+import audience from '../img/audience.jpg';
+import pollution from '../img/pollution.jpg';
+import turnDown from '../img/turnDown.jpg';
+import accuse from '../img/accuse.jpg';
+import dismiss from '../img/dismiss.jpg';
+import accordingTo from '../img/accordingTo.jpg';
+import accord from '../img/accord.jpg';
 
 
 
@@ -104,6 +117,72 @@ const unit29 = [
         translate: `repair`, 
         url: repair
     },
+    {
+        word: 'Увольнение, сокращение на работе',
+        translate: `Redundancy`, 
+        url: redundancy
+    },
+    {
+        word: 'Участники (соревнований)',
+        translate: `Participants`, 
+        url: participants
+    },
+    {
+        word: 'Крутой холм',
+        translate: `steep hill`, 
+        url: steepHill
+    },
+    {
+        word: 'Задержка, отсрочка',
+        translate: `delay`, 
+        url: delay
+    },
+    {
+        word: 'Пешеходы, ходячие',
+        translate: `Walkers`, 
+        url: walkers
+    },
+    {
+        word: 'Либо то, либо это',
+        translate: `either ... or ...`, 
+        url: eitherOr
+    },
+    {
+        word: 'Публика, зрители',
+        translate: `Audience`, 
+        url: audience
+    },
+    {
+        word: 'Загрязнение окружающей среды',
+        translate: `Pollution`, 
+        url: pollution
+    },
+    {
+        word: 'Отказаться от (убавить, выключить)',
+        translate: `turn down`, 
+        url: turnDown
+    },
+    {
+        word: 'Упрекать, осуждать, винить',
+        translate: `accuse`, 
+        url: accuse
+    },
+    {
+        word: 'Уволить (отклонить, отвергнуть)',
+        translate: `dismiss`, 
+        url: dismiss
+    },
+    {
+        word: 'Согласно чего-то....',
+        translate: `according to`, 
+        url: accordingTo
+    },
+    {
+        word: 'Соглашение, согласие, договоренность',
+        translate: `Accord`, 
+        url: accord
+    },
+   
 
 
 ]
