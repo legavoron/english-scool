@@ -63,7 +63,7 @@ const unit26 = [
         url: comparison
     },
     {
-        word: 'Сравнение, сопоставление',
+        word: 'Уделять чему-то много внимания',
         translate: "give it much thought", 
         url: giveThought
     },
