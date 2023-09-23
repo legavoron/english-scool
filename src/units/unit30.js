@@ -18,6 +18,7 @@ import appearance from '../img/appearance.jpg';
 import accomplishments from '../img/accomplishments.jpg';
 import takeCreditFor from '../img/takeCreditFor.jpg';
 import downgrades from '../img/downgrades.jpg';
+import dull from '../img/dull.jpg';
 
 
 const unit30 = [
@@ -120,6 +121,11 @@ const unit30 = [
         word: 'Понижение, снижение, откат',
         translate: `downgrade`, 
         url: downgrades
+    },
+    {
+        word: 'Скучный (тупой)',
+        translate: `dull`, 
+        url: dull
     },
     
 
