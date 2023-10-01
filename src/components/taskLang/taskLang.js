@@ -11,7 +11,7 @@ const TaskLang = (props) => {
     
     return (
         <div className="taskLang">
-            <Link to="/main" className='taskLang__close-container' onClick={props.changeStartIsActiveTask}>
+            <Link to="/" className='taskLang__close-container' onClick={props.changeStartIsActiveTask}>
                 <img src={closeBtn} alt="close" className='taskLang__close-btn'/>
             </Link>
             <h1 className='taskLang__heading'>Выберете язык</h1>

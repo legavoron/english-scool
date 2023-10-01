@@ -1,5 +1,7 @@
 import './App.css';
 
+import { useEffect } from 'react';
+
 import Screensaver from './components/screensaver/screensaver';
 import StartPage from './components/startPage/startPage';
 import LevelsList from './components/levelsList/levelsList';
@@ -208,24 +210,38 @@ const App = () => {
     chooseTask();
   }
 
+  //Блокируем горизонтальную ориентацию
+
+  const lockOrientation = () => {
+    if (window.screen.orientation && window.screen.orientation.lock) {
+      window.screen.orientation.lock('portrait');
+    } else if (window.screen.lockOrientation) {
+      window.screen.lockOrientation('portrait');
+    }
+  };
+
+  useEffect(() => {
+    lockOrientation();
+  }, []);
+
 
   return (
     <div className="App">
       <Routes>
-          <Route exact path='/' element={<Screensaver/>}/>
-          <Route exact path='/main' element={<StartPage chooseTask={chooseTask}/>}/>
-          <Route exact path='/main/levels' element={<LevelsList 
+          {/* <Route exact path='/' element={<Screensaver/>}/> */}
+          <Route exact path='/' element={<StartPage chooseTask={chooseTask}/>}/>
+          <Route exact path='//levels' element={<LevelsList 
                                                       chooseLevels={chooseLevels} 
                                                       colors={levels} 
                                                       chooseTask={chooseTask} />}/>
-          <Route exact path='/main/task' element={<Task 
+          <Route exact path='//task' element={<Task 
                                                     units={levels} 
                                                     word={task.word}  
                                                     url={task.url} 
                                                     btnValue={btnValue} 
                                                     chooseTask={chooseTask} lang={lang}
                                                     />} />
-          <Route exact path='/main/lang' element={<TaskLang changeStartIsActiveTask={changeStartIsActiveTask} changeLang={changeLang} lang={lang}/>} />
+          <Route exact path='//lang' element={<TaskLang changeStartIsActiveTask={changeStartIsActiveTask} changeLang={changeLang} lang={lang}/>} />
       </Routes>
     
   </div>

@@ -24,7 +24,7 @@ const LevelsList = ({chooseLevels, colors, chooseTask}) => {
 
     return (
         <div className="levels levels__container">
-            <Link to="/main" className='levels_close' onClick={chooseTask}>
+            <Link to="/" className='levels_close' onClick={chooseTask}>
                 <img src={closeBtn} alt="close" className='levels___close_btn'/>
             </Link>
             <h1 className="levels__heading">

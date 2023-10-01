@@ -9,7 +9,7 @@ const Task = (props) => {
 
     return (
         <div className="task">
-            <Link to="/main" className='task__close-container'>
+            <Link to="/" className='task__close-container'>
                 <img src={closeBtn} alt="close" className='task__close-btn'/>
             </Link>
             <div className='task__image-container'>
