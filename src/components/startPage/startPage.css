@@ -146,6 +146,27 @@
     color: #505050;
 }
 
+.traslatePage_Link_wrapper {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.translatePage_button {
+    background-color: rgb(160, 195, 217);
+    color: rgb(80, 80, 80);
+    width: 80%;
+    max-width: 400px;
+    height: 80px;
+    padding: 0;
+    border: none;
+    font: inherit;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 @media(max-width: 600px) {
     .english__englishLogo_wrapper {
         width: 240px;
@@ -228,4 +249,8 @@
         margin-top: 5px;
         font-size: 14px;
     }
-}
+    .translatePage_button {
+        height: 60px;
+        font-size: 20px;
+    }
+}   

@@ -69,6 +69,7 @@ const StartPage = ({chooseTask}) => {
                         </Link>
                     </div>
                 </div>
+
             </div>
         </div>
     )

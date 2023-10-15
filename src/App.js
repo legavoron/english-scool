@@ -1,12 +1,12 @@
 import './App.css';
 
-import { useEffect } from 'react';
 
-import Screensaver from './components/screensaver/screensaver';
+// import Screensaver from './components/screensaver/screensaver';
 import StartPage from './components/startPage/startPage';
 import LevelsList from './components/levelsList/levelsList';
 import Task from './components/task/task';
 import TaskLang from './components/taskLang/taskLang';
+
 
 import {Routes, Route} from 'react-router-dom';
 import { useState } from 'react';
@@ -45,6 +45,7 @@ import unit28 from './units/unit28';
 import unit29 from './units/unit29';
 import unit30 from './units/unit30';
 import unit31 from './units/unit31';
+import unit32 from './units/unit32';
 
 
 const App = () => {
@@ -56,7 +57,7 @@ const App = () => {
     unit15: unit15, unit16: unit16, unit17: unit17, unit18: unit18, 
     unit19: unit19, unit20: unit20, unit21: unit21, unit22: unit22, 
     unit23: unit23, unit24: unit24, unit25: unit25, unit26: unit26,
-    unit27: unit27, unit28: unit28, unit29: unit29, unit30: unit30, unit31: unit31} ;
+    unit27: unit27, unit28: unit28, unit29: unit29, unit30: unit30, unit31: unit31, unit32: unit32} ;
 
   const units = {unit0: false, unit1: false, unit2: false, unit3: false, 
     unit4: false, unit5: false, unit6: false, unit7: false, unit8: false, 
@@ -64,7 +65,7 @@ const App = () => {
     unit14: false, unit15: false, unit16: false, unit17: false, unit18: false, 
     unit19: false, unit20: false, unit21: false, unit22: false, unit23: false, 
     unit24: false, unit25: false, unit26: false, unit27: false, unit28: false, 
-    unit29: false, unit30: false, unit31: false};
+    unit29: false, unit30: false, unit31: false, unit32: false};
 
   const [levels, setLevels] = useState(units);
   const [btnValue, setBtnValue] = useState('');
@@ -210,19 +211,19 @@ const App = () => {
     chooseTask();
   }
 
-  //Блокируем горизонтальную ориентацию
+  //Блокируем горизонтальную ориентацию - не сработало
 
-  const lockOrientation = () => {
-    if (window.screen.orientation && window.screen.orientation.lock) {
-      window.screen.orientation.lock('portrait');
-    } else if (window.screen.lockOrientation) {
-      window.screen.lockOrientation('portrait');
-    }
-  };
+  // const lockOrientation = () => {
+  //   if (window.screen.orientation && window.screen.orientation.lock) {
+  //     window.screen.orientation.lock('portrait');
+  //   } else if (window.screen.lockOrientation) {
+  //     window.screen.lockOrientation('portrait');
+  //   }
+  // };
 
-  useEffect(() => {
-    lockOrientation();
-  }, []);
+  // useEffect(() => {
+  //   lockOrientation();
+  // }, []);
 
 
   return (
@@ -242,6 +243,7 @@ const App = () => {
                                                     chooseTask={chooseTask} lang={lang}
                                                     />} />
           <Route exact path='//lang' element={<TaskLang changeStartIsActiveTask={changeStartIsActiveTask} changeLang={changeLang} lang={lang}/>} />
+          
       </Routes>
     
   </div>
