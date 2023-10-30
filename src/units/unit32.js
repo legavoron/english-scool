@@ -22,6 +22,32 @@ import pedestrian from '../img/pedestrian.jpg';
 import fame from '../img/fame.jpg';
 import along from '../img/along.jpg';
 import tongue from '../img/tongue.jpg';
+import weakness from '../img/weakness.jpg';
+import roofIsLeaking from '../img/roofIsLeaking.jpg';
+import disabledPeople from '../img/disabledPeople.jpg';
+import accidentally from '../img/accidentally.jpg';
+import questionnaire from '../img/questionnaire.jpg';
+import forceful from '../img/forceful.jpg';
+import stuck from '../img/stuck.jpg';
+import coastguard from '../img/coastguard.jpg';
+import cliff from '../img/cliff.jpg';
+import rope from '../img/rope.jpg';
+import climb from '../img/climb.jpg';
+import resign from '../img/resign.jpg';
+import reprimand from '../img/reprimand.jpg';
+import itMakesNoSense from '../img/itMakesNoSense.jpg';
+import suffer from '../img/suffer.jpg';
+import eventually from '../img/eventually.jpg';
+import achievements from '../img/achievements.jpg';
+import conceited from '../img/conceited.jpg';
+import property from '../img/property.jpg';
+import lookAround from '../img/lookAround.jpg';
+import sortItOut from '../img/sortItOut.jpg';
+import layOff from '../img/layOff.jpg';
+import makeSupper from '../img/makeSupper.jpg';
+import makeAJoke from '../img/makeAJoke.jpg';
+import makeASuggestion from '../img/makeASuggestion.jpg';
+import makeAnExcuse from '../img/makeAnExcuse.jpg';
 
 
 
@@ -142,10 +168,141 @@ const unit32 = [
         url: along
     },
     {
-        word: 'Вдоль чего-то',
+        word: 'Язык',
         translate: `Tongue`, 
         url: tongue
     },
+    {
+        word: 'Слабое место, слабость',
+        translate: `Weakness`, 
+        url: weakness
+    },
+    {
+        word: 'Протекает крыша',
+        translate: `roof is leaking`, 
+        url: roofIsLeaking
+    },
+    {
+        word: 'Инвалиды',
+        translate: `disabled people`, 
+        url: disabledPeople
+    },
+    {
+        word: 'Случайно',
+        translate: `accidentally`, 
+        url: accidentally
+    },
+    {
+        word: 'Опрос',
+        translate: `Questionnaire`, 
+        url: questionnaire
+    },
+    {
+        word: 'Напористый, решительный',
+        translate: `forceful`, 
+        url: forceful
+    },
+    {
+        word: 'Застрял, не двигается',
+        translate: `to be stuck`, 
+        url: stuck
+    },
+    {
+        word: 'Морская охрана, спасатели',
+        translate: `Coastguard`, 
+        url: coastguard
+    },
+    {
+        word: 'Утес, скала',
+        translate: `Cliff`, 
+        url: cliff
+    },
+    {
+        word: 'Веревка, канат, трос',
+        translate: `Rope`, 
+        url: rope
+    },
+    {
+        word: 'Подниматься, взбираться',
+        translate: `climb`, 
+        url: climb
+    },
+    {
+        word: 'Уволиться',
+        translate: `resign`, 
+        url: resign
+    },
+    {
+        word: 'Выговор, сделать выговор',
+        translate: `reprimand`, 
+        url: reprimand
+    },
+    {
+        word: 'Это не имеет смысла',
+        translate: `it makes no sense`, 
+        url: itMakesNoSense
+    },
+    {
+        word: 'Страдать, прееносить боль',
+        translate: `suffer`, 
+        url: suffer
+    },
+    {
+        word: 'В конечном итоге, в конце концов',
+        translate: `eventually`, 
+        url: eventually
+    },
+    {
+        word: 'Успехи, достижения',
+        translate: `Achievements`, 
+        url: achievements
+    },
+    {
+        word: 'Надменный, самолюбивый',
+        translate: `conceited`, 
+        url: conceited
+    },
+    {
+        word: 'Собственность, имущество, недвижимость',
+        translate: `Property`, 
+        url: property
+    },
+    {
+        word: 'Осмотреться, осмотреть',
+        translate: `look around`, 
+        url: lookAround
+    },
+    {
+        word: 'Решить вопрос, решить проблему',
+        translate: `sort it out`, 
+        url: sortItOut
+    },
+    {
+        word: 'Уволить, сократить работников',
+        translate: `lay off`, 
+        url: layOff
+    },
+    {
+        word: 'Приготовить ужин',
+        translate: `make supper`, 
+        url: makeSupper
+    },
+    {
+        word: 'Пошутить',
+        translate: `make a joke`, 
+        url: makeAJoke
+    },
+    {
+        word: 'Сделать предложение, предложить',
+        translate: `make a suggestion`, 
+        url: makeASuggestion
+    },
+    {
+        word: 'Придумать отговорку, найти оправдание',
+        translate: `make an excuse`, 
+        url: makeAnExcuse
+    },
+    
    
     
 
@@ -153,5 +310,7 @@ const unit32 = [
 ]
 
 export default unit32;
+
+
 
 

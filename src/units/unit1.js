@@ -2,7 +2,9 @@ import good from '../img/good.jpg';
 import appropriate from '../img/appropriate.jpg';
 import courageous from '../img/courageous.jpg';
 import cheerful from '../img/cheerful.jpg';
-import gratefull from '../img/gratefull.jpg';
+import influence from '../img/influence.jpg';
+import persist from '../img/persist.jpg';
+import produce from '../img/produce.jpg';
 
 
 const unit1 = [
@@ -27,12 +29,24 @@ const unit1 = [
       url: cheerful
     },
     {
-      word: 'Быть благодарным',
-      translate: 'gratefull to', 
-      url: gratefull
+      word: 'Влияние, авторитет',
+      translate: 'influence', 
+      url: influence
+    },
+    {
+      word: 'Настойчивость',
+      translate: 'Persist', 
+      url: persist
+    },
+    {
+      word: 'Производить',
+      translate: 'produce', 
+      url: produce
     },
   ]
 
   export default unit1;
+
+
 
   
