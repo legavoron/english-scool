@@ -19,6 +19,13 @@ import propose from '../img/propose.jpg';
 import launch from '../img/launch.jpg';
 import contractor from '../img/contractor.jpg';
 import beResponsible from '../img/beResponsible.jpg';
+import disrupt from '../img/disrupt.jpg';
+import refer from '../img/refer.jpg';
+import anxiety from '../img/anxiety.jpg';
+import reach from '../img/reach.jpg';
+import capable from '../img/capable.jpg';
+import takeOff from '../img/takeOff.jpg';
+import derail from '../img/derail.jpg';
 
 
 
@@ -129,6 +136,43 @@ const unit1 = [
       translate: 'to be responsible for', 
       url: beResponsible
     },
+    {
+      word: 'Нарушить, прервать что-то',
+      translate: 'disrupt', 
+      url: disrupt
+    },
+    {
+      word: 'Ссылаться на что-то, обратиться к кому-то, рекомендовать',
+      translate: 'refer', 
+      url: refer
+    },
+    {
+      word: 'Чувство тревоги, беспокойства',
+      translate: 'Anxiety', 
+      url: anxiety
+    },
+        {
+      word: 'Достичь чего-то, дотянуться до чего-то',
+      translate: 'reach', 
+      url: reach
+    },
+    {
+      word: 'Способный выполнить задачу, компетентный',
+      translate: 'capable', 
+      url: capable
+    },
+    {
+      word: 'Провести время вне работы',
+      translate: 'take off', 
+      url: takeOff
+    },
+    {
+      word: 'Нарушение плана, сбой с намеченного пути',
+      translate: 'derail', 
+      url: derail
+    },
+
+
   ]
 
   export default unit1;
