@@ -26,6 +26,14 @@ import reach from '../img/reach.jpg';
 import capable from '../img/capable.jpg';
 import takeOff from '../img/takeOff.jpg';
 import derail from '../img/derail.jpg';
+import mainly from '../img/mainly.jpg';
+import indecision from '../img/indecision.jpg';
+import lackOf from '../img/lackOf.jpg';
+import fatigue from '../img/fatigue.jpg';
+import inability from '../img/inability.jpg';
+import expand from '../img/expand.jpg';
+import degree from '../img/degree.jpg';
+import qualified from '../img/qualified.jpg';
 
 
 
@@ -151,7 +159,7 @@ const unit1 = [
       translate: 'Anxiety', 
       url: anxiety
     },
-        {
+    {
       word: 'Достичь чего-то, дотянуться до чего-то',
       translate: 'reach', 
       url: reach
@@ -170,6 +178,46 @@ const unit1 = [
       word: 'Нарушение плана, сбой с намеченного пути',
       translate: 'derail', 
       url: derail
+    },
+    {
+      word: 'В основном',
+      translate: 'mainly', 
+      url: mainly
+    },
+    {
+      word: 'Нерешительность, сомнение',
+      translate: 'Indecision', 
+      url: indecision
+    },
+    {
+      word: 'Недостаток, отсутствие чего-то',
+      translate: 'lack of', 
+      url: lackOf
+    },
+    {
+      word: 'Усталость, утомление',
+      translate: 'Fatigue', 
+      url: fatigue
+    },
+    {
+      word: 'Невозможность, неспособность',
+      translate: 'Inability', 
+      url: inability
+    },
+    {
+      word: 'Расширить, увеличить',
+      translate: 'expand', 
+      url: expand
+    },
+    {
+      word: 'Ученая степень, уровень, градус',
+      translate: 'Degree', 
+      url: degree
+    },
+    {
+      word: 'Квалифицированный (специалист)',
+      translate: 'qualified', 
+      url: qualified
     },
 
 
