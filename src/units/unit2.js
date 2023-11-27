@@ -48,6 +48,16 @@ import insomnia from '../img/insomnia.jpg';
 import charming from '../img/charming.jpg';
 import lighthouse from '../img/lighthouse.jpg';
 import charger from '../img/charger.jpg';
+import occasional from '../img/occasional.jpg';
+import inAdvance from '../img/inAdvance.jpg';
+import additional from '../img/additional.jpg';
+import gear from '../img/gear.jpg';
+import notToMention from '../img/notToMention.jpg';
+import favor from '../img/favor.jpg';
+import land from '../img/land.jpg';
+import endUP from '../img/endUP.jpg';
+import outOfTheWay from '../img/outOfTheWay.jpg';
+import departures from '../img/departures.jpg';
 
 
 
@@ -302,6 +312,56 @@ const unit2 = [
     word: 'Зарядное устройство',
     translate: 'Charger', 
     url: charger
+  },
+  {
+    word: 'Редкий, случайный',
+    translate: 'occasional', 
+    url: occasional
+  },
+  {
+    word: 'Заранее, заблаговременно',
+    translate: 'in advance', 
+    url: inAdvance
+  },
+  {
+    word: 'Дополнительный',
+    translate: 'additional', 
+    url: additional
+  },
+  {
+    word: 'Снаряжение, экипировка, оборудование',
+    translate: 'Gear', 
+    url: gear
+  },
+  {
+    word: 'Не говоря уже о...',
+    translate: 'not to mention', 
+    url: notToMention
+  },
+  {
+    word: 'Оказывает тебе услугу, делает одолжение',
+    translate: 'to be doing you a favor', 
+    url: favor
+  },
+  {
+    word: 'Приземляться, земля',
+    translate: 'land', 
+    url: land
+  },
+  {
+    word: 'В конечном итоге (оказаться где-то)',
+    translate: 'end up', 
+    url: endUP
+  },
+  {
+    word: 'В стороне, не по дороге, не по пути',
+    translate: 'out of the way', 
+    url: outOfTheWay
+  },
+  {
+    word: 'Вылет (самолета), время вылета',
+    translate: 'departures', 
+    url: departures
   },
   
 
