@@ -1,10 +1,8 @@
 import explosion from '../img/explosion.jpg';
 import silently from '../img/silently.jpg';
 import force from '../img/force.jpg';
-import breathe from '../img/breathe.jpg';
 import broom from '../img/broom.jpg';
 import socket from '../img/socket.jpg';
-import bucket from '../img/bucket.jpg';
 import dustpan from '../img/dustpan.jpg';
 import hush from '../img/hush.jpg';
 import comeUp1 from '../img/comeUp1.jpg';
@@ -15,16 +13,41 @@ import icantStandIt from '../img/icantStandIt.jpg';
 import andAllThatJazz from '../img/andAllThatJazz.jpg';
 import imdonewithit from '../img/imdonewithit.jpg';
 import imAllEars from '../img/imAllEars.jpg';
-import inTheMiddleOfNowhere from '../img/inTheMiddleOfNowhere.jpg';
 import reduce from '../img/reduce.jpg';
-import heFellForHer from '../img/heFellForHer.jpg';
 import itsquiteclearthat from '../img/itsquiteclearthat.jpg';
 import savage from '../img/savage.jpg';
 import notTooShabby from '../img/notTooShabby.jpg';
 import thatsImpressive from '../img/thatsImpressive.jpg';
 import myHatsOff from '../img/myHatsOff.jpg';
 import imNotShureWhatYouSaying from '../img/imNotShureWhatYouSaying.jpg';
-import iDontGetIt from '../img/iDontGetIt.jpg';
+import goHalves from '../img/goHalves.jpg';
+import elbow from '../img/elbow.jpg';
+import indicate from '../img/indicate.jpg';
+import honoured from '../img/honoured.jpg';
+import furthestFrom from '../img/furthestFrom.jpg';
+import chopsticks from '../img/chopsticks.jpg';
+import pierce from '../img/pierce.jpg';
+import affair from '../img/affair.jpg';
+import cross from '../img/cross.jpg';
+import strech from '../img/strech.jpg';
+import makeAMess from '../img/makeAMess.jpg';
+import boiled from '../img/boiled.jpg';
+import salty from '../img/salty.jpg';
+import grilled from '../img/grilled.jpg';
+import roast from '../img/roast.jpg';
+import sweet from '../img/sweet.jpg';
+import vinegar from '../img/vinegar.jpg';
+import fried from '../img/fried.jpg';
+import spice from '../img/spice.jpg';
+import spicy from '../img/spicy.jpg';
+import chewy from '../img/chewy.jpg';
+import baked from '../img/baked.jpg';
+import rich from '../img/rich.jpg';
+import tasty from '../img/tasty.jpg';
+import steamed from '../img/steamed.jpg';
+import oily from '../img/oily.jpg';
+import tender from '../img/tender.jpg';
+import tough from '../img/tough.jpg';
 
 
 
@@ -47,12 +70,7 @@ const unit3 = [
       translate: 'force', 
       url: force
     },
-    {
-      word: 'Дышать',
-      translate: 'breathe', 
-      url: breathe
-    },
-    {
+        {
       word: 'Метла',
       translate: 'Broom', 
       url: broom
@@ -62,12 +80,7 @@ const unit3 = [
       translate: 'Socket', 
       url: socket
     },
-    {
-      word: 'Ведро',
-      translate: 'Bucket', 
-      url: bucket
-    },
-    {
+        {
       word: 'Совок',
       translate: 'Dustpan', 
       url: dustpan
@@ -118,29 +131,14 @@ const unit3 = [
       url: imAllEars
     },
     {
-      word: 'Хрен знает где',
-      translate: `in the middle of nowhere`, 
-      url: inTheMiddleOfNowhere
-    },
-    {
       word: 'Уменьшить, снизить',
       translate: `reduce`, 
       url: reduce
     },
     {
-      word: 'Он влюбился в нее',
-      translate: `he fell for her`, 
-      url: heFellForHer
-    },
-    {
       word: 'Совершенно очевидно, что...',
       translate: `it's quite clear that`, 
       url: itsquiteclearthat
-    },
-    {
-      word: 'Дикий, свирепый',
-      translate: `savage`, 
-      url: savage
     },
     {
       word: 'Дикий, свирепый',
@@ -168,16 +166,152 @@ const unit3 = [
       url: imNotShureWhatYouSaying
     },
     {
-      word: 'Я не понимаю',
-      translate: `i don't get it`, 
-      url: iDontGetIt
-
+      word: 'Поделить пополам что-то',
+      translate: `go halves`, 
+      url: goHalves
     },
+    {
+      word: 'Локоть',
+      translate: `Elbow`, 
+      url: elbow
+    },
+    {
+      word: 'Указать на что-то, дать сигнал',
+      translate: `indicate`, 
+      url: indicate
+    },
+    {
+      word: 'Заслуженный, почетный, уважаемый',
+      translate: `honoured`, 
+      url: honoured
+    },
+    {
+      word: 'Отдаленный от, дальше от...',
+      translate: `furthest from`, 
+      url: furthestFrom
+    },
+    {
+      word: 'Палочки для еды',
+      translate: `chopsticks`, 
+      url: chopsticks
+    },
+    {
+      word: 'Проколоть, проткнуть',
+      translate: `pierce`, 
+      url: pierce
+    },
+    {
+      word: 'Роман, отношения, мероприятие',
+      translate: `Affair`, 
+      url: affair
+    },
+    {
+      word: 'Крест',
+      translate: `cross`, 
+      url: cross
+    },
+    {
+      word: 'Растягивать',
+      translate: `strech`, 
+      url: strech
+    },
+    {
+      word: 'Устроить беспорядок, насвинячить',
+      translate: `make a mess`, 
+      url: makeAMess
+    },
+    {
+      word: 'Вареный, кипяченый',
+      translate: `boiled`, 
+      url: boiled
+    },
+    {
+      word: 'Соленый',
+      translate: `salty`, 
+      url: salty
+    },
+    {
+      word: 'Жареный на огне',
+      translate: `grilled`, 
+      url: grilled
+    },
+    {
+      word: 'Жареный на сковороде, запеченый в духовке',
+      translate: `roast`, 
+      url: roast
+    },
+    {
+      word: 'Сладкий',
+      translate: `sweet`, 
+      url: sweet
+    },
+    {
+      word: 'Уксус',
+      translate: `Vinegar`, 
+      url: vinegar
+    },
+    {
+      word: 'Жареный во фритюре',
+      translate: `fried`, 
+      url: fried
+    },
+    {
+      word: 'Приправа',
+      translate: `Spice`, 
+      url: spice
+    },
+    {
+      word: 'Острое блюдо',
+      translate: `spicy`, 
+      url: spicy
+    },
+    {
+      word: 'Жевательный, жвачка',
+      translate: `chewy`, 
+      url: chewy
+    },
+    {
+      word: 'Запеченый в духовке',
+      translate: `baked`, 
+      url: baked
+    },
+    {
+      word: 'Насыщенный (вкус, аромат)',
+      translate: `rich`, 
+      url: rich
+    },
+    {
+      word: 'Вкусный',
+      translate: `tasty`, 
+      url: tasty
+    },  
+    {
+      word: 'Приготовленный на пару',
+      translate: `steamed`, 
+      url: steamed
+    }, 
+    {
+      word: 'Жирный',
+      translate: `oily`, 
+      url: oily
+    }, 
+    {
+      word: 'Мягкий, нежный',
+      translate: `tender`, 
+      url: tender
+    }, 
+    {
+      word: 'Жесткий',
+      translate: `tough`, 
+      url: tough
+    },   
   
     
     
   ]
 
 export default unit3;
+
+
 
 

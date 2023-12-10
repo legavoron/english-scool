@@ -34,6 +34,30 @@ import inability from '../img/inability.jpg';
 import expand from '../img/expand.jpg';
 import degree from '../img/degree.jpg';
 import qualified from '../img/qualified.jpg';
+import youvGet from '../img/youvGet.jpg';
+import youHit from '../img/youHit.jpg';
+import iCantSay from '../img/iCantSay.jpg';
+import yesBut from '../img/yesBut.jpg';
+import iSeeIt from '../img/iSeeIt.jpg';
+import iBegtoDiffer from '../img/iBegtoDiffer.jpg';
+import imNontConvinced from '../img/imNontConvinced.jpg';
+import situatedOn from '../img/situatedOn.jpg';
+import sand from '../img/sand.jpg';
+import glorious from '../img/glorious.jpg';
+import towering from '../img/towering.jpg';
+import riverCruise from '../img/riverCruise.jpg';
+import bellyDancing from '../img/bellyDancing.jpg';
+import iceScating from '../img/iceScating.jpg';
+import campsite from '../img/campsite.jpg';
+import glide from '../img/glide.jpg';
+import gently from '../img/gently.jpg';
+import breathtaking from '../img/breathtaking.jpg';
+import variety from '../img/variety.jpg';
+import sail from '../img/sail.jpg';
+import doubleDecker from '../img/doubleDecker.jpg';
+import indoor from '../img/indoor.jpg';
+import resort from '../img/resort.jpg';
+import toboggan from '../img/toboggan.jpg';
 
 
 
@@ -219,11 +243,133 @@ const unit1 = [
       translate: 'qualified', 
       url: qualified
     },
+    {
+      word: 'Согласен с тобой',
+      translate: `You've get a point here`, 
+      url: youvGet
+    },
+    {
+      word: 'Да, ты прав',
+      translate: `You hit the nail on the hand`, 
+      url: youHit
+    },
+    {
+      word: 'Не уверен, что ты прав',
+      translate: `I can't say for sure`, 
+      url: iCantSay
+    },
+    {
+      word: 'Да, но что если...',
+      translate: `Yes but what if`, 
+      url: yesBut
+    },
+    {
+      word: 'Мне кажется по другому',
+      translate: `I see it differently`, 
+      url: iSeeIt
+    },
+    {
+      word: 'Не согласен с тобой',
+      translate: `I beg to differ`, 
+      url: iBegtoDiffer
+    },
+    {
+      word: 'Я не согласен с твоим мнением',
+      translate: `I'm not convinced`, 
+      url: imNontConvinced
+    },
+    {
+      word: 'Распооженный на (находящийся на)',
+      translate: `situated On`, 
+      url: situatedOn
+    },
+    {
+      word: 'Песок',
+      translate: `Sand`, 
+      url: sand
+    },
+    {
+      word: 'Великолепный, славный',
+      translate: `glorious`, 
+      url: glorious
+    },
+    {
+      word: 'Возвышающийся, высокий',
+      translate: `towering`, 
+      url: towering
+    },
+    {
+      word: 'Круиз по реке',
+      translate: `river cruise`, 
+      url: riverCruise
+    },
+    {
+      word: 'Танец живота',
+      translate: `belly dancing`, 
+      url: bellyDancing
+    },
+    {
+      word: 'Катание на коньках',
+      translate: `ice-scating`, 
+      url: iceScating
+    },
+    {
+      word: 'Площадка для кемпинга, место для палаток',
+      translate: `Campsite`, 
+      url: campsite
+    },
+    {
+      word: 'Плавно двигаться, скользить, парить',
+      translate: `glide`, 
+      url: glide
+    },
+    {
+      word: 'Осторожно, мягко, нежно',
+      translate: `gently`, 
+      url: gently
+    },
+    {
+      word: 'Захватывающий дух, потрясающий',
+      translate: `breathtaking`, 
+      url: breathtaking
+    },
+    {
+      word: 'Разнообразие чего-либо',
+      translate: `variety of`, 
+      url: variety
+    },
+    {
+      word: 'Парус',
+      translate: `sail`, 
+      url: sail
+    },
+    {
+      word: 'Двухэтажный автобус',
+      translate: `double-decker`, 
+      url: doubleDecker
+    },
+    {
+      word: 'Крытый, домашний',
+      translate: `indoor`, 
+      url: indoor
+    },
+    {
+      word: 'Курорт, санаторий, отель',
+      translate: `Resort`, 
+      url: resort
+    },
+    {
+      word: 'Санки',
+      translate: `Toboggan`, 
+      url: toboggan
+    },
+
 
 
   ]
 
   export default unit1;
+
 
 
 

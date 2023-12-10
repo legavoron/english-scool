@@ -58,6 +58,8 @@ import land from '../img/land.jpg';
 import endUP from '../img/endUP.jpg';
 import outOfTheWay from '../img/outOfTheWay.jpg';
 import departures from '../img/departures.jpg';
+import oxygen from '../img/oxygen.jpg';
+
 
 
 
@@ -362,6 +364,11 @@ const unit2 = [
     word: 'Вылет (самолета), время вылета',
     translate: 'departures', 
     url: departures
+  },
+  {
+    word: 'Кислород',
+    translate: 'Oxygen', 
+    url: oxygen
   },
   
 
