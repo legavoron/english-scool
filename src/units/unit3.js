@@ -48,6 +48,12 @@ import steamed from '../img/steamed.jpg';
 import oily from '../img/oily.jpg';
 import tender from '../img/tender.jpg';
 import tough from '../img/tough.jpg';
+import stew from '../img/stew.jpg';
+import rareSteak from '../img/rareSteak.jpg';
+import fillet from '../img/fillet.jpg';
+import lentil from '../img/lentil.jpg';
+import tripe from '../img/tripe.jpg';
+import strawberry from '../img/strawberry.jpg';
 
 
 
@@ -304,7 +310,37 @@ const unit3 = [
       word: 'Жесткий',
       translate: `tough`, 
       url: tough
-    },   
+    },  
+    {
+      word: 'Рагу, тушеное мясо',
+      translate: `Stew`, 
+      url: stew
+    },  
+    {
+      word: 'Мясо с кровью',
+      translate: `rare steak`, 
+      url: rareSteak
+    }, 
+    {
+      word: 'Филе, вырезка',
+      translate: `Fillet`, 
+      url: fillet
+    }, 
+    {
+      word: 'Чечевица',
+      translate: `lentil`, 
+      url: lentil
+    }, 
+    {
+      word: 'Требуха, потроха',
+      translate: `tripe`, 
+      url: tripe
+    },
+    {
+      word: 'Клубника, земляника',
+      translate: `Strawberry`, 
+      url: strawberry
+    },
   
     
     
