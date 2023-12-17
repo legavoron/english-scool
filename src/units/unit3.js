@@ -54,6 +54,27 @@ import fillet from '../img/fillet.jpg';
 import lentil from '../img/lentil.jpg';
 import tripe from '../img/tripe.jpg';
 import strawberry from '../img/strawberry.jpg';
+import adore from '../img/adore.jpg';
+import beetroot from '../img/beetroot.jpg';
+import pineapple from '../img/pineapple.jpg';
+import pearlBarley from '../img/pearlBarley.jpg';
+import fat from '../img/fat.jpg';
+import unprocessed from '../img/unprocessed.jpg';
+import processed from '../img/processed.jpg';
+import teaspoon from '../img/teaspoon.jpg';
+import fizzy from '../img/fizzy.jpg';
+import essential from '../img/essential.jpg';
+import saturated from '../img/saturated.jpg';
+import isBelieved from '../img/isBelieved.jpg';
+import consumption from '../img/consumption.jpg';
+import canLeadTo from '../img/canLeadTo.jpg';
+import quantity from '../img/quantity.jpg';
+import sacrifice from '../img/sacrifice.jpg';
+import uncertain from '../img/uncertain.jpg';
+import bean from '../img/bean.jpg';
+import cottageChease from '../img/cottageChease.jpg';
+import variety from '../img/variety.jpg';
+import itIsMyTreat from '../img/itIsMyTreat.jpg';
 
 
 
@@ -328,12 +349,12 @@ const unit3 = [
     }, 
     {
       word: 'Чечевица',
-      translate: `lentil`, 
+      translate: `Lentil`, 
       url: lentil
     }, 
     {
       word: 'Требуха, потроха',
-      translate: `tripe`, 
+      translate: `Tripe`, 
       url: tripe
     },
     {
@@ -341,6 +362,112 @@ const unit3 = [
       translate: `Strawberry`, 
       url: strawberry
     },
+    {
+      word: 'Обожать',
+      translate: `adore`, 
+      url: adore
+    },
+    {
+      word: 'Свекла',
+      translate: `Beetroot`, 
+      url: beetroot
+    },
+    {
+      word: 'Ананас',
+      translate: `Pineapple`, 
+      url: pineapple
+    },
+    {
+      word: 'Перловка',
+      translate: `Pearl barley`, 
+      url: pearlBarley
+    },
+    {
+      word: 'Жир, жировая прослойка',
+      translate: `Fat`, 
+      url: fat
+    },
+    {
+      word: 'Необработанный',
+      translate: `unprocessed`, 
+      url: unprocessed
+    },
+    {
+      word: 'Обработанный',
+      translate: `processed`, 
+      url: processed
+    },
+    {
+      word: 'Чайная ложечка',
+      translate: `Teaspoon`, 
+      url: teaspoon
+    },
+    {
+      word: 'Газированныйа',
+      translate: `fizzy`, 
+      url: fizzy
+    },
+    {
+      word: 'Необходимый, самый важный',
+      translate: `essential`, 
+      url: essential
+    },
+    {
+      word: 'Насыщенный чем-то',
+      translate: `saturated`, 
+      url: saturated
+    },
+    {
+      word: 'Считается что... (принято считать что)',
+      translate: `is believed`, 
+      url: isBelieved
+    },
+    {
+      word: 'Расход, потребление чего-то',
+      translate: `consumption`, 
+      url: consumption
+    },
+    {
+      word: 'Может привести к ...',
+      translate: `can lead to`, 
+      url: canLeadTo
+    },
+    {
+      word: 'Количество, объем чего-то',
+      translate: `quantity`, 
+      url: quantity
+    },
+    {
+      word: 'Жертва, жертвовать чем-то',
+      translate: `sacrifice`, 
+      url: sacrifice
+    },
+    {
+      word: 'Неопределенный, неясный, неуверенный',
+      translate: `uncertain`, 
+      url: uncertain
+    },
+    {
+      word: 'Боб, фасоль, зерно',
+      translate: `Bean`, 
+      url: bean
+    },
+    {
+      word: 'Творог',
+      translate: `cottage chease`, 
+      url: cottageChease
+    },
+    {
+      word: 'Разнообразие',
+      translate: `Variety`, 
+      url: variety
+    },
+    {
+      word: 'Я угощаю',
+      translate: `it's my treat`, 
+      url: itIsMyTreat
+    },
+  
   
     
     
