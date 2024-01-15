@@ -75,6 +75,19 @@ import bean from '../img/bean.jpg';
 import cottageChease from '../img/cottageChease.jpg';
 import variety from '../img/variety.jpg';
 import itIsMyTreat from '../img/itIsMyTreat.jpg';
+import whatABlast from '../img/whatABlast.jpg';
+import abruptly from '../img/abruptly.jpg';
+import destiny from '../img/destiny.jpg';
+import split from '../img/split.jpg';
+import convince from '../img/convince.jpg';
+import terrify from '../img/terrify.jpg';
+import sensitive from '../img/sensitive.jpg';
+import delicacy from '../img/delicacy.jpg';
+import daffodil from '../img/daffodil.jpg';
+import wreath from '../img/wreath.jpg';
+import symbolic from '../img/symbolic.jpg';
+import demand from '../img/demand.jpg';
+import informal from '../img/informal.jpg';
 
 
 
@@ -466,6 +479,71 @@ const unit3 = [
       word: 'Я угощаю',
       translate: `it's my treat`, 
       url: itIsMyTreat
+    },
+    {
+      word: 'Здорово, что...',
+      translate: `what a blast...`, 
+      url: whatABlast
+    },
+    {
+      word: 'Неожиданно, вдруг, резко',
+      translate: `abruptly`, 
+      url: abruptly
+    },
+    {
+      word: 'Судьба, предназначение',
+      translate: `Destiny`, 
+      url: destiny
+    },
+    {
+      word: 'Разделить',
+      translate: `split`, 
+      url: split
+    },
+    {
+      word: 'Уговорить, убедить',
+      translate: `convince`, 
+      url: convince
+    },
+    {
+      word: 'Пугать, напугать',
+      translate: `terrify`, 
+      url: terrify
+    },
+    {
+      word: 'Чувствительный (деликатный, секретный)',
+      translate: `sensitive`, 
+      url: sensitive
+    },
+    {
+      word: 'Деликатес',
+      translate: `Delicacy`, 
+      url: delicacy
+    },
+    {
+      word: 'Нарцисс',
+      translate: `Daffodil`, 
+      url: daffodil
+    },
+    {
+      word: 'Венок',
+      translate: `Wreath`, 
+      url: wreath
+    },
+    {
+      word: 'Символичный',
+      translate: `symbolic`, 
+      url: symbolic
+    },
+    {
+      word: 'Спрос, потребность в чем-то',
+      translate: `Demand`, 
+      url: demand
+    },
+    {
+      word: 'Неофициальный',
+      translate: `informal`, 
+      url: informal
     },
   
   

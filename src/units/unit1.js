@@ -58,6 +58,8 @@ import doubleDecker from '../img/doubleDecker.jpg';
 import indoor from '../img/indoor.jpg';
 import resort from '../img/resort.jpg';
 import toboggan from '../img/toboggan.jpg';
+import gourmet from '../img/gourmet.jpg';
+
 
 
 
@@ -363,6 +365,12 @@ const unit1 = [
       translate: `Toboggan`, 
       url: toboggan
     },
+    {
+      word: 'Гурман',
+      translate: `Gourmet`, 
+      url: gourmet
+    },
+    
 
 
 
