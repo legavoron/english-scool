@@ -60,6 +60,18 @@ import approach from '../img/approach.jpg';
 import introduction from '../img/introduction.jpg';
 import custom from '../img/custom.jpg';
 import requirements from '../img/requirements.jpg';
+import playByEar from '../img/playByEar.jpg';
+import rival from '../img/rival.jpg';
+import takeIntoConsideration from '../img/takeIntoConsideration.jpg';
+import expressYourOwnNeeds from '../img/expressYourOwnNeeds.jpg';
+import improveYourAwarenessOfSomething from '../img/improveYourAwarenessOfSomething.jpg';
+import maximizeImpact from '../img/maximizeImpact.jpg';
+import provideASystematicApproachToSomething from '../img/provideASystematicApproachToSomething.jpg';
+import reduceImpactOf from '../img/reduceImpactOf.jpg';
+import giveAnUnderstanding from '../img/giveAnUnderstanding.jpg';
+import giveTipsOn from '../img/giveTipsOn.jpg';
+import reduceNegativeSelfTalk from '../img/reduceNegativeSelfTalk.jpg';
+import improveYourPerformance from '../img/improveYourPerformance.jpg';
 
 
 
@@ -375,13 +387,78 @@ const unit4 = [
       translate: `Requirements`, 
       url: requirements
     },
+    {
+      word: 'Импровизировать, играть на слух',
+      translate: `play by ear`, 
+      url: playByEar
+    },
+    {
+      word: 'Соперник, противник',
+      translate: `Rival`, 
+      url: rival
+    },
+    {
+      word: 'Соперничество, противостояние',
+      translate: `Rivalry`, 
+      url: rival
+    },
+    {
+      word: 'Принять во внимание',
+      translate: `take into consideration`, 
+      url: takeIntoConsideration
+    },
+    {
+      word: 'Выражать свои потребности, нужды',
+      translate: `express your own needs`, 
+      url: expressYourOwnNeeds
+    },
+    {
+      word: 'Увеличить свои знания о чем-то',
+      translate: `improve your awareness of something`, 
+      url: improveYourAwarenessOfSomething
+    },
+    {
+      word: 'Максимально увеличть эффект чего-то',
+      translate: `maximize impact`, 
+      url: maximizeImpact
+    },
+    {
+      word: 'Предлагать систематический подход к чему-то',
+      translate: `provide a systematic approach to sometging`, 
+      url: provideASystematicApproachToSomething
+    },
+    {
+      word: 'Снизить влияние чего-то, последствия чего-то',
+      translate: `reduce impact of`, 
+      url: reduceImpactOf
+    },
+    {
+      word: 'Дать понимание чего-то',
+      translate: `give an understanding`, 
+      url: giveAnUnderstanding
+    },
+    {
+      word: 'Давать советы о...',
+      translate: `give tips on`, 
+      url: giveTipsOn
+    },
+    {
+      word: 'Снизить самокритику, самокопания',
+      translate: `reduce negative self-talk`, 
+      url: reduceNegativeSelfTalk
+    },
+    {
+      word: 'Улучшить твои результаты',
+      translate: `improve your performance`, 
+      url: improveYourPerformance
+    },
+
 
 
 
   ]
 
 export default unit4;
-
 
 
 

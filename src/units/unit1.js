@@ -59,6 +59,7 @@ import indoor from '../img/indoor.jpg';
 import resort from '../img/resort.jpg';
 import toboggan from '../img/toboggan.jpg';
 import gourmet from '../img/gourmet.jpg';
+import revenue from '../img/revenue.jpg';
 
 
 
@@ -369,6 +370,11 @@ const unit1 = [
       word: 'Гурман',
       translate: `Gourmet`, 
       url: gourmet
+    },
+    {
+      word: 'Доход, выручка',
+      translate: `Revenue`, 
+      url: revenue
     },
     
 
