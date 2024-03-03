@@ -28,6 +28,68 @@ import overtake from '../img/overtake.jpg';
 import stareAt from '../img/stareAt.jpg';
 import generosity from '../img/generosity.jpg';
 import assignments from '../img/assignments.jpg';
+import equal from '../img/equal.jpg';
+import legislation from '../img/legislation.jpg';
+import regulations from '../img/regulations.jpg';
+import identify from '../img/identify.jpg';
+import fullStop from '../img/fullStop.jpg';
+import semicolon from '../img/semicolon.jpg';
+import colon from '../img/colon.jpg';
+import exclamationMark from '../img/exclamationMark.jpg';
+import letter from '../img/letter.jpg';
+import capitalLetter from '../img/capitalLetter.jpg';
+import punctuate from '../img/punctuate.jpg';
+import iSadly from '../img/iSadly.jpg';
+import signify from '../img/signify.jpg';
+import sincerely from '../img/sincerely.jpg';
+import compose from '../img/compose.jpg';
+import carryOut from '../img/carryOut.jpg';
+import unsolicited from '../img/unsolicited.jpg';
+import grade from '../img/grade.jpg';
+import pendulumSwungAway from '../img/pendulumSwungAway.jpg';
+import swing from '../img/swing.jpg';
+import towards from '../img/towards.jpg';
+import entirely from '../img/entirely.jpg';
+import firmly from '../img/firmly.jpg';
+import onThewAYoUT from '../img/onThewAYoUT.jpg';
+import recession from '../img/recession.jpg';
+import ties from '../img/ties.jpg';
+import yoursFaithfully from '../img/yoursFaithfully.jpg';
+import thoroughly from '../img/thoroughly.jpg';
+import meaningful from '../img/meaningful.jpg';
+import concerned from '../img/concerned.jpg';
+import concern from '../img/concern.jpg';
+import existence from '../img/existence.jpg';
+import hurricane from '../img/hurricane.jpg';
+import sustainable from '../img/sustainable.jpg';
+import curriculum from '../img/curriculum.jpg';
+import accustomedTo from '../img/accustomedTo.jpg';
+import unwanted from '../img/unwanted.jpg';
+import specifically from '../img/specifically.jpg';
+import bringUp from '../img/bringUp.jpg';
+import confide from '../img/confide.jpg';
+import redundant from '../img/redundant.jpg';
+import secure from '../img/secure.jpg';
+import rebellious from '../img/rebellious.jpg';
+import surroundings from '../img/surroundings.jpg';
+import unfamiliar from '../img/unfamiliar.jpg';
+import acute from '../img/acute.jpg';
+import sufferer from '../img/sufferer.jpg';
+import showAround from '../img/showAround.jpg';
+import getToKnow from '../img/getToKnow.jpg';
+import getThingsWrong from '../img/getThingsWrong.jpg';
+import takeIn from '../img/takeIn.jpg';
+import beInTrouble from '../img/beInTrouble.jpg';
+import teamUp from '../img/teamUp.jpg';
+import induction from '../img/induction.jpg';
+import appraisal from '../img/appraisal.jpg';
+import estate from '../img/estate.jpg';
+import handbook from '../img/handbook.jpg';
+import rust from '../img/rust.jpg';
+import pickBerries from '../img/pickBerries.jpg';
+import puddle from '../img/puddle.jpg';
+import attentively from '../img/attentively.jpg';
+
 
 
 
@@ -182,6 +244,311 @@ const unit6 = [
       word: 'Поручение, задача',
       translate: "Assignment", 
       url: assignments
+    },
+    {
+      word: 'Равноценный, равноправный',
+      translate: "equal", 
+      url: equal
+    },
+    {
+      word: 'Закон, законодательство',
+      translate: "Legislation", 
+      url: legislation
+    },
+    {
+      word: 'Правила, нормы',
+      translate: "Regulations", 
+      url: regulations
+    },
+    {
+      word: 'Определить, выявить',
+      translate: "identify", 
+      url: identify
+    },
+    {
+      word: 'Знак точка .',
+      translate: "full stop", 
+      url: fullStop
+    },
+    {
+      word: 'Знак точка с запятой ;',
+      translate: "semicolon", 
+      url: semicolon
+    },
+    {
+      word: 'Знак двоеточие :',
+      translate: "colon", 
+      url: colon
+    },
+    {
+      word: 'Восклицательный знак',
+      translate: "exclamation mark", 
+      url: exclamationMark
+    },
+    {
+      word: 'Буква (письмо)',
+      translate: "letter", 
+      url: letter
+    },
+    {
+      word: 'Заглавная буква',
+      translate: "capital letter", 
+      url: capitalLetter
+    },
+    {
+      word: 'Подчеркнуть, расставить знаки препинания',
+      translate: "punctuate", 
+      url: punctuate
+    },
+    {
+      word: 'К сожалению я...',
+      translate: "i sadly...", 
+      url: iSadly
+    },
+    {
+      word: 'Означает, символизирует',
+      translate: "signify", 
+      url: signify
+    },
+    {
+      word: 'Искренне, сердечно, откровенно',
+      translate: "sincerely", 
+      url: sincerely
+    },
+    {
+      word: 'Составить, сочинить что-то',
+      translate: "compose", 
+      url: compose
+    },
+    {
+      word: 'Осуществить. выполнить, провести',
+      translate: "carry out", 
+      url: carryOut
+    },
+    {
+      word: 'Непрошенный, незапрашиваемый',
+      translate: "unsolicited", 
+      url: unsolicited
+    },
+    {
+      word: 'Уровень, ранг, отсортировать',
+      translate: "grade", 
+      url: grade
+    },
+    {
+      word: 'Маятник качнулся в сторону..., ситуация изменилась в сторону...',
+      translate: "the pendulum has swung away", 
+      url: pendulumSwungAway
+    },
+    {
+      word: 'Качели, качаться, раскачиваться',
+      translate: "swing", 
+      url: swing
+    },
+    {
+      word: 'В сторону, в направлении чего-то',
+      translate: "towards", 
+      url: towards
+    },
+    {
+      word: 'Полностью, целиком, совсем',
+      translate: "entirely", 
+      url: entirely
+    },
+    {
+      word: 'Твердо, уверенно, прочно',
+      translate: "firmly", 
+      url: firmly
+    },
+    {
+      word: 'Выходящий из моды',
+      translate: "be on the way out", 
+      url: onThewAYoUT
+    },
+    {
+      word: 'Кризис, спад',
+      translate: "Recession", 
+      url: recession
+    },
+    {
+      word: 'Узы, связи',
+      translate: "Ties", 
+      url: ties
+    },
+    {
+      word: 'С уважением',
+      translate: "yours faithfully", 
+      url: yoursFaithfully
+    },
+    {
+      word: 'Тщательно, досконально',
+      translate: "thoroughly", 
+      url: thoroughly
+    },
+    {
+      word: 'Содержательный, существенный, значимый',
+      translate: "meaningful", 
+      url: meaningful
+    },
+    {
+      word: 'Быть обеспокоенным тем, что...',
+      translate: "be concerned", 
+      url: concerned
+    },
+    {
+      word: 'Обеспокоенность, озабоченность, заботиться о чем-то',
+      translate: "concern", 
+      url: concern
+    },
+    {
+      word: 'Существование, жизнь',
+      translate: "Existence", 
+      url: existence
+    },
+    {
+      word: 'Ураган, смперч, торнадо',
+      translate: "Hurricane", 
+      url: hurricane
+    },
+    {
+      word: 'Стабильный, устойчивый (экологически чистый)',
+      translate: "sustainable", 
+      url: sustainable
+    },
+    {
+      word: 'Учебный план ,учебная программа',
+      translate: "Curriculum", 
+      url: curriculum
+    },
+    {
+      word: 'Привыкший к ...',
+      translate: "accustomed to", 
+      url: accustomedTo
+    },
+    {
+      word: 'Нежелательный',
+      translate: "unwanted", 
+      url: unwanted
+    },
+    {
+      word: 'Конкретно, точно, особенно',
+      translate: "specifically", 
+      url: specifically
+    },
+    {
+      word: 'Воспитывать (детей), поднимать тему на обсуждение',
+      translate: "bring up", 
+      url: bringUp
+    },
+    {
+      word: 'Доверять кому-то, довериться',
+      translate: "confide", 
+      url: confide
+    },
+    {
+      word: 'Лишний, избыточный (уволенный пос окращению)',
+      translate: "redundant", 
+      url: redundant
+    },
+    {
+      word: 'Безопасный, надежный',
+      translate: "secure", 
+      url: secure
+    },
+    {
+      word: 'Мятежны, бунтарский',
+      translate: "rebellious", 
+      url: rebellious
+    },
+    {
+      word: 'Окружение, местность, среда',
+      translate: "Surroundings", 
+      url: surroundings
+    },
+    {
+      word: 'Незнакомый, непривычный, неизвестный',
+      translate: "unfamiliar", 
+      url: unfamiliar
+    },
+    {
+      word: 'Острый (угол, боль)',
+      translate: "acute", 
+      url: acute
+    },
+    {
+      word: 'Страдающий, больной, пациент',
+      translate: "Sufferer", 
+      url: sufferer
+    },
+    {
+      word: 'Провети экскурсию кому-то, показать все вокруг',
+      translate: "show someone around", 
+      url: showAround
+    },
+    {
+      word: 'Узнать поближе кого-то, познакомиться поближе',
+      translate: "get to know someone", 
+      url: getToKnow
+    },
+    {
+      word: 'Ошибаться, делать ошибки',
+      translate: "get things wrong", 
+      url: getThingsWrong
+    },
+    {
+      word: 'Впитать инфрмацию; принять кого-то на проживание; укоротить одежду',
+      translate: "take in", 
+      url: takeIn
+    },
+    {
+      word: 'Быть в беде, иметь неприятности, проблемы',
+      translate: "be in trouble", 
+      url: beInTrouble
+    },
+    {
+      word: 'Сотрудничать, работать вместе',
+      translate: "team up", 
+      url: teamUp
+    },
+    {
+      word: 'Введение, вводный инструктаж (индукция)',
+      translate: "induction", 
+      url: induction
+    },
+    {
+      word: 'Оценка, оценивание',
+      translate: "appraisal", 
+      url: appraisal
+    },
+    {
+      word: 'Недвижимость, имущество',
+      translate: "Estate", 
+      url: estate
+    },
+    {
+      word: 'Справочник, учебник',
+      translate: "Handbook", 
+      url: handbook
+    },
+    {
+      word: 'Ржавый, ржавчина',
+      translate: "rust", 
+      url: rust
+    },
+    {
+      word: 'Собирать ягоды',
+      translate: "pick berries", 
+      url: pickBerries
+    },
+    {
+      word: 'Лужа',
+      translate: "Puddle", 
+      url: puddle
+    },
+    {
+      word: 'Внимательно',
+      translate: "attentively", 
+      url: attentively
     },
 
 
