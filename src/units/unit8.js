@@ -1,97 +1,85 @@
-import suggestASolution from '../img/suggestASolution.jpg';
-import noClue from '../img/noClue.jpg';
-import thinkAhead from '../img/thinkAhead.jpg';
-import itNoSense from '../img/itNoSense.jpg';
-import meetAChalenge from '../img/meetAChalenge.jpg';
-import seekSupport from '../img/seekSupport.jpg';
-import unforgettable from '../img/unforgettable.jpg';
-import sourceOfKnowledge from '../img/sourceOfKnowledge.jpg';
-import mocking from '../img/mocking.jpg';
-import recall from '../img/recall.jpg';
-import basically from '../img/basically.jpg';
-import basic from '../img/basic.jpg';
-import rethink from '../img/rethink.jpg';
-import whole from '../img/whole.jpg';
+import uptight from '../img/uptight.jpg';
+import fold from '../img/fold.jpg';
+import unfold from '../img/unfold.jpg';
+import heaven from '../img/heaven.jpg';
+import beOnStake from '../img/beOnStake.jpg';
+import naked from '../img/naked.jpg';
+import blind from '../img/blind.jpg';
+import selfish from '../img/selfish.jpg';
+import unkind from '../img/unkind.jpg';
+import bruise from '../img/bruise.jpg';
+import indeed from '../img/indeed.jpg';
+import blink from '../img/blink.jpg';
+
 
 
 
 const unit8 = [
     
     {
-      word: 'Предложить решение',
-      translate: 'suggest a solution', 
-      url: suggestASolution
+      word: `Напряженный, зажатый`,
+      translate: `uptight`, 
+      url: uptight
     },
     {
-      word: 'Я без понятия, не имею малейшего понятия',
-      translate: 'i have no clue', 
-      url: noClue
+      word: `Сложить, согнуть, свернуть`,
+      translate: `fold`, 
+      url: fold
     },
     {
-      word: 'Думать наперед',
-      translate: 'think ahead', 
-      url: thinkAhead
+      word: `Развернуть, раскрыть`,
+      translate: `unfold`, 
+      url: unfold
     },
     {
-      word: 'Это не имеет смысла',
-      translate: `it doesn't make sense`, 
-      url: itNoSense
+      word: `Рай`,
+      translate: `heaven`, 
+      url: heaven
     },
     {
-      word: 'Встретиться с вызовом',
-      translate: `meet a chalenge`, 
-      url: meetAChalenge
+      word: `На кону`,
+      translate: `be on stake`, 
+      url: beOnStake
     },
     {
-      word: 'Искать поддержку',
-      translate: `seek support`, 
-      url: seekSupport
+      word: `Голый, обнаженный`,
+      translate: `naked`, 
+      url: naked
     },
     {
-      word: 'Незабываемый',
-      translate: `unforgettable`, 
-      url: unforgettable
+      word: `Слепой`,
+      translate: `blind`, 
+      url: blind
     },
     {
-      word: 'Источник знаний',
-      translate: `source of knowledge`, 
-      url: sourceOfKnowledge
+      word: `Эгоистичный, эгоист`,
+      translate: `selfish`, 
+      url: selfish
     },
     {
-      word: 'Ты издеваешься надо мной?',
-      translate: `are you mocking me?`, 
-      url: mocking
+      word: `Жестокий, недобрый`,
+      translate: `unkind`, 
+      url: unkind
     },
     {
-      word: 'Вспомнить',
-      translate: `recall`, 
-      url: recall
+      word: `Синяк, ушиб`,
+      translate: `Bruise`, 
+      url: bruise
     },
     {
-      word: 'В основном, в принципе',
-      translate: `basically`, 
-      url: basically
+      word: `Несомненно. сто пудов`,
+      translate: `indeed`, 
+      url: indeed
     },
     {
-      word: 'Базовый, основной, элементарный',
-      translate: `basic`, 
-      url: basic
-    },
-    {
-      word: 'Переосмыслить, пересмотреть взгляды',
-      translate: `rethink`, 
-      url: rethink
-    },
-    {
-      word: 'Целый, весь ,целостный',
-      translate: `whole`, 
-      url: whole
+      word: `Моргать`,
+      translate: `blink`, 
+      url: blink
     },
     
     
   ]
 
 export default unit8;
-
 
 

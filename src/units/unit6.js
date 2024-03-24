@@ -89,6 +89,7 @@ import rust from '../img/rust.jpg';
 import pickBerries from '../img/pickBerries.jpg';
 import puddle from '../img/puddle.jpg';
 import attentively from '../img/attentively.jpg';
+import colorblind from '../img/colorblind.jpg';
 
 
 
@@ -549,6 +550,11 @@ const unit6 = [
       word: 'Внимательно',
       translate: "attentively", 
       url: attentively
+    },
+    {
+      word: 'Дальтоник',
+      translate: "Colorblind", 
+      url: colorblind
     },
 
 
